@@ -10,9 +10,6 @@ Ammo for small talk.
 
 Friends say I'm a fun guy (except when I'm not).
 
-![Joker](/assets/img/patrik-klaun.png "Joker"){: .mx-auto.d-block :}{: width="200" }
-
-
 I like finance, investments, stocks, loans, economics and art. And **programming**, of course.
 
 I've been looking at computers for over **twenty years** (what a long time, huh?).
@@ -27,4 +24,4 @@ I like excitement, risk, challenges, new technologies, new processes, smart peop
 
 I love to learn new things and I love to experiment.
 
-I'm also father of two and beloved husband.
+I'm also father of one and beloved husband.
