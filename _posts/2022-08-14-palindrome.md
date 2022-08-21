@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Palindrome algorithm
+title: Palindrome exercise
 subtitle: Playing with characters
-tags: [benchmark]
+tags: [benchmark,exercise]
 ---
 
-Test the input string for palindrome. A very common task in job interviews. It's not hard, but it may surprise you. And just when it's not your day.
+Check the input string for palindrome. A very common task in job interviews. It's not hard, but it may surprise you. And just when it's not your day.
 
 I wasn't surprised. There are many solutions. And I was wondering which one might be the best. Of course, I had a hunch, but why not try it right away?
 
