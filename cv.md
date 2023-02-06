@@ -14,7 +14,8 @@ I've been a **freelancer**, **employee**, **manager** and even company **founder
 
 ### Senior .NET Developer ###
 [CN Group CZ](https://www.cngroup.dk/) · Contract · Prague, Czechia<br/>
-Feb 2021 - Present · 1 yr 7 mos<br/>
+Feb 2021 - Present<br/>
+- performance optimization - complex LINQ, reports, database
 - development of a bleeding edge checkout and payment solutions for online retailers
 - development of a loan management system
 - conducting technical interviews

@@ -24,4 +24,4 @@ I like excitement, risk, challenges, new technologies, new processes, smart peop
 
 I love to learn new things and I love to experiment.
 
-I'm also father of one and beloved husband.
+I'm also father of two and beloved husband.

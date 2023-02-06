@@ -45,7 +45,7 @@ Outside of working time, I work only occasionally for **double the rate**.
 ## Projects ##
 
 I prefer **agile project management**, regular daily standups etc.
-I prefer modern technology stack. I like Azure ecosystem, .NET6, ASP.NET Core, Entity Framework Core, Blazor, MSSQL etc.
+I prefer modern technology stack. I like Azure ecosystem, .NET7, ASP.NET Core, Entity Framework Core, Blazor, MSSQL etc.
 I love **independent work** on difficult tasks.
 I'd like to participate on **architecture** decisions.
 I love **performance** tasks.
@@ -68,12 +68,12 @@ _It's not very [reliable](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Typ
 
 | Day       | From ‐ To    |    Hours |
 |:----------|:-------------|---------:|
-| Monday    | 8.00 ‐ 15.30 |      6.5 |
-| Tuesday   | 8.00 ‐ 16.00 |      7.0 |
-| Wednesday | 8.00 ‐ 15.30 |      6.5 |
-| Thursday  | 8.00 ‐ 16.00 |      7.0 |
-| Friday    | 8.00 ‐ 14.30 |      5.5 |
-|           |              | **32.5** |
+| Monday    | 8.00 ‐ 16.30 |      7.5 |
+| Tuesday   | 8.00 ‐ 16.30 |      7.5 |
+| Wednesday | 8.00 ‐ 15.30 |      7.5 |
+| Thursday  | 8.00 ‐ 16.30 |      7.5 |
+| Friday    | 8.00 ‐ 16.30 |      7.5 |
+|           |              | **37.5** |
 
 _* 1 hour lunch break (usually 11.30 ‐ 12.30)_
 
@@ -95,3 +95,4 @@ I need to know the answers to a few questions:
 11. Possibility to change the project?
 12. Overtime? Night or weekend on call?
 13. Work-life balance support?
+14. BYOD or company device? (I prefer Macbook Pro)
