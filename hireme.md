@@ -7,7 +7,7 @@ share-description: My skills, knowledge, education, experience and requirements.
 ---
 
 ## Job type ##
-I prefer **remote job** on a **contract**.
+I prefer **job in an office** on a **contract**.
 
 ## Financial terms ##
 I'd like **9k CZK per MD** (or €369).
@@ -44,7 +44,7 @@ Outside of working time, I work only occasionally for **double the rate**.
 
 ## Projects ##
 
-I prefer **agile project management**, regular daily standups etc.
+I prefer **agile project management**, regular daily stand-ups etc.
 I prefer modern technology stack. I like Azure ecosystem, .NET7, ASP.NET Core, Entity Framework Core, Blazor, MSSQL etc.
 I love **independent work** on difficult tasks.
 I'd like to participate on **architecture** decisions.
@@ -82,17 +82,16 @@ _* 1 hour lunch break (usually 11.30 ‐ 12.30)_
 Work-life balance is very important to me. See [Work-life balance](#work-life-balance).<br/>
 I need to know the answers to a few questions:
 
-1. Full-remote?
-2. Fixed or flexible working hours?
-3. 8 working hours is hard or soft limit?
-4. Time tracking software?
-5. Company hardware? VPN?
-6. Agile project management?
-7. Contract notice period? Name of the service organization?
-8. Education paid by company like Pluralsight
-9. Career growth conditions?
-10. Rate growth conditions?
-11. Possibility to change the project?
-12. Overtime? Night or weekend on call?
-13. Work-life balance support?
-14. BYOD or company device? (I prefer Macbook Pro)
+1. Fixed or flexible working hours?
+2. 8 working hours is hard or soft limit?
+3. Time tracking software?
+4. Company hardware? VPN?
+5. Agile project management?
+6. Contract notice period? Name of the service organization?
+7. Education paid by company like Pluralsight
+8. Career growth conditions?
+9. Rate growth conditions?
+10. Possibility to change the project?
+11. Overtime? Night or weekend on call?
+12. Work-life balance support?
+13. BYOD or company device? (I prefer Macbook Pro)
