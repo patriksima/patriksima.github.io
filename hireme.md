@@ -68,19 +68,18 @@ _It's not very [reliable](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Typ
 
 | Day       | From ‐ To    |    Hours |
 |:----------|:-------------|---------:|
-| Monday    | 8.00 ‐ 16.30 |      7.5 |
-| Tuesday   | 8.00 ‐ 16.30 |      7.5 |
-| Wednesday | 8.00 ‐ 15.30 |      7.5 |
-| Thursday  | 8.00 ‐ 16.30 |      7.5 |
-| Friday    | 8.00 ‐ 16.30 |      7.5 |
-|           |              | **37.5** |
+| Monday    | 8.00 ‐ 17.00 |      8.0 |
+| Tuesday   | 8.00 ‐ 17.00 |      8.0 |
+| Wednesday | 8.00 ‐ 17.00 |      8.0 |
+| Thursday  | 8.00 ‐ 17.00 |      8.0 |
+| Friday    | 8.00 ‐ 17.00 |      8.0 |
+|           |              | **40.0** |
 
 _* 1 hour lunch break (usually 11.30 ‐ 12.30)_
 
 ### What I'd like to know ###
 
-Work-life balance is very important to me. See [Work-life balance](#work-life-balance).<br/>
-I need to know the answers to a few questions:
+I'd like to know the answers to a few questions:
 
 1. Fixed or flexible working hours?
 2. 8 working hours is hard or soft limit?
@@ -88,10 +87,10 @@ I need to know the answers to a few questions:
 4. Company hardware? VPN?
 5. Agile project management?
 6. Contract notice period? Name of the service organization?
-7. Education paid by company like Pluralsight
+7. Education paid by company like Pluralsight, Udemy, Coursera, Litmos etc.
 8. Career growth conditions?
 9. Rate growth conditions?
-10. Possibility to change the project?
+10. Could I change the project?
 11. Overtime? Night or weekend on call?
 12. Work-life balance support?
 13. BYOD or company device? (I prefer Macbook Pro)
