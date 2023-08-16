@@ -10,7 +10,7 @@ share-description: My skills, knowledge, education, experience and requirements.
 I prefer **job in an office** on a **contract**.
 
 ## Financial terms ##
-I'd like **9k CZK per MD** (or €369).
+I'd like **9k CZK/MD** (or €369).
 
 ## Skill set & Knowledge ##
 **Domain knowledge:**
@@ -27,10 +27,11 @@ I'd like **9k CZK per MD** (or €369).
 - [Azure](https://azure.microsoft.com/)
 - [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2022)
 
-_* I'm a professional. I believe that for every problem, the right tools must be found. Everything has its pros and cons._
+_* I'm a professional though. I believe there are the right tools for every problem. And at the same time, everything has its pros and cons._
 
 **Others**
 - [Patterns](https://refactoring.guru/design-patterns)
+- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - DDD ([Domain Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html)), CQRS
 - [Microservices](https://microservices.io/index.html)
 - [Security](https://www.iso.org/isoiec-27001-information-security.html)
