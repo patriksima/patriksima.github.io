@@ -8,20 +8,10 @@ share-description: My personal life, hobbies, opinions.
 
 Ammo for small talk.
 
-Friends say I'm a fun guy (except when I'm not).
+I'm interested in finance, investments, stocks, loans, economics, gaming industry and art.
 
-I like finance, investments, stocks, loans, economics and art. And **programming**, of course.
+I'm an active trader, hobby game developer, designer and investor.
 
-I've been looking at computers for over **twenty years** (what a long time, huh?).
+I'm learner and innovator. (See [my CliftonStrengths Report PDF](/assets/pdf/CliftonStrengths%20_%20Gallup%20Access.pdf))
 
-My strengths are that I see things from a bigger picture, in the context of the business, I like to look outside the box,
-
-I can quickly see bugs, flows, imperfections in a system, I'd like to focus on **performance** and user experience.
-
-I hate routine, boring maintenance task, toxic culture and pessimistic persons. 
-
-I like excitement, risk, challenges, new technologies, new processes, smart people and travel. 
-
-I love to learn new things and I love to experiment.
-
-I'm also father of one and beloved husband.
+I'm also father of two and beloved husband. I love travelling the world.
