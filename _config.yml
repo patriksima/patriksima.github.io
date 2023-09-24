@@ -23,6 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Hire Me: "hireme"
   My Resume: "cv"
+  Devlog [CZ]: "devlog"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
@@ -56,6 +57,7 @@ social-network-links:
   facebook: patriksima78
   github: patriksima
   twitter: patriksima
+#  discord: 1033736548719542364
 #  patreon: patriksima
 #  youtube: c/patriksima
 #  medium: yourname
@@ -66,7 +68,7 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-  telephone: ++420777287451
+  telephone: +420777287451
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -81,7 +83,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Patrik Šíma development blog
 
 ###########################
 # --- General options --- #
@@ -89,9 +91,10 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
   linkedin: true
+  reddit: true
   vk: false
 
 # How to display the link to your website in the footer
@@ -186,10 +189,10 @@ footer-hover-col: "#0085A1"
 ####################
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "patriksima78"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
+# fb_comment_id: "996158988110646"
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
 #commentbox: "" # Project ID, e.g. "5694267682979840-proj"
