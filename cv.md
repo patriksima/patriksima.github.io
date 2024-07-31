@@ -2,7 +2,7 @@
 layout: page
 title: My resume
 subtitle: Curriculum Vitae
-share-title: My resume | Patrik Šíma | Senior .NET developer
+share-title: My resume | Patrik Šíma | Experienced Software Engineer
 share-description: My resume for headhunters, recruiters, human resources. Downloadable PDF.
 ---
 
@@ -10,11 +10,22 @@ share-description: My resume for headhunters, recruiters, human resources. Downl
 My working career spans **over twenty years**. Almost exclusively in the field of **computer science**.
 I've been a **freelancer**, **employee**, **manager** and even company **founder**.
 
-[Download my CV PDF](/assets/pdf/SimaPatrikResume.pdf)
+### Enterprise Architect ###
+[Qinshift](https://www.qinshift.com/) · Contract · Prague, Czechia<br/>
+Sep 2023 - Present<br/>
+- design high-level architecture
+- member of the technical cluster in SKODA (VW group)
+- technical, risk and impact analysis
+- analyzing and understanding business requirements
+- identifying potential technology solutions
+- designing and planning the implementation of the chosen solution
+- collaborating with various teams to ensure successful implementation
+- evaluating the effectiveness of the solution and making necessary adjustments
+
 
 ### Senior .NET Developer ###
 [CN Group CZ](https://www.cngroup.dk/) · Contract · Prague, Czechia<br/>
-Feb 2021 - Present<br/>
+Feb 2021 - Aug 2023<br/>
 - performance optimization - complex LINQ, reports, database
 - development of a bleeding edge checkout and payment solutions for online retailers
 - development of a loan management system
