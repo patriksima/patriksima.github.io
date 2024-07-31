@@ -54,9 +54,9 @@ round-avatar: true
 social-network-links:
   email: "patrik.sima&#64;<!---->gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: patriksima78
+#  facebook: patriksima78
   github: patriksima
-  twitter: patriksima
+#  twitter: patriksima
 #  discord: 1033736548719542364
 #  patreon: patriksima
 #  youtube: c/patriksima
