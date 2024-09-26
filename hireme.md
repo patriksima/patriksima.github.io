@@ -42,6 +42,6 @@ I prefer **agile project management** (SAFe or Less). I love **independent work*
 [Download CliftonStrengths Report PDF](/assets/pdf/CliftonStrengths%20_%20Gallup%20Access.pdf)
 
 ### Myers-Briggs Type Indicator ###
-ENFP (Extraversion, Intuition, Feeling, Perceiving) - [https://www.16personalities.com/enfp-personality](https://www.16personalities.com/enfp-personality)<br/>
+ENTJ - [[https://www.16personalities.com/enfp-personality](https://www.16personalities.com/enfp-personality)](https://www.16personalities.com/cs/entj-osobnost)<br/>
 _It's not very [reliable](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) though._
 
