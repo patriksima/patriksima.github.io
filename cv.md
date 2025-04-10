@@ -10,9 +10,19 @@ share-description: My resume for headhunters, recruiters, human resources. Downl
 My working career spans **over twenty years**. Almost exclusively in the field of **computer science**.
 I've been a **freelancer**, **employee**, **manager** and even company **founder**.
 
+
+### Senior Software Developer
+[AppOnFly](https://www.apponfly.com/) · Contract · Prague, Czechia<br/>
+Jan 2025 - Mar 2025<br/><br/>
+I led a time-bound project focused on developing an MVP for a cloud gaming platform that enables users without high-end gaming PCs to play remotely on powerful gaming machines.
+As a hands-on project manager, I was responsible for ensuring the successful and timely release of the MVP, aligned with the product owner's vision and requirements. I managed a diverse team of seven professionals. My role involved overseeing development, optimizing workflows, resolving technical challenges, and ensuring high-quality delivery within the set timeframe.
+
+**Skills:** ASP.NET Core, PostgreSQL, Docker, Entity Framework (EF) Core, Firebase, Project Management, RabbitMQ
+
+
 ### Enterprise Architect ###
 [Qinshift](https://www.qinshift.com/) · Contract · Prague, Czechia<br/>
-Sep 2023 - Present<br/>
+Sep 2023 - Aug 2024<br/>
 - design high-level architecture
 - member of the technical cluster in SKODA (VW group)
 - technical, risk and impact analysis

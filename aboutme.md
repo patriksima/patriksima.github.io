@@ -12,6 +12,6 @@ I'm interested in finance, management, investments, stocks, loans, economics, ga
 
 I'm an active trader, hobby game developer, designer and investor.
 
-I'm learner and innovator. (See [my CliftonStrengths Report PDF](/assets/pdf/CliftonStrengths%20_%20Gallup%20Access.pdf))
+I'm learner and innovator.
 
-I'm also father of two and beloved husband. I love travelling the world.
+I'm also father of two and beloved husband.
