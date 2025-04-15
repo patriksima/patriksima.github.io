@@ -5,8 +5,6 @@ subtitle: .NET CLI open source tool
 tags: [notion,tools,cli]
 ---
 
-# Introducing NotionExporter: Export Notion Data Effortlessly from the Command Line
-
 If you've ever needed to get structured data out of [Notion](https://notion.so) — for reporting, integration, backups or analysis — you know it's not as straightforward as it seems. That's exactly why I built **NotionExporter**: a simple yet powerful command-line tool that lets you export databases, pages, blocks, and more, directly from Notion's API into clean JSON files.
 
 ## 🚀 What is NotionExporter?
@@ -132,7 +130,7 @@ You can also file issues, suggest features, or help test new functionality.
 
 ## 🔐 Security
 
-Found a security issue? Please report it privately. See [SECURITY.md](https://github.com/patriksima/NotionExporter/blob/master/SECURITY.md) for details.
+Found a security issue? Please report it privately. See [SECURITY](https://github.com/patriksima/NotionExporter/blob/master/SECURITY.md) for details.
 
 ---
 
