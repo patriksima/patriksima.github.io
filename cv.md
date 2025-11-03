@@ -11,6 +11,13 @@ My working career spans **over twenty years**. Almost exclusively in the field o
 I've been a **freelancer**, **employee**, **manager** and even company **founder**.
 
 
+
+### Lead .NET Engineer
+[Ciklum Czech Republic & Slovakia](https://www.ciklum.com/) · Contract · Prague, Czechia<br/>
+May 2025 - Present
+**Skills:** Microsoft Azure, Azure Logic Apps, Azure Functions, .NET, IT Integrations
+
+
 ### Senior Software Developer
 [AppOnFly](https://www.apponfly.com/) · Contract · Prague, Czechia<br/>
 Jan 2025 - Mar 2025<br/><br/>

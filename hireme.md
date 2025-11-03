@@ -10,7 +10,7 @@ share-description: My skills, knowledge, education, experience and requirements.
 I prefer **job in an office** on a **contract**.
 
 ## Financial terms ##
-I'd like **8k CZK/MD**.
+I'd like **10k CZK/MD**.
 
 ## Skill set & Knowledge ##
 **Domain knowledge:**
@@ -20,6 +20,7 @@ I'd like **8k CZK/MD**.
 - Financial products (credit, loans, mortgages)
 - E-commerce
 - Automotive
+- Games (game design)
 
 ## Projects ##
 
