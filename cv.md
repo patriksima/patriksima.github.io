@@ -92,4 +92,33 @@ Aug 2013 - Feb 2019 · 5 yrs 7 mos<br/>
 **Skills:** Management · ASP.NET · Project Management · MySQL · JavaScript
 
 
+## Education ##
+
+### Master's degree, Process Management ###
+[College of Economics and Management](https://www.vsem.cz/) · Prague, Czechia<br/>
+Jan 2026 - Present
+
+**Skills:** Management
+
+### Bachelor's degree, Management ###
+[College of Economics and Management](https://www.vsem.cz/) · Prague, Czechia<br/>
+Oct 2021 - Oct 2025
+
+Thesis: [Streamlining the Production Process in a Software Company](https://theses.cz/id/3q0yvc/)
+
+**Skills:** Management · Economics · DMAIC · Lean Six Sigma
+
+### Applied Informatics ###
+[University of Ostrava](https://www.osu.cz/) · Ostrava, Czechia<br/>
+2011 - 2014 (unfinished)
+
+Theoretical computer science, practical application of informatics and computer technology.
+
+### Computers and Programming ###
+[SPŠ elektrotechniky a informatiky Kratochvílova](https://www.spsei.cz/) · Ostrava, Czechia<br/>
+1993 - 1997
+
+Electrical engineering, computing, programming, database, applied math, logic.
+
+
 Also you can check [my LI profile](https://www.linkedin.com/in/patriksima/).

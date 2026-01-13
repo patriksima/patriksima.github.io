@@ -12,6 +12,9 @@
 # Name of website
 title: Patrik Šíma
 
+# Short description of the website
+description: Personal website of Patrik Šíma - experienced software engineer, .NET developer, and hobby game developer
+
 # Your name to show in the footer
 author: Patrik Šíma
 
@@ -122,7 +125,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "software engineer, .NET developer, C#, Azure, game development, Unity, freelancer, Prague"
 
 ######################################
 # --- Colours / background image --- #
