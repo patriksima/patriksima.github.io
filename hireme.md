@@ -12,43 +12,13 @@ I'm a senior software engineer with **20+ years in IT**. I build scalable system
 
 ## Technical Skills
 
-<div class="row">
-<div class="col-12 col-md-4 mb-4">
+**Backend:** C#, .NET, ASP.NET Core, Entity Framework Core, LINQ optimization, REST APIs, gRPC
 
-**Backend**
-- C#, .NET, ASP.NET Core
-- Entity Framework Core
-- LINQ optimization
-- REST APIs, gRPC
+**Cloud & Infrastructure:** Microsoft Azure, Azure Functions, Logic Apps, Docker, RabbitMQ, Redis, PostgreSQL, SQL Server
 
-</div>
-<div class="col-12 col-md-4 mb-4">
-
-**Cloud & Infrastructure**
-- Microsoft Azure
-- Azure Functions, Logic Apps
-- Docker, RabbitMQ
-- Redis, PostgreSQL, SQL Server
-
-</div>
-<div class="col-12 col-md-4 mb-4">
-
-**Architecture**
-- Microservices
-- CQRS, Event-driven
-- Domain-Driven Design
-- Performance optimization
-
-</div>
-</div>
-
-<div class="row">
-<div class="col-12 mb-4">
+**Architecture:** Microservices, CQRS, Event-driven, Domain-Driven Design, Performance optimization
 
 **Game Development:** Unity, Godot, Netcode for GameObjects, Multiplayer networking, WebSockets
-
-</div>
-</div>
 
 ---
 
