@@ -12,9 +12,11 @@ I've been a **freelancer**, **employee**, **manager** and even company **founder
 
 
 
-### Lead .NET Engineer
+### Azure Integration Engineer
 [Ciklum Czech Republic & Slovakia](https://www.ciklum.com/) · Contract · Prague, Czechia<br/>
-May 2025 - Present
+May 2025 - Present<br/><br/>
+Designing and implementing Azure-based integration solutions across a complex enterprise ecosystem. Responsible for system-to-system integrations, cloud architecture decisions, and ensuring reliable, secure and scalable data flows between internal platforms and third-party services.
+
 **Skills:** Microsoft Azure, Azure Logic Apps, Azure Functions, .NET, IT Integrations
 
 
