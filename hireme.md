@@ -24,7 +24,7 @@ I'm a senior software engineer with **20+ years in IT**. I build scalable system
 
 ## Career Highlights
 
-- **Lead .NET Engineer** at Ciklum (2025–present) — Leading development of enterprise solutions
+- **Azure Integration Engineer** at Ciklum (2025–present) — Designing and implementing Azure-based integration solutions
 - **Enterprise Architect** at Qinshift for VW Group/ŠKODA (2023–2024) — Designed connected car platform architecture
 - **Performance Specialist** — Optimized checkout systems, reporting pipelines, and caching strategies saving significant infrastructure costs
 - **Sales Process Optimization** — Master's thesis research on bridging theory and practice in software companies, focusing on proposal process optimization and its direct impact on revenue https://theses.cz/id/3q0yvc/
