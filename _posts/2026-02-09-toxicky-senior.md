@@ -81,13 +81,26 @@ Prakticky: Pokud refaktoring vyžaduje povolení jednoho člověka, máte probl�
 
 Každý pull request by měl projít revizí od minimálně dvou dalších vývojářů. Ne proto, že nikomu nevěříme – ale proto, že **znalosti se šíří přirozeně**. Když tři lidé vidí každou změnu, žádná část kódu nezůstane black boxem.
 
-Bonus: Code review také odhalí, když někdo píše záměrně nesrozumitelný kód nebo odmítá vysvětlovat svá rozhodnutí.
+**Pozor na zneužití:** Code review může být samo o sobě nástrojem šikany. Toxický člověk používá PR komentáře k ponižování: „Proč se ptáš? Nezdržuj!" „Když to nechápeš, co tady děláš?" „Klikni approve a neblokuj sprint." 
 
-### Pair programming a rotace
+Tohle není code review – je to zastrašování. Zdravé code review znamená **trpělivě vysvětlovat**, odpovídat na otázky, a brát feedback jako příležitost ke zlepšení. Pokud se lidé bojí ptát „proč", něco je špatně. Kultura týmu by měla oceňovat zvídavost, ne ji trestat.
 
-Extrémní programování doporučuje pair programming mimo jiné právě proto, že **zabraňuje knowledge silos**. V reálném světě stačí pravidelná rotace – každý člen týmu by měl během roku pracovat na každé části systému.
+### Sdílení znalostí v praxi
 
-Pro infrastrukturu: Nikdo by neměl být jediný, kdo umí restartovat produkci nebo má přístup ke kritickým systémům. Pokud ano, máte bus factor 1.
+Čisté pair programming (dva vývojáři, jeden počítač, celý den) je v praxi vzácné. Existují ale praktičtější alternativy:
+
+- **Code walkthroughs** – autor provede kolegy svým kódem a vysvětlí rozhodnutí. Otázky jsou vítány.
+- **Mob programming sessions** – celý tým řeší složitý problém společně. Znalosti se šíří organicky.
+- **Pravidelné knowledge sharing** – týdenní session, kde někdo prezentuje část systému, kterou zná nejlépe.
+- **Dokumentační dny** – čas vyhrazený na psaní dokumentace a wiki.
+
+Klíčové je, aby **žádná část systému nezůstala v hlavě jednoho člověka**. Forma je méně důležitá než výsledek.
+
+### Rotace zodpovědností
+
+Každý člen týmu by měl během roku pracovat na různých částech systému. Pro infrastrukturu: Nikdo by neměl být jediný, kdo umí restartovat produkci nebo má přístup ke kritickým systémům.
+
+Pokud ano, máte **bus factor 1** – stačí, aby jeden člověk odešel (nebo byl „sražen autobusem"), a projekt se zhroutí. Zdravý tým má bus factor minimálně 2–3.
 
 ### Pravidelné nezávislé audity
 
