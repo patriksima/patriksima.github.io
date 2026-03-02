@@ -26,7 +26,7 @@ Text vychází z praxe v enterprise bodyshopu a je zjednodušený. Neplatí auto
 8. [Komunikace při zpožděných platbách (bez pálení mostů)](#komunikace-pri-zpozdenych-platbach-bez-paleni-mostu)
 9. [Red flags, při kterých je lepší odejít](#red-flags-pri-kterych-je-lepsi-odejit)
 10. [Co mít připravené před dalším kontraktem](#co-mit-pripravene-pred-dalsim-kontraktem)
-11. [Závěr: přežít nestačí, cílem je stabilita](#zaver-prezit-nestaci-cilem-je-stabilita)
+11. [Závěr](#zaver-prezit-nestaci-cilem-je-stabilita)
 
 ---
 
@@ -88,12 +88,9 @@ Největší bolest bývá při přechodu mezi kontrakty: poslední faktura z př
 
 Proto:
 
-- myslet na rezervu dopředu,
+- myslet na rezervu dopředu (viz [Cashflow systém](#cashflow-system-pro-preziti-osvc)),
 - řešit opožděné platby hned a být v tom důsledný,
-- pokud to jde, použít factoring (např. Roger),
-- počítat s tím, že factoring neprojde vždy.
-
-Výše rezervy není univerzální číslo. Každý má jinou realitu nákladů: jiný režim je bydlet sám s nízkými fixy, jiný je rodina + hypotéka ve velkém městě. Rezervu je potřeba nastavit podle vlastního života, ne podle cizí šablony.
+- zvážit factoring (viz [další sekce](#faktoring-co-je-mytus-a-co-realita)).
 
 ---
 
@@ -194,35 +191,32 @@ Stačí 10–15 minut a může to ušetřit měsíce nervů.
 Pokud nemá vyjednávací sílu, potřebuje provozní systém.  
 Systém je důležitější než „motivace“.
 
-### 1) Tři účty (mentálně i prakticky)
+### 1) Předem si spočítat skutečné náklady
 
-1. **Provozní účet** (příjmy a běžné výdaje)
-2. **Daňový účet** (průběžné odkládání)
-3. **Rezervní účet** (nedotknutelný, jen pro výpadky)
+Než se kontraktor rozhodne pro kontrakt, má smysl si realisticky spočítat, kolik vlastně potřebuje měsíčně na životní náklady, a k tomu připočítat:
 
-### 2) Automatický režim po připsání platby
+- **rezervu** na výpadek příjmu (přechod mezi kontrakty, výpovědní doba bez alokace),
+- **daň z příjmů** (včetně případných [záloh](#6-zálohy-na-daň-z-příjmů)),
+- **DPH** (pokud je plátce — pozor, ty peníze na účtu nejsou jeho),
+- **dovolenou** (OSVČ nemá placené volno — každý den bez práce je den bez příjmu),
+- **nemoc** (bez příjmu a s minimální náhradou od státu),
+- **sociální a zdravotní pojištění**.
 
-Např. hned po inkasu:
+Tohle je základ, který se vyplatí mít spočítaný předem, ideálně v jednoduché tabulce. Kdo to neudělá, často zjistí realitu až po prvním daňovém přiznání.
 
-- X % na daň,
-- Y % na rezervu,
-- zbytek provoz.
-
-Automatizace snižuje rozhodovací únavu a chyby.
-
-### 3) Realita nákladů v enterprise bodyshopu
+### 2) Realita nákladů v enterprise bodyshopu
 
 U části IT OSVČ v enterprise prostředí bývají přímé podnikatelské náklady relativně nízké, protože klient může poskytovat zařízení, licence, cloud i pracovní místo. Jinde ale mohou být náklady citelně vyšší (vlastní HW, software, coworking, cestování, subdodávky, pojištění). Typické vlastní položky tak závisí na konkrétním setupu. Hlavní riziko modelu tím ale nezmizí: závislost na jednom platebním toku a vysoký podíl osobních měsíčních nákladů na cashflow.
 
 Poznámka k pojištění odpovědnosti: u IT praxe naráží na výluky, limity a podmínky, které mohou výrazně snižovat reálnou použitelnost při konkrétním incidentu.
 
-### 4) Realita jednoho klienta (a proč je to normální)
+### 3) Realita jednoho klienta (a proč je to normální)
 
 Většina kontraktorů v bodyshopu jede fakticky model „jeden klient = jeden full-time závazek“. Při alokaci 8 hodin denně většinou nezbývá čas ani mentální kapacita na druhý projekt. Navíc onboarding do nového prostředí (doména, lidé, procesy, stack) bývá náročný a dodávat skutečnou hodnotu často trvá 2–3 měsíce.
 
 Jinými slovy: mít jednoho klienta není selhání. Je to běžná provozní realita. Důležité je spíš mít plán pro případ, že ten jeden tok peněz vypadne.
 
-### 5) Minimum čísel, které dává smysl hlídat (1× měsíčně)
+### 4) Minimum čísel, které dává smysl hlídat (1× měsíčně)
 
 - počet měsíců rezervy,
 - zda je některá faktura po splatnosti,
@@ -230,14 +224,14 @@ Jinými slovy: mít jednoho klienta není selhání. Je to běžná provozní re
 
 Tohle jsou 3 jednoduché signály, které nezaberou skoro žádný čas, ale včas ukážou problém.
 
-### 6) Cíl rezervy
+### 5) Cíl rezervy
 
 Pro bodyshop OSVČ je realistické minimum:
 
 - **2 měsíce osobních nákladů** (a případných nutných podnikatelských nákladů),
 - lépe 3 měsíce, pokud je silně závislý na jednom kontraktu.
 
-### 7) Zálohy na daň z příjmů
+### 6) Zálohy na daň z příjmů
 
 Při vyšších ročních příjmech může vzniknout povinnost platit [zálohy na daň z příjmů](https://www.podnikatel.cz/clanky/kdy-musite-platit-zalohy-na-dan-z-prijmu-a-jak-dochazi-k-jejich-zuctovani/). Typicky se to řeší ve chvíli, kdy je daň v předchozím daňovém přiznání vyšší než 30 000 Kč; v praxi pak často vznikají pololetní zálohy (podle výše poslední známé daňové povinnosti může režim vycházet i jinak). Je vhodné vytvářet si na tyto zálohy průběžnou rezervu, aby nezasáhly cashflow v okamžiku splatnosti.
 
@@ -289,6 +283,20 @@ V praxi tuto část velmi dobře pokryjí nástroje typu [Fakturoid](https://www
 - nepodceňovat první signály zpoždění,
 - mít aspoň jednoduchý plán B pro výpadek hlavního klienta.
 
+### Checklist před podpisem
+
+- [ ] Je splatnost faktur 30 dní akceptovatelná, nebo lze vyjednat 14 dní?
+- [ ] Je smlouva vyvážená a bez nepřiměřených ujednání?
+- [ ] Je jasně popsané objednávání práce, schvalování timesheetů a fakturace?
+- [ ] Je jasné, kde bude práce probíhat (kancelář klienta / home office / workspace) a jak to změní náklady?
+- [ ] Je nastavené bezpečnostní minimum (VPN, zálohy, práce s přístupy a zařízeními)?
+- [ ] Je vytvořená dostatečná rezerva (výpadek, dovolená, nemoc)?
+- [ ] Je sjednané relevantní pojištění (např. úrazové a odpovědnostní podle charakteru práce)?
+- [ ] Je ověřená platební schopnost protistrany (alespoň OR, výroční zpráva, výsledovka)?
+- [ ] Jsou předem ověřené možnosti factoringu pro případ napjatého cashflow?
+
+Pokud je více odpovědí „ne", kontrakt je rizikový bez ohledu na hodinovou sazbu.
+
 ---
 
 ## Závěr: přežít nestačí, cílem je stabilita
@@ -304,27 +312,4 @@ Když nemá silnou vyjednávací pozici, jeho síla není v „tvrdém vyjednáv
 Nejde o to být nejtvrdší u stolu.  
 Jde o to, aby ani dobrý kontrakt člověka finančně nezlomil jen proto, že peníze chodí pozdě.
 
----
-
-## Otázky před podpisem kontraktu
-
-Před podpisem je vhodné položit si minimálně tyto otázky:
-
-- [ ] Je splatnost faktur 30 dní akceptovatelná, nebo lze vyjednat 14 dní?
-- [ ] Je smlouva vyvážená a bez nepřiměřených ujednání (NDA je u korporátů standard, klíčová je přiměřenost)?
-- [ ] Je jasně popsané objednávání práce, schvalování timesheetů a fakturace?
-- [ ] Je jasné, kde bude práce probíhat (kancelář klienta / home office / workspace) a jak to změní náklady?
-- [ ] Je nastavené bezpečnostní minimum (VPN, zálohy, práce s přístupy a zařízeními)?
-- [ ] Je vytvořená rezerva nejen na výpadek, ale i na dovolenou (např. 1 - 2 měsíce bez příjmu + náklady na dovolenou)?
-- [ ] Je sjednané relevantní pojištění (např. úrazové a odpovědnostní podle charakteru práce)?
-- [ ] Je ověřená platební schopnost protistrany (alespoň OR, výroční zpráva, výsledovka)?
-- [ ] Pokud jde o nový startup bez historie, odpovídá tomu opatrnost a plán B?
-- [ ] Jsou předem ověřené možnosti factoringu pro případ napjatého cashflow?
-
-Pokud je více odpovědí „ne“, kontrakt je rizikový bez ohledu na hodinovou sazbu.
-
----
-
-## Poslední slovo
-
-Bodyshop může fungovat velmi dobře, pokud je od začátku nastaven realisticky. Rozhodující není jen hodinová či denní sazba, ale i splatnost, kvalita smlouvy, platební disciplína a vlastní finanční rezerva. Kdo tato pravidla drží dlouhodobě, má výrazně vyšší šanci na stabilní příjem bez zbytečného stresu.
+Rozhodující není jen hodinová či denní sazba, ale i splatnost, kvalita smlouvy, platební disciplína a vlastní finanční rezerva. Kdo tato pravidla drží dlouhodobě, má výrazně vyšší šanci na stabilní příjem bez zbytečného stresu.
