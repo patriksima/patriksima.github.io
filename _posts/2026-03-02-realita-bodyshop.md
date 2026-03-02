@@ -89,7 +89,7 @@ Největší bolest bývá při přechodu mezi kontrakty: poslední faktura z př
 Proto:
 
 - myslet na rezervu dopředu (viz [Cashflow systém](#cashflow-system-pro-preziti-osvc)),
-- řešit opožděné platby hned a být v tom důsledný,
+- mít předem domluvený postup při zpožděné platbě (viz [Komunikace při zpožděných platbách](#komunikace-pri-zpozdenych-platbach-bez-paleni-mostu)),
 - zvážit factoring (viz [další sekce](#faktoring-co-je-mytus-a-co-realita)).
 
 ---
@@ -128,6 +128,8 @@ Nevyřeší špatného plátce, nevyřeší sporné výkazy práce, nevyřeší 
 - druhá strana aktivně blokuje proces.
 
 V takové situaci je problém spíš obchodní model než financování.
+
+Právě proto dává smysl hned navázat smluvní částí: ověřit, jestli postoupení pohledávky smlouva umožňuje a jak je nastavený platební mechanismus.
 
 TIP: https://www.roger.cz/
 
