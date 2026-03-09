@@ -1,92 +1,99 @@
 ---
 layout: post
-title: "CAF pro migraci on-prem do Azure: praktický rámec, ne jen technický projekt"
-subtitle: "Proč je Cloud Adoption Framework silný pro architekty a management — a kde má reálné limity"
-tags: [azure, cloud, architecture, migration, governance, security, management]
+title: "CAF pro migraci on-prem do Azure: co funguje, co ne, a kde si firmy lámou vaz"
+subtitle: "Pohled architekta na Cloud Adoption Framework — silné stránky, reálné limity a nejčastější chyby"
+tags: [azure, cloud, architecture, migration, governance, security, caf, well-architected]
 ---
 
-_CAF je podle mě jeden z nejlepších rámců pro enterprise migraci do cloudu. Právě proto má smysl mluvit i o jeho ceně: komplexitě, nárocích na lidi a organizační disciplíně._
+_Není náhoda, že Cloud Adoption Framework (CAF) nezačíná technologií, ale strategií a plánem. Microsoft ho popisuje jako průchod od business cílů přes připravenost prostředí až po dlouhodobý govern/secure/manage provoz, ne jako jednorázový „přesun serverů“ ([CAF overview](https://learn.microsoft.com/azure/cloud-adoption-framework/overview#how-does-the-cloud-adoption-framework-work), [Prepare your organization for the cloud](https://learn.microsoft.com/azure/cloud-adoption-framework/plan/prepare-organization-for-cloud)). Když se migrace zúží jen na infrastrukturu, výsledek často nedodá očekávanou hodnotu. CAF je pro tohle silný rámec. Ale není kouzelná hůlka._
 
-Pokud řešíte migraci on-prem do Azure, největší chyba je dívat se na ni jen jako na technický přesun serverů. Azure Cloud Adoption Framework (CAF) je cenný právě tím, že pokrývá **celý transformační cyklus**: strategii, plán, landing zones, governance, bezpečnost, provoz i optimalizaci.
+## Proč CAF stojí za pozornost
 
-Pro cílovku architekt + management je to zásadní: rozhodujete totiž o změně operating modelu firmy, ne o jednom infrastrukturním projektu. A pro HR/headhuntery je to zároveň dobrý signál, jak vypadá profil seniorních rolí, které umí techniku i byznysový kontext.
+Pokud řešíte migraci on-prem do Azure, Cloud Adoption Framework je nejlepší strukturovaný rámec, který máte k dispozici. Ne proto, že je od Microsoftu — ale proto, že pokrývá **celý životní cyklus transformace**: od strategie přes migrační exekuci až po governance a provozní disciplínu.
+
+To je zásadní rozdíl oproti ad hoc přístupu, kde si tým nachystá landing zone, přesune první workloady a teprve potom zjistí, že nemá governance model, cost management ani bezpečnostní baseline.
+
+CAF vás nutí řešit tyto věci **předem** — a to je jeho největší hodnota.
 
 ---
 
-## Co CAF řeší dobře v praxi
+## Kde CAF skutečně pomáhá
 
-### 1) Pokrývá celý transformační cyklus
+### Migrační strategie přes 8Rs
 
-CAF není jen dokumentace k migraci serverů. Pokrývá strategii, plán, připravenost prostředí, adopci i provozní disciplínu (govern/secure/manage).
+Jedna z nejcennějších věcí v CAF je explicitní práce s **8 Rs migračními strategiemi** (Retire, Retain, Rehost, Replatform, Refactor, Rearchitect, Rebuild, Replace). V praxi vidím, že firmy buď bezhlavě rehostují všechno (a pak platí za předimenzované VM), nebo se pokusí všechno rearchitektovat najednou (a nikdy to nedodají).
 
-**Praktický dopad:** Dává společný rámec pro IT i business a snižuje riziko, že se migrace zredukuje na izolovaný infrastrukturní projekt.
+Správný přístup je **workload-by-workload assessment**: na základě business value, technického dluhu a závislostí rozhodnete, co rehostat, co refaktorovat a co nahradit SaaS řešením. CAF tenhle rozhodovací framework dává — ale vyžaduje lidi, kteří ho umí aplikovat, ne jen přečíst.
 
-Zdroj: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/
+### Landing Zones: Start Small vs Enterprise Scale
 
-### 2) Řeší migrační realitu, ne jen cílový stav
+CAF nabízí dva přístupy k landing zones a volba mezi nimi je architektonicky zásadní:
 
-U on-prem → Azure je klíčové plánování migračních vln, závislostí, rollback scénářů, split provozu a připravenosti lidí. CAF to explicitně adresuje.
+- **Start Small** — jednodušší topologie, rychlejší start, vhodná pro menší organizace nebo PoC. Riziko: přeroste vám a redesign je bolestivý.
+- **Enterprise Scale (ALZ)** — plnohodnotná hierarchie management groups, hub-spoke nebo Virtual WAN, centralizovaná connectivity a identity. Riziko: over-engineering pro firmu, která má 20 workloadů.
 
-**Praktický dopad:** Lepší kontrola rizik při cutoveru a menší tlak na ad hoc rozhodování během migrace.
+U Enterprise Scale máte navíc klíčovou volbu: **ALZ accelerator** vs **custom implementace**.
 
-Zdroj: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/plan-migration
+- **ALZ accelerator** je správná volba, když potřebujete rychle dosáhnout osvědčeného baseline a máte standardní enterprise požadavky.
+- **Custom implementace** dává smysl, když máte atypické regulatorní nebo síťové constraints, které by vedly k rozsáhlému „přepisování" accelerátoru.
 
-### 3) Landing zones dává jako standardizovanou cílovou architekturu
+V praxi vidím nejčastější chybu: firma zvolí Enterprise Scale, protože to „vypadá profesionálně", ale nemá engineering kapacitu na údržbu IaC (Bicep/Terraform), a landing zone se stane neudržovaným monolitem. **Velikost landing zone musí odpovídat provozní zralosti organizace, ne ambicím architekta.**
 
-CAF pracuje s landing zones jako s kombinací platformních i aplikačních vzorů včetně governance.
+### Governance jako organizační disciplína, ne jen Azure Policy
 
-**Praktický dopad:** Konzistentní škálování a menší pravděpodobnost, že v cloudu rychle vznikne nový legacy.
+CAF správně chápe governance jako kombinaci **technických guardrails** (Azure Policy, RBAC, Defender for Cloud) a **organizačních procesů** (RACI, změnové řízení, cost review). Bez obojího to nefunguje.
 
-Zdroj: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
+Důležitý technický detail: Azure Policy compliance evaluation má dvě roviny:
+- **Near-real-time** — při vytvoření nebo modifikaci resource se policy vyhodnotí okamžitě.
+- **Full compliance scan** — probíhá přibližně jednou za 24 hodin a zachytí drift u existujících zdrojů.
 
-### 4) Governance chápe jako organizační disciplínu
+Pokud navrhujete governance, musíte počítat s oběma. Spoléhat jen na full scan znamená, že non-compliant resource může existovat hodiny, než se zachytí — a v regulovaném prostředí vás to může stát audit finding.
 
-Nejde jen o technické policy. Jde o role, odpovědnosti, rozhodovací model a dlouhodobou provozní disciplínu.
+Management groups mají limit 10 000 na tenant a hloubku stromu max 6 úrovní. V praxi doporučuji max 3–4 úrovně — hlubší hierarchie komplikuje policy inheritance, debug a onboarding nových týmů.
 
-**Praktický dopad:** Bez governance týmu a jasného RACI se cloud governance typicky rozpadá mezi přeregulovanost a chaos.
+### Vazba na Well-Architected Framework
 
-Zdroj: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/build-cloud-governance-team
+Co v mnoha článcích o CAF chybí: CAF a **Azure Well-Architected Framework (WAF)** se vzájemně doplňují. CAF řeší *jak migrovat a provozovat*, WAF řeší *jak navrhovat kvalitní workloady* (reliability, security, cost optimization, operational excellence, performance efficiency).
 
-### 5) Bezpečnost a compliance staví na shared responsibility
+V praxi to znamená: CAF vám dá landing zone a governance model, ale kvalita jednotlivých workloadů závisí na tom, jestli je navrhujete podle WAF principů. Ignorovat WAF při CAF adopci je jako postavit dálnici a pouštět na ni auta bez brzd.
 
-Přechod do cloudu neznamená, že právní a provozní odpovědnost automaticky přebírá poskytovatel. Část zodpovědnosti zůstává na zákazníkovi.
+### Bezpečnost a shared responsibility
 
-**Praktický dopad:** Nutnost mapovat interní kontroly, procesy a odpovědnosti na požadavky regulace (např. GDPR).
+Přechod do cloudu **nepřesouvá** odpovědnost za data a compliance na Microsoft. Shared responsibility model je jasný — Microsoft odpovídá za infrastrukturu, vy odpovídáte za konfiguraci, identitu, data a aplikační bezpečnost.
 
-Zdroje:
-- https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
-- https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+To v praxi znamená:
+- **Network security groups, private endpoints, encryption at rest/in transit** — vaše odpovědnost.
+- **Identity governance (Entra ID, PIM, Conditional Access)** — vaše odpovědnost.
+- **Mapování interních kontrol na regulatorní požadavky (GDPR, NIS2)** — vaše odpovědnost.
 
-### 6) Dává konkrétní provozní mantinely pro scale
+CAF vám dá framework a doporučení. Ale ten mapping na vaši konkrétní regulaci musíte udělat sami — nebo s někým, kdo rozumí jak Azure security, tak regulatornímu prostředí.
 
-Pro enterprise provoz jsou důležité i technické parametry governance vrstvy:
+### FinOps a finanční řízení
 
-- Microsoft uvádí, že Azure Policy compliance evaluace běží typicky v intervalu cca 24 hodin.
-- Management groups mají limity (až 10 000 skupin na tenant, hloubka až 6).
+Neexistuje žádné magické procento úspor, které by platilo univerzálně. ROI migrace závisí na kvalitě modernizace, provozní disciplíně a FinOps vyspělosti.
 
-**Praktický dopad:** Hierarchii management groups a policy inheritance je vhodné navrhnout dopředu, protože pozdní redesign bývá nákladný.
+Data z [FinOps Foundation](https://data.finops.org/) (2026, 1 192 respondentů, pokrytí $83B+ cloud spend) ukazují obrovský rozptyl ve výsledcích. Firmy, které mají zralý FinOps, šetří. Firmy, které prostě přesunuly workloady bez optimalizace, typicky platí víc než on-prem.
 
-Zdroje:
-- https://learn.microsoft.com/en-us/azure/governance/policy/overview
-- https://learn.microsoft.com/en-us/azure/governance/management-groups/overview
+**Doporučení:** Neříkejte managementu „ušetříme 30 %". Řekněte „budeme měřit unit cost per workload a iterativně optimalizovat". To je poctivější a udržitelnější.
 
-### 7) Vyžaduje aktivní leadership managementu
+---
 
-CAF funguje jako transformační program, ne jako izolovaná iniciativa architektů.
+## Anti-patterny, které v CAF programech opakovaně vídám
 
-**Praktický dopad:** Pokud leadership nedrží priority, mandáty a rozpočtová pravidla, migrace obvykle narazí na organizační limity.
+1. **„Lift-and-shift everything" bez business segmentace**
+   - výsledek: cloud bill roste, ale business value ne.
 
-Zdroj: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/
+2. **Central platform tým jako úzké hrdlo**
+   - pokud každý network peering nebo policy exemption jde přes jeden tým, delivery se zastaví.
 
-### 8) Finanční přínosy jsou kontextové, ne univerzální
+3. **Policy-only governance bez operating modelu**
+   - technické guardrails bez ownershipu, výjimek a pravidelných review vedou k obcházení pravidel.
 
-Neexistuje jedno číslo, které by spolehlivě popsalo ROI migrace napříč firmami. Výsledek závisí na kvalitě modernizace, provozní disciplíně a FinOps vyspělosti.
+4. **Enterprise-scale design bez enterprise provozu**
+   - robustní architektura bez robustního provozu je papírově krásná, ale reálně křehká.
 
-**Praktický dopad:** Je rozumnější řídit průběžné metriky a byznys case iterativně, než slibovat fixní procenta úspor.
-
-Nezávislý kontext:
-- FinOps Foundation dataset 2026: 1 192 respondentů, pokrytí $83B+ cloud spend.
-- Zdroj: https://data.finops.org/
+5. **„Multi-cloud" jako politické rozhodnutí bez provozního plánu**
+   - CAF funguje výborně pro Azure operating model; v multi-cloud scénáři musíte explicitně řešit, co bude jednotné napříč cloudy (identita, tagging, cost model, security baseline) a co zůstane cloud-specifické.
 
 ---
 
@@ -113,52 +120,77 @@ Tohle nejsou argumenty proti CAF. To jsou argumenty pro realistické očekáván
 
 ---
 
-## CAF vs TOGAF: v souladu, nebo konkurence?
+## Co CAF neřeší (a musíte to vyřešit vy)
 
-Krátká odpověď: **doplňují se**.
+CAF je podle Microsoft Learn primárně **strukturovaný framework a guidance** pro rozhodování, ne „autopilot" ([CAF overview](https://learn.microsoft.com/azure/cloud-adoption-framework/overview), [Why use CAF](https://learn.microsoft.com/azure/cloud-adoption-framework/overview#why-use-the-cloud-adoption-framework)). Jinými slovy: pomáhá rozhodovat, ale rozhodnutí a jejich exekuce zůstávají na organizaci. V praxi to znamená, že CAF vám typicky **nedodá hotovou odpověď** na tyto oblasti:
 
-1. **Účel rámce**
-   - TOGAF je vendor-neutrální enterprise architektonický rámec.
-   - CAF je praktický rámec pro cloud adopci a exekuci konkrétně na Azure.
+1. **Prioritizaci business trade-offů mezi útvary**
+   - CAF pomůže strukturovat rozhodnutí, ale konflikt „rychlost vs compliance vs náklady" musí vyřešit váš governance model a leadership.
 
-2. **Typ výstupu**
-   - TOGAF dává metodu řízení architektury (proces, artefakty, governance).
-   - CAF dává implementační cestu (landing zones, migrace, govern/secure/manage).
+2. **Kvalitu vstupních dat a CMDB realitu**
+   - CAF explicitně pracuje s workload inventory, ownershipem a dependency mapou, ale jejich kvalitu za vás nevygeneruje ([Document cloud adoption plan](https://learn.microsoft.com/azure/cloud-adoption-framework/plan/document-cloud-adoption-plan)).
 
-3. **Granularita**
-   - TOGAF je silný na úrovni enterprise architecture.
-   - CAF jde víc do provozních detailů cloud transformace.
+3. **Aplikační dluh a kvalitu kódu**
+   - CAF pomůže s volbou migrační strategie, ale neodstraní sám od sebe monolitický design, slabé integrační kontrakty ani chybějící testovací strategii.
 
-4. **Governance**
-   - TOGAF pomáhá nastavit rozhodovací model a architektonické řízení.
-   - CAF přidává cloud-native guardrails a operating model pro Azure.
+4. **Organizační politiku a rozhodovací disciplínu**
+   - CAF dává role, procesy a doporučený operating model, ale jejich dodržování je otázka mandátu, kultury a exekuční disciplíny ([Prepare your organization for cloud](https://learn.microsoft.com/azure/cloud-adoption-framework/plan/prepare-organization-for-cloud)).
 
-5. **Role v programu migrace**
-   - TOGAF: „jak řídit architekturu napříč firmou".
-   - CAF: „jak to bezpečně a provozně zvládnout v Azure".
+5. **Ekonomický model konkrétní firmy**
+   - CAF neříká univerzální „správnou cenu"; tu určují vaše unit economics, SLA cíle, rizikový profil a investiční horizont.
 
-6. **Praktické doporučení**
-   - V enterprise funguje dobře kombinace: TOGAF jako governance/meta-rámec, CAF jako exekuční blueprint pro cloud.
+6. **Vendor a sourcing strategii mimo Azure**
+   - CAF podporuje i multicloud úvahy, ale implementační guidance je primárně na Azure; pro suverenitu, exit strategy a sourcing policy potřebujete vlastní enterprise pravidla nad rámec CAF.
 
-Pro management je to důležité: nejde o volbu „TOGAF nebo CAF", ale o správné rozdělení rolí mezi strategické řízení architektury a cloudovou exekuci.
+Jinými slovy: CAF výrazně snižuje chaos v adopci cloudu, ale nenahrazuje odpovědnost za rozhodnutí, která jsou specifická pro váš byznys a regulatorní kontext.
 
 ---
 
-## Co je „Microsoft claim“ a co nezávislá data
+## CAF vs TOGAF: jak je propojit v reálném programu
 
-Aby byl text transparentní:
+Krátká odpověď: **doplňují se**. V silných transformačních programech používám TOGAF jako řídicí vrstvu a CAF jako exekuční vrstvu.
 
-- **Microsoft claims:** rozsah CAF, doporučené postupy migrace, governance role, policy evaluace, limity management groups, shared responsibility model.
-- **Nezávislá data:** FinOps Foundation dataset (metodika a velikost vzorku).
-- **Co nepřehánět:** univerzální benchmark „CAF přinese X %“ napříč firmami a obory.
+Praktické mapování TOGAF ADM na CAF vypadá typicky takto:
+
+1. **Preliminary + A (Architecture Vision)**
+   - v TOGAF nastavujete principy, scope a governance model.
+   - v CAF paralelně definujete cloud strategy, business outcomes a operating model.
+
+2. **B/C/D (Business, Data/Application, Technology Architecture)**
+   - v TOGAF modelujete target state a gapy.
+   - v CAF z toho vzniká workload segmentation, 8Rs rozhodnutí a roadmapa migrace/modernizace.
+
+3. **E/F (Opportunities & Solutions, Migration Planning)**
+   - v TOGAF prioritizujete work packages a tranzice.
+   - v CAF navrhujete landing zones, identity/network baseline, governance guardrails a migrační waves.
+
+4. **G/H (Implementation Governance, Architecture Change Management)**
+   - TOGAF drží architektonickou konformitu a řízení změn.
+   - CAF přidává cloud provozní mechanismy: policy compliance, cost governance, security posture, incident learnings.
+
+Stejně důležitý je vztah **TOGAF Architecture Repository ↔ CAF Landing Zones**:
+- Repository drží principy, standardy a schválené architektonické building blocks.
+- Landing zones jsou jejich cloudová, provozně vynutitelná implementace (policy, RBAC, networking, subscriptions).
+
+Pokud tyto dvě vrstvy oddělíte, ale nepropojíte, skončíte s „krásnou dokumentací" bez exekuce nebo s „rychlou exekucí" bez architektonického řízení.
 
 ---
 
-## Co si z toho má odnést architekt, manager i HR
+## Jak pracovat se zdroji bez vendor biasu
 
-- **Architekt:** CAF je dobrý rámec, protože spojuje techniku s operating modelem.
-- **Manager:** úspěch migrace není jen o platformě, ale hlavně o people/governance/finance disciplíně.
-- **HR/Headhunter:** nejcennější profily jsou lidé, kteří umí překlenout architekturu, bezpečnost, governance a byznysovou exekuci.
+Můj přístup je jednoduchý: vendor guidance beru jako architektonický vstup, ne jako důkaz výsledku.
+
+- CAF/WAF beru jako kvalitní „how-to" pro návrh a provoz v Azure.
+- FinOps Foundation a interní metriky beru jako důkaz, jestli to ekonomicky funguje.
+- Benchmarky typu „X % úspora" beru jako marketingový signál, dokud je nepotvrdí naše vlastní data.
+
+---
+
+## Co si z toho odnést jako architekt a sponsor transformace
+
+- **Architekt:** CAF funguje, když rozhodnutí o 8Rs, landing zone a guardrails děláte podle kontextu workloadu, ne podle jedné „šablony pro vše".
+- **Delivery leadership:** rychlost migrace bez governance vytváří technický a bezpečnostní dluh, který se vrátí v provozu.
+- **Business sponsor:** úspěch měřte přes reliability, bezpečnost, lead time změn a unit economics workloadů — ne přes počet přesunutých serverů.
 
 Pokud bych to měl shrnout jednou větou: **CAF je velmi silný framework pro migrace z on-prem do Azure, ale funguje jen tehdy, když ho berete jako transformační program, ne jako technický projekt.**
 
