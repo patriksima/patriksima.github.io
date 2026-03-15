@@ -5,7 +5,7 @@ subtitle: Mezi technickou správností a organizační realitou
 tags: [leadership, software engineering, management, team, architecture]
 ---
 
-V technických týmech nastává poměrně často nepříjemná situace. Rozhodnutí přijde shora, architektonické nebo manažerské. Tým ho má implementovat. Jenže vývojáři okamžitě vidí problémy.
+V technických týmech nastává poměrně často nepříjemná situace. Rozhodnutí přijde shora – architektonické nebo manažerské. Tým ho má implementovat. Jenže vývojáři okamžitě vidí problémy.
 
 > „To je blbost."
 > „Takhle se to nemá dělat."
@@ -13,11 +13,11 @@ V technických týmech nastává poměrně často nepříjemná situace. Rozhodn
 
 A někdy mají pravdu.
 
-Vedoucí týmu nebo architekt se v tu chvíli ocitá mezi dvěma tlaky: nahoře je rozhodnutí managementu, dole odpor týmu. **Největší chybou je snažit se tým přesvědčit, že špatné řešení je vlastně dobré.** Lidé to velmi rychle prohlédnou a ztratí důvěru.
+Vedoucí týmu nebo architekt se v tu chvíli ocitá mezi dvěma tlaky: nahoře je rozhodnutí managementu, dole odpor týmu. **Jednou z nejčastějších chyb je snažit se tým přesvědčit, že špatné řešení je vlastně dobré.** Lidé to velmi rychle prohlédnou a ztratí důvěru.
 
 Existuje ale způsob, jak situaci zvládnout tak, aby tým neztratil motivaci a práce se přesto posunula dál.
 
-Nejde přitom jen o intuici nebo osobní zkušenost. Podobný přístup poměrně dobře potvrzuje i expertiza z oblasti change managementu, organizační spravedlnosti a psychologického bezpečí.
+Nejde přitom jen o intuici nebo osobní zkušenost. Podobný přístup poměrně dobře potvrzuje i odborná literatura z oblasti change managementu, organizační spravedlnosti a psychologického bezpečí.
 
 ## 1. Řekněte pravdu
 
@@ -27,7 +27,7 @@ Například:
 
 > „Upřímně řečeno, také si myslím, že to není ideální řešení. Ale rozhodnutí už padlo a naším úkolem je ho implementovat."
 
-Tato jednoduchá věta má překvapivě silný efekt. Tým pochopí, že nejste proti nim. Nejste jen prodloužená ruka managementu, která bezmyšlenkovitě prosazuje cizí rozhodnutí.
+Tato jednoduchá věta může mít překvapivě silný efekt. Tým pochopí, že nejste proti nim. Nejste jen prodloužená ruka managementu, která bezmyšlenkovitě prosazuje cizí rozhodnutí.
 
 **Důvěra je v této chvíli klíčová.**
 
@@ -56,7 +56,7 @@ Například:
 
 > „Dobře, pojďme se zaměřit na to, jak to implementovat tak, aby to způsobilo co nejméně problémů."
 
-Najednou se odpor mění v technickou výzvu. A to je prostředí, ve kterém se inženýři cítí přirozeně.
+Najednou se odpor mění v technickou výzvu. A to je prostředí, ve kterém se většina inženýrů cítí přirozeně.
 
 ## 4. Zdokumentujte rizika
 
@@ -102,7 +102,7 @@ Dobrou mentalitu pro podobné situace shrnuje jednoduchý princip:
 
 Tento přístup umožňuje otevřenou technickou diskusi, ale zároveň zajišťuje, že tým nezůstane zaseknutý v nekonečném odporu.
 
-## Co na to říká expertiza
+## Co na to říká odborná literatura
 
 Když se na podobné situace podíváte optikou expertů na změnu a vedení lidí, opakují se stále stejné principy:
 
@@ -110,7 +110,7 @@ Když se na podobné situace podíváte optikou expertů na změnu a vedení lid
 	Lidé lépe přijmou finální rozhodnutí, když vědí, že už se znovu nehlasuje o směru, ale že stále mohou ovlivnit provedení, pořadí kroků nebo mitigaci rizik. To dobře odpovídá doporučením [CIPD k change managementu](https://www.cipd.org/uk/knowledge/factsheets/change-management-factsheet/) i metodice [Prosci ADKAR](https://www.prosci.com/methodology/adkar).
 
 2. **Vysvětlit proč, proč teď a jaké jsou trade-offy.**  
-	Nestačí oznámit rozhodnutí. Je potřeba popsat kontext, omezení a cenu alternativ. Právě kvalita vysvětlení výrazně ovlivňuje, jestli lidé rozhodnutí vnímají jako fér. To dlouhodobě zdůrazňuje [SHRM v materiálech k řízení změny](https://www.shrm.org/topics-tools/tools/toolkits/managing-organizational-change) i John Kotter v knize [*Leading Change*](https://store.hbr.org/product/leading-change/8845).
+	Nestačí oznámit rozhodnutí. Je potřeba popsat kontext, omezení a cenu alternativ. Právě kvalita vysvětlení výrazně ovlivňuje, jestli lidé rozhodnutí vnímají jako fér. To dlouhodobě zdůrazňuje [SHRM v materiálech k řízení změny](https://www.shrm.org/topics-tools/tools/toolkits/managing-organizational-change) i John Kotter v knize [*Leading Change*](https://www.kotterinc.com/bookshelf/leading-change/).
 
 3. **Nesnažit se změnu „prodat" jako bezchybnou.**  
 	Pokud rozhodnutí nese nevýhody, je lepší je přiznat. Přehnaný optimismus nebo spin obvykle snižují důvěru. Otevřené pojmenování nevýhod je v praxi důvěryhodnější než obrana neobhajitelného.
@@ -122,7 +122,7 @@ Když se na podobné situace podíváte optikou expertů na změnu a vedení lid
 	Expertní doporučení nejsou o tom, že leader má všechno znovu otevřít. Jsou o tom, že má tým zapojit do návrhu provedení, odstranění překážek a omezení škod. Přesně tam vzniká pocit profesionality a vlastnictví.
 
 6. **Po debatě držet jednotnou linii a pomoci týmu změnu doručit.**  
-	Jakmile je prostor pro otázky a námitky vyčerpán, role leadera je pomoci týmu rozhodnutí převést do konkrétní akce. Tedy ne nekonečně relitigovat, ale pomoci uspět i v neideálních podmínkách.
+	Jakmile je prostor pro otázky a námitky vyčerpán, role leadera je pomoci týmu rozhodnutí převést do konkrétní akce. Tedy ne nekonečně znovu otevírat debatu, ale pomoci uspět i v neideálních podmínkách.
 
 Jinými slovy: expertní přístup není „držte krok a neptejte se", ale spíš **„rozhodnutí padlo, tady je proč, tady jsou limity, pojďme otevřeně říct rizika a udělat implementaci co nejlépe"**.
 
@@ -155,7 +155,7 @@ Vedle praktických doporučení existují i poměrně relevantní výzkumy, kter
 - [CIPD – Change management](https://www.cipd.org/uk/knowledge/factsheets/change-management-factsheet/)
 - [SHRM – Managing Organizational Change](https://www.shrm.org/topics-tools/tools/toolkits/managing-organizational-change)
 - [Prosci – ADKAR Model](https://www.prosci.com/methodology/adkar)
-- [John Kotter – Leading Change](https://store.hbr.org/product/leading-change/8845)
+- [John Kotter – Leading Change](https://www.kotterinc.com/bookshelf/leading-change/)
 - [Amy Edmondson – The Fearless Organization](https://fearlessorganizationscan.com/the-fearless-organization)
 
 ## Role mezi dvěma světy
