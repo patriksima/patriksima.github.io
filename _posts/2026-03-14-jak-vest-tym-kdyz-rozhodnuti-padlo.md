@@ -128,27 +128,15 @@ Jinými slovy: expertní přístup není „držte krok a neptejte se", ale spí
 
 ## Co k tomu říkají studie
 
-Vedle praktických doporučení existují i poměrně relevantní výzkumy, které vysvětlují, proč tento přístup funguje:
+Vedle praktických doporučení existují i výzkumy, které přímo podporují klíčové principy popsané výše:
 
 - **Colquitt et al. (2001), *Justice at the Millennium: A Meta-Analytic Review of 25 Years of Organizational Justice Research***  
-  Meta-analýza ukazuje, že procedurální, interpersonální a informační spravedlnost silně souvisí s důvěrou, závazkem a přijetím autority. Prakticky: lidé snášejí i nepříjemné rozhodnutí lépe, když dostanou férové vysvětlení a jsou respektováni.  
+  Meta-analýza 25 let výzkumu organizační spravedlnosti ukazuje, že procedurální, interpersonální a informační spravedlnost silně souvisí s důvěrou, závazkem a přijetím autority. Prakticky: lidé snášejí i nepříjemné rozhodnutí lépe, když dostanou férové vysvětlení a jsou respektováni.  
   https://doi.org/10.1037/0021-9010.86.3.425
 
 - **Edmondson (1999), *Psychological Safety and Learning Behavior in Work Teams***  
-  Když je v týmu bezpečné mluvit otevřeně, lidé častěji sdílejí chyby, žádají o pomoc a upozorňují na problémy. Prakticky: umlčet nesouhlas po rozhodnutí je drahé, protože tým pak přestane včas hlásit rizika.  
+  Základní studie psychologického bezpečí ukazuje, že když je v týmu bezpečné mluvit otevřeně, lidé častěji sdílejí chyby, žádají o pomoc a upozorňují na problémy. Prakticky: umlčet nesouhlas po rozhodnutí je drahé, protože tým pak přestane včas hlásit rizika.  
   https://doi.org/10.2307/2666999
-
-- **Nembhard & Edmondson (2006), *Making it safe: the effects of leader inclusiveness and professional status on psychological safety and improvement efforts in health care teams***  
-  Studie ukazuje, že inkluzivní chování leadera zvyšuje psychologické bezpečí a ochotu zapojit se do zlepšování. Prakticky: leader, který zve lidi k připomínkám a reaguje bez obrannosti, dostává lepší informace z reality.  
-  https://doi.org/10.1002/job.413
-
-- **Frazier et al. (2017), *Psychological Safety: A Meta-Analytic Review and Extension***  
-  Meta-analýza potvrzuje, že psychologické bezpečí souvisí s výkonem, učením i ochotou přispívat nad rámec povinností. Prakticky: prostředí, kde se lidé bojí mluvit, bývá slabší nejen lidsky, ale i výkonově.  
-  https://doi.org/10.1111/peps.12183
-
-- **Peng et al. (2021), *Transformational leadership and employees’ reactions to organizational change: Evidence from a meta-analysis***  
-  Způsob, jakým leader změnu komunikuje a nese, výrazně ovlivňuje otevřenost ke změně, commitment i míru cynismu. Prakticky: samotné rozhodnutí nestačí; zásadní je i styl vedení po jeho oznámení.  
-  https://doi.org/10.1177/0021886320920366
 
 ## Zdroje k dalšímu čtení
 
