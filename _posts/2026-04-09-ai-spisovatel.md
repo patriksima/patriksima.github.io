@@ -17,7 +17,19 @@ Po řadě pokusů nechat AI (ChatGPT, Claude a další modely) napsat delší po
 - Emocionální hloubka a vnitřní monology jsou plytké
 - Delší děj ztrácí konzistenci a soudržnost
 
-Ale nejsem v tom sám. Tyto limity potvrzují i známé osobnosti literárního i technologického světa.
+Jeden z nejotravnějších problémů je **teleportace postav**. AI nedokáže sledovat, kde se postava fyzicky nachází. Typický příklad: postava si vyjde ven zakouřit — a v další větě už popíjí kafe u kuchyňské linky, aniž by se vrátila dovnitř. Žádný přechod, žádný pohyb. Prostě tam najednou je. Čtenáři si toho všimnou okamžitě, ale AI to „nevidí", protože nemá prostorovou představivost — pracuje s textem jako se sekvencí tokenů, ne jako se scénou.
+
+Takových slepých míst je víc. AI občas zapomene, že postava drží v ruce zbraň, že je zraněná, nebo že je noc. Jsou to věci, které lidský autor řeší intuitivně, ale AI je musíte explicitně hlídat.
+
+### V češtině je to ještě horší
+
+Všechny výše zmíněné problémy se v češtině **znásobují**. Důvod je prostý: čeština tvoří zlomek trénovacích dat oproti angličtině. Modely mají méně kvalitních vzorů, z nichž se mohou učit, a výsledek to odráží.
+
+Nejvíc to vynikne na **rytmu a tempu textu**. AI v češtině velmi často seká věty — krátké, úsečné, jedna za druhou. Chybí delší popisná souvětí, která dávají próze dech a plynulost. Výsledek zní jako technická dokumentace nebo školní slohová práce, ne jako beletrie. Střídání krátkých a dlouhých vět, budování napětí přes rozvitá souvětí, práce s interpunkcí jako nástrojem rytmu — to všechno AI v češtině nezvládá.
+
+Navíc se častěji objevují kostrbatá slovní spojení, nepřirozený slovosled a anglicismy, které do českého textu nepatří. Když píšete česky a chcete, aby text zněl přirozeně, musíte po AI přepisovat podstatně víc než v angličtině.
+
+Ale nejsem v tom sám. Limity AI potvrzují i známé osobnosti literárního i technologického světa.
 
 ## Co říkají autoři a myslitelé
 
