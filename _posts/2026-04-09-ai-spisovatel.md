@@ -1,10 +1,11 @@
-# Dokáže AI napsat knihu? Realita, názory a zkušenosti z praxe
-
-*Duben 2026 · Blog post*
-
+---
+layout: post
+title: "Dokáže AI napsat knihu? Realita, názory a zkušenosti z praxe"
+subtitle: "Co říkají autoři, akademici i technologická komunita — a jaká je moje vlastní zkušenost"
+tags: [ai, writing, creativity, opinion]
 ---
 
-Umělá inteligence mění svět kolem nás — ale zvládne napsat román, který si skutečně přečtete? Jako vývojář, který s AI pracuje denně, jsem se rozhodl prozkoumat, co na to říkají autoři, akademici i technologická komunita. A hlavně: jaká je moje vlastní zkušenost.
+_Umělá inteligence mění svět kolem nás — ale zvládne napsat román, který si skutečně přečtete? Jako vývojář, který s AI pracuje denně, jsem se rozhodl prozkoumat, co na to říkají autoři, akademici i technologická komunita. A hlavně: jaká je moje vlastní zkušenost._
 
 ## Moje zkušenost: AI zatím autonomně psát nezvládne
 
