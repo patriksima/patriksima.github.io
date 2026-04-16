@@ -19,7 +19,7 @@ Nejde jen o mě. Vývojář Namanyay Goel, autor článků, které vidělo přes
 
 > _„Stal jsem se lidským clipboardem — pouhým prostředníkem mezi svým kódem a LLM. Po 12 letech programování jsem se nějak stal horším ve svém vlastním řemesle."_
 
-Goel popsal přesně to, co zažívám i já: přestal číst dokumentaci, přestal debugovat, přestal se ptát _proč_ věci fungují. A když jednoho dne Cursor spadl společně s ChatGPT, zíral na terminál a nevěděl, co s chybovou hláškou od AWS.
+Goel popsal přesně to, co zažívám i já: přestal číst dokumentaci, přestal debugovat, přestal se ptát, _proč_ věci fungují. A když jednoho dne Cursor spadl společně s ChatGPT, zíral na terminál a nevěděl, co s chybovou hláškou od AWS.
 
 ## Co říká věda: kognitivní offloading a digitální amnézie
 
@@ -31,7 +31,7 @@ V roce 2011 psycholožka **Betsy Sparrow** (Columbia University) spolu s kolegy 
 
 Důležitější je ale **mechanismus**, který za tím stojí — **kognitivní offloading**: přenášení kognitivní zátěže na externí nástroj. Mozek se doslova „rozhodne", že si informaci nemusí zapamatovat, protože je dostupná jinde. A právě to AI nástroje posilují — nejsou jen úložištěm informací, ale aktivně generují odpovědi, čímž eliminují i ten krok hledání.
 
-Meta-analýza z roku 2024 (Gong a Yang, 35 studií) potvrdila, že časté vyhledávání na internetu je spojeno se změnami ve zpracování a zapamatování informací. Neurovědci navíc pomocí fMRI ukázali, že lidé, kteří se učili informace přes internet, vykazovali sníženou aktivaci mozku při jejich pozdějším vybavování — včetně oblastí spojených s hlubším zpracováním (bilaterální okcipitální a frontální gyrus).
+Meta-analýza z roku 2024 (Gong a Yang, 35 studií) potvrdila, že časté vyhledávání na internetu je spojeno se změnami ve zpracování a zapamatování informací. Součástí analyzovaných studií byly i experimenty s fMRI, které ukázaly sníženou aktivaci mozku při vybavování informací původně nalezených online, a to v oblastech spojených s hlubším kognitivním zpracováním.
 
 ### AI a kritické myšlení: studie Microsoft Research
 
@@ -45,7 +45,7 @@ Klíčová zjištění:
 
 > Lee, H.-P. et al. (2025). _The Impact of Generative AI on Critical Thinking._ CHI '25, ACM. [doi:10.1145/3706598.3713778](https://doi.org/10.1145/3706598.3713778)
 
-Jinými slovy: AI nás posouvá z role _myslitelů_ do role _recenzentů_. A to je zásadní rozdíl — recenzování cizího textu vyžaduje méně kognitivního úsilí než vlastní tvorba řešení od nuly.
+Jinými slovy: AI nás posouvá z role _myslitelů_ do role _recenzentů_. A to je zásadní rozdíl. Recenzování cizího textu vyžaduje méně kognitivního úsilí než vlastní tvorba řešení od nuly.
 
 ## METR studie: AI dělá zkušené vývojáře pomalejšími
 
@@ -57,9 +57,13 @@ Vývojáři dostali 246 reálných úkolů (bug fixy, features, refaktoring) a n
 
 A to nejzajímavější? **Vývojáři si mysleli, že jsou s AI o 24 % rychlejší.** I po dokončení studie, kdy jim data ukázala zpomalení, stále subjektivně vnímali AI jako zrychlení o 20 %.
 
+Je férové říct, že 16 vývojářů je malý vzorek a výsledky nemusí platit univerzálně. Ale právě ta propast mezi subjektivním vnímáním a měřitelnou realitou je alarmující bez ohledu na velikost studie.
+
 > METR (2025). _Measuring the Impact of Early 2025 AI on Experienced Open-Source Developer Productivity._ [metr.org](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), [arXiv:2507.09089](https://arxiv.org/abs/2507.09089)
 
-Studie identifikovala několik faktorů zpomalení: čas strávený formulováním promptů, kontrolou AI výstupů, opravami chyb v generovaném kódu a — to je klíčové — **ztrátou kontextu**, ke které dochází při přepínání mezi vlastním přemýšlením a interakcí s AI.
+Studie identifikovala několik faktorů zpomalení: čas strávený formulováním promptů, kontrolou AI výstupů, opravami chyb v generovaném kódu a především **ztrátou kontextu**, ke které dochází při přepínání mezi vlastním přemýšlením a interakcí s AI.
+
+Ale nejde jen o rychlost. Jde o samotnou schopnost myslet.
 
 ## Paul Graham: „Psaní je myšlení"
 
@@ -75,28 +79,23 @@ A přidává analogii s fyzickou silou:
 
 > _„V předindustriální době většinu lidí jejich práce udržovala silnými. Dnes, pokud chcete být silní, musíte cvičit. Takže silní lidé stále existují, ale jen ti, kteří se pro to rozhodnou. S psaním to bude stejné. Chytří lidé budou stále existovat, ale jen ti, kteří se pro to rozhodnou."_
 
-Tato analogie přesně sedí na programování s AI. Dřív nás programování nutilo myslet — debugovat, navrhovat, chápat. Teď tuto „kognitivní námahu" můžeme delegovat. A jako u fyzické síly: kdo přestane cvičit, oslabne.
+Tato analogie přesně sedí na programování s AI. Dřív nás programování nutilo myslet, debugovat, navrhovat, chápat. Teď tuto „kognitivní námahu" můžeme delegovat. A jako u fyzické síly: kdo přestane cvičit, oslabne.
 
 ## Co to znamená pro programátory
 
-Pojďme si to shrnout:
+Všechny výzkumy ukazují stejným směrem: čím víc delegujeme myšlení na AI, tím méně se učíme, méně si pamatujeme a méně kriticky přemýšlíme. A nejhorší je, že si toho ani nevšimneme.
 
-1. **Kognitivní offloading je reálný fenomén** — mozek si nezapamatovává to, co má „na dosah" (Sparrow et al., 2011; meta-analýza 2024).
-2. **AI snižuje kritické myšlení** — čím víc AI důvěřujeme, tím méně ověřujeme a analyzujeme (Microsoft Research, CHI 2025).
-3. **AI může zpomalovat zkušené vývojáře** — a ti si toho ani nevšimnou (METR, 2025).
-4. **Psaní (a programování) je forma myšlení** — delegováním ztrácíme schopnost hluboce přemýšlet (Graham, Lamport).
+Juniorní vývojáři, se kterými mluvím, umí rychle dodat kód. Ale když se zeptám, _proč_ to funguje takhle a ne jinak, nebo jaké jsou edge cases, je ticho. To není jejich chyba. Je to důsledek toho, že nikdy nemuseli s problémem skutečně zápasit.
 
-Juniorní vývojáři, se kterými mluvím, umí rychle dodat kód. Ale když se zeptám _proč_ to funguje takhle a ne jinak, nebo jaké jsou edge cases — ticho. To není jejich chyba. Je to důsledek toho, že nikdy nemuseli s problémem skutečně zápasit.
-
-A nejde jen o juniory. Sám si přestávám pamatovat implementační detaily vlastních projektů — protože jsem je reálně nestavěl ručně. Když se kolega zeptá, jak přesně něco funguje, musím jít do kódu. Nevím to z hlavy. A to mě zneklidňuje víc, než bych čekal. Paradoxně ale platí i opak: když si na chybu nebo problém sáhnu sám — projdu debugger, přečtu stack trace, prokouším se kódem — ta znalost mi v hlavě zůstane.
+A nejde jen o juniory. Sám si přestávám pamatovat implementační detaily vlastních projektů, protože jsem je reálně nestavěl ručně. Když se kolega zeptá, jak přesně něco funguje, musím jít do kódu. Nevím to z hlavy. A to mě zneklidňuje víc, než bych čekal. Paradoxně ale platí i opak: když si na chybu nebo problém sáhnu sám, projdu kód v debuggeru, přečtu stack trace, prokouším se logikou, ta znalost mi v hlavě zůstane.
 
 ## Co s tím dělám
 
-Nejde o to přestat AI používat — ten vlak už jede. Ale jde o to **vědomě si zachovat schopnost hluboce přemýšlet**. Pár věcí, které mi pomáhají:
+Nejde o to přestat AI používat, ten vlak už jede. Ale jde o to **vědomě si zachovat schopnost hluboce přemýšlet**. Pár věcí, které mi pomáhají:
 
 ### 1. „No-AI dny"
 
-Jednou týdně programuju bez AI. Čtu chybové hlášky. Používám debugger. Píšu kód od nuly. Je to pomalejší a frustrující — ale cítím silnější spojení s kódem a větší porozumění tomu, co dělám. Inspiroval jsem se přístupem Namanyaye Goela, který tohle praktikuje a [otevřeně přiznává](https://nmn.gl/blog/ai-illiterate-programmers), že „to stojí za prd, ale funguje to."
+Jednou týdně programuju bez AI. Čtu chybové hlášky. Používám debugger. Píšu kód od nuly. Je to pomalejší a frustrující, ale cítím silnější spojení s kódem a větší porozumění tomu, co dělám. Goel, kterého jsem zmiňoval výše, tohle praktikuje taky a [otevřeně přiznává](https://nmn.gl/blog/ai-illiterate-programmers), že „to stojí za prd, ale funguje to."
 
 ### 2. Vývojářský deník
 
@@ -104,7 +103,7 @@ Před každým úkolem si zapíšu, co chci udělat a proč. Po dokončení, co 
 
 ### 3. AI jako sparring partner, ne jako autor
 
-Když AI použiju, snažím se ho používat jako diskusního partnera: „Jaké jsou nevýhody tohoto přístupu? Co by se rozbilo, kdybych to udělal jinak?" Místo „napiš mi řešení" se ptám „jaké jsou trade-offs?" Tím si udržuju vlastní úsudek a nutím se přemýšlet. Hodně mi pomáhá i práce v plánovacím módu — nechám si navrhnout řešení, ale aktivně ho rozebírám: proč takhle a ne jinak? Tou diskuzí se dostanu k pochopení problému mnohem hlouběji, než kdybych jen přijal první výstup.
+Když AI použiju, snažím se ho používat jako diskusního partnera: „Jaké jsou nevýhody tohoto přístupu? Co by se rozbilo, kdybych to udělal jinak?" Místo „napiš mi řešení" se ptám „jaké jsou trade-offs?" Tím si udržuju vlastní úsudek a nutím se přemýšlet. Hodně mi pomáhá i práce v plánovacím módu: nechám si navrhnout řešení, ale aktivně ho rozebírám. Proč takhle a ne jinak? Tou diskuzí se dostanu k pochopení problému mnohem hlouběji, než kdybych jen přijal první výstup.
 
 ### 4. Čtení zdrojového kódu
 
@@ -112,18 +111,18 @@ Pravidelně čtu cizí zdrojový kód — open-source projekty, pull requesty ko
 
 ## Závěr
 
-Nejsme 10× produktivnější vývojáři díky AI. Jsme 10× závislejší na AI. A to je rozdíl.
+Nejsme tak produktivnější, jak si myslíme. Ale závislejší jsme určitě.
 
 Každý problém, který necháme AI vyřešit za nás, je příležitost k učení, kterou jsme promarnili. Optimalizujeme na dnešní commit za cenu zítřejší schopnosti.
 
-AI je neuvěřitelně silný nástroj. Ale nástroj, který používáte bez porozumění, vás nakonec ovládne. Budoucnost nepatří těm, kdo umí AI používat — patří těm, kdo umí myslet i bez něj.
+AI je neuvěřitelně silný nástroj. Ale nástroj, který používáte bez porozumění, vás nakonec ovládne. Budoucnost nepatří těm, kdo umí AI používat. Patří těm, kdo umí myslet i bez něj.
 
 ---
 
 ### Zdroje
 
 - Sparrow, B., Liu, J., & Wegner, D. M. (2011). _Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips._ Science, 333(6043), 776–778.
-- Gong, Y., & Yang, D. (2024). _Meta-analysis of the Google effect on memory._ (35 studií)
+- Gong, Y., & Yang, D. (2024). _Meta-analysis of the Google effect on memory._ Memory & Cognition. (35 studií, zahrnuje fMRI experimenty)
 - Lee, H.-P. et al. (2025). _The Impact of Generative AI on Critical Thinking._ CHI '25, ACM. [doi:10.1145/3706598.3713778](https://doi.org/10.1145/3706598.3713778)
 - METR (2025). _Measuring the Impact of Early 2025 AI on Experienced Open-Source Developer Productivity._ [arXiv:2507.09089](https://arxiv.org/abs/2507.09089)
 - Graham, P. (2024). [_Writes and Write-Nots._](https://www.paulgraham.com/writes.html)
