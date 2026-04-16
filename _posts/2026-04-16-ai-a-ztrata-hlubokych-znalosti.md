@@ -87,7 +87,7 @@ Všechny výzkumy ukazují stejným směrem: čím víc delegujeme myšlení na 
 
 Juniorní vývojáři, se kterými mluvím, umí rychle dodat kód. Ale když se zeptám, _proč_ to funguje takhle a ne jinak, nebo jaké jsou edge cases, je ticho. To není jejich chyba. Je to důsledek toho, že nikdy nemuseli s problémem skutečně zápasit.
 
-A nejde jen o juniory. Sám si přestávám pamatovat implementační detaily vlastních projektů, protože jsem je reálně nestavěl ručně. Když se kolega zeptá, jak přesně něco funguje, musím jít do kódu. Nevím to z hlavy. A to mě zneklidňuje víc, než bych čekal. Paradoxně ale platí i opak: když si na chybu nebo problém sáhnu sám, projdu kód v debuggeru, přečtu stack trace, prokouším se logikou, ta znalost mi v hlavě zůstane.
+A nejde jen o juniory. Sám si přestávám pamatovat implementační detaily vlastních projektů, protože jsem je reálně nestavěl ručně. Když se kolega zeptá, jak přesně něco funguje, musím jít do kódu. Nevím to z hlavy. A to mě zneklidňuje víc, než bych čekal — protože v kontrastu: u kódu, který jsem nechal vygenerovat, si nepamatuju nic. Ale když si na chybu sáhnu sám, projdu debugger, přečtu stack trace, prokouším se logikou — ta znalost zůstane.
 
 ## Co s tím dělám
 
