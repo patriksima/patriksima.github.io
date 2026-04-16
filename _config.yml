@@ -127,6 +127,9 @@ navbar-var-length: false
 # The keywords to associate with your website, for SEO purposes
 keywords: "software engineer, .NET developer, C#, Azure, game development, Unity, freelancer, Prague"
 
+# Default social sharing image (min 1200x630px recommended for Facebook/LinkedIn)
+share-img: "/assets/img/og-default.png"
+
 ######################################
 # --- Colours / background image --- #
 ######################################
@@ -253,6 +256,9 @@ date_format: "%B %-d, %Y"
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
 #################################################################################
+
+# Language
+language: cs
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Prague"
