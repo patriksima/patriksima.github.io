@@ -6,6 +6,10 @@ tags: [unity,netcode,networking,gamedev,multiplayer]
 category: devlog
 ---
 
+> **English summary:** This article explains lessons learned when implementing custom NetworkVariable types in Unity Netcode for GameObjects. It highlights common pitfalls around serialization, update order, and choosing between NGO interfaces for real multiplayer data models.
+>
+> Need help with similar technical challenges? See [Services](/services/).
+
 Jakmile se pustíte do multiplayeru s pomocí [NGO](https://docs-multiplayer.unity3d.com/netcode/current/about/) brzy přijdete na to,
 že vám defaultní struktury _NetworkVariable_ a _NetworkList_ nebudou stačit. Budete si muset napsat vlastní.
 

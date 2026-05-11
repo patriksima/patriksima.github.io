@@ -5,6 +5,10 @@ subtitle: "Co říkají autoři, akademici i technologická komunita — a jaká
 tags: [ai, writing, creativity, opinion]
 ---
 
+> **English summary:** The post examines whether AI can autonomously write quality fiction, combining personal experiments with arguments from authors and public sources. The conclusion is that AI can assist writing workflows, but still lacks sustained narrative consistency and authentic voice.
+>
+> Need practical AI strategy without hype? See [Services](/services/).
+
 _Umělá inteligence mění svět kolem nás — ale zvládne napsat román, který si skutečně přečtete? Jako vývojář, který s AI pracuje denně, jsem se rozhodl prozkoumat, co na to říkají autoři, akademici i technologická komunita. A hlavně: jaká je moje vlastní zkušenost._
 
 ## Moje zkušenost: AI zatím autonomně psát nezvládne

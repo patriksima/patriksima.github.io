@@ -5,6 +5,10 @@ subtitle: "Jak používání AI nástrojů oslabuje paměť, kritické myšlení
 tags: [ai, programming, critical-thinking, deep-work, opinion]
 ---
 
+> **English summary:** This article discusses the hidden cost of AI-assisted programming: faster output but weaker understanding. It connects personal observations with research on cognitive offloading and critical thinking, and argues for deliberate practices that preserve deep technical competence.
+>
+> Need a balanced AI adoption approach for your team? See [Services](/services/).
+
 _Posledních pár měsíců mám nepříjemný pocit. Programuju víc než kdy dřív — ale rozumím tomu míň. AI mi generuje kód, já ho vkládám, občas upravím, a jedu dál. Jenže když potom potřebuju vysvětlit, proč ta architektura vypadá tak, jak vypadá, nebo proč jsem zvolil zrovna tenhle přístup — stojím a nevím. A nejsem v tom sám._
 
 ## Osobní zkušenost: z řešitele problémů na prostředníka

@@ -5,6 +5,10 @@ subtitle: Mezi technickou správností a organizační realitou
 tags: [leadership, software engineering, management, team, architecture]
 ---
 
+> **English summary:** This post explains how to lead engineering teams when top-down decisions conflict with technical reality. It presents a practical approach: acknowledge technical truth, separate context from implementation, document risks, and preserve team trust.
+>
+> Need help with technical leadership in complex environments? See [Services](/services/).
+
 V technických týmech nastává poměrně často nepříjemná situace. Rozhodnutí přijde shora – architektonické nebo manažerské. Tým ho má implementovat. Jenže vývojáři okamžitě vidí problémy.
 
 > „To je blbost."

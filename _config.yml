@@ -24,6 +24,7 @@ author: Patrik Šíma
 
 navbar-links:
   About Me: "aboutme"
+  Services: "services"
   Hire Me: "hireme"
   My Resume: "cv"
   Devlog [CZ]: "devlog"
@@ -76,7 +77,7 @@ social-network-links:
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
-#  calendly: yourname
+  calendly: patriksima78/30min
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar

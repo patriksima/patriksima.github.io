@@ -5,6 +5,10 @@ subtitle: Jak nepodcenit cashflow, smlouvy a platební rizika
 tags: [career, contracting, freelance, finance, leadership]
 ---
 
+> **English summary:** This is a practical survival guide for IT contractors working through bodyshop intermediaries. It focuses on payment risk, contract structure, cashflow planning, and warning signals to evaluate before signing the next engagement.
+>
+> Need help with contract-risk or delivery setup? See [Services](/services/).
+
 
 _Co si má pohlídat člověk, který je „jen dodavatel kapacity“ a nechce finančně vykrvácet._
 

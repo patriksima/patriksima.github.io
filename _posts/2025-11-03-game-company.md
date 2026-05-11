@@ -5,6 +5,10 @@ subtitle: Průvodce pro začínající vývojáře 🎮🇨🇿
 tags: [gamedev,game industry,gamebiz,indiedev]
 ---
 
+> **English summary:** This post is a practical guide to starting a game studio in the Czech Republic. It compares traditional business planning with Lean Canvas and explains why game design, market validation, and financial discipline matter as much as coding.
+>
+> Need help with product or engineering direction? See [Services](/services/).
+
 
 ## Herní průmysl v Česku na vzestupu
 

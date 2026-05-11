@@ -5,6 +5,10 @@ subtitle: Proč moje CV nevypadá „čistě" – a proč je to vlastně výhoda
 tags: [career, bodyshop, software engineering, kaizen]
 ---
 
+> **English summary:** The article argues for the value of an adaptive senior engineer over narrow specialization. It explains why bodyshop and enterprise projects reward flexibility, fast learning, and context switching more than fixed years in one stack.
+>
+> Need this mindset in your team? See [Services](/services/).
+
 Nedávno mi jedna HR řekla větu, která mě zarazila:
 
 > „Z vašeho CV není jasné, co vlastně děláte."

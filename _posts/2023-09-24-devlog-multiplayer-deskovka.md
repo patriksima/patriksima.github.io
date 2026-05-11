@@ -6,6 +6,10 @@ tags: [unity,netcode,networking,gamedev,multiplayer,boardgames]
 category: devlog
 ---
 
+> **English summary:** This post shares the early journey of building an online multiplayer board game in Unity using Netcode for GameObjects. It covers motivation, failed experiments, technology choices, and practical constraints of solo development.
+>
+> Need help with similar technical challenges? See [Services](/services/).
+
 Ahoj,
 
 já jsem Patrik a chtěl bych se s vámi podělit o zážitky a zkušenosti s vývojem online multiplayer deskovky v [Unity](https://unity.com/)

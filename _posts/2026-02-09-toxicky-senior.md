@@ -5,6 +5,10 @@ subtitle: Nepostradatelný člověk je ve skutečnosti největší riziko firmy
 tags: [career, leadership, toxicity, software engineering, management]
 ---
 
+> **English summary:** The post describes toxic "indispensable" senior archetypes and why they create long-term organizational risk. It proposes practical safeguards such as collective code ownership, transparent reviews, documentation discipline, and stronger technical governance.
+>
+> Need an external technical perspective on team health? See [Services](/services/).
+
 > „Kdybych odešel, tak se to tu zhroutí."
 
 Pokud tohle někdo ve firmě říká – nebo si to aspoň myslí – je to problém. A ne malý. Nepostradatelnost není známka geniality. Je to červená vlajka.

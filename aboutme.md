@@ -10,6 +10,8 @@ share-description: My journey from childhood hacker to senior developer, plus so
 
 I'm a senior .NET developer with 20+ years in IT, father of two, hobby game developer, certified chess coach, and a person with probably too many past lives for one lifetime.
 
+Prefer Czech content? Read my [Devlog (CZ)](/devlog/) or [Services in Czech](/sluzby/).
+
 ---
 
 ## How It All Started

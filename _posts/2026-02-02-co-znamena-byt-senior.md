@@ -5,6 +5,10 @@ subtitle: Seniorita není odměna za odsezený čas
 tags: [career, software engineering, seniorita, leadership]
 ---
 
+> **English summary:** This post defines seniority as impact, responsibility, and judgment, not years served. It breaks down practical traits of senior engineers: dealing with ambiguity, mentoring others, understanding trade-offs, and driving outcomes beyond assigned tasks.
+>
+> Need stronger technical leadership? See [Services](/services/).
+
 Na serveru root.cz se nedávno rozjela [zajímavá diskuze](https://forum.root.cz/index.php?topic=31400.msg431004#msg431004) o tom, co vlastně znamená seniorita. Padaly tam i rady typu:
 
 > „Musíš počkat, až ti umře lead projektu, pak ho nahradíš a tím se staneš seniorem."
