@@ -27,7 +27,6 @@ navbar-links:
   Services: "services"
   Hire Me: "hireme"
   My Resume: "cv"
-  Devlog [CZ]: "devlog"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
