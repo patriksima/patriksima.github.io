@@ -69,33 +69,33 @@ RosterIQ has been in production since April 2025 — 15+ months, 130+ commits, a
 
 ---
 
-## Two Ways to Work Together
+## How It Works
 
-### Option A — Use RosterIQ for Your Team
+No off-the-shelf license. Every deployment is built to your team's exact rules and hosted in your own environment.
 
-We configure the application to your team's specific rules, shifts, and constraints. You get a working solution without building anything.
+### 1. Discovery Call (Free)
+We map your current process — shift rules, absence types, edge cases, integrations. 30 minutes is usually enough to know whether it's a fit.
+
+### 2. Custom Development
+We build and deploy the application tailored to your requirements. You own the running system. Pricing is fixed after scoping.
 
 **What you get:**
-- Fully configured scheduling application
-- Your team's rules encoded from day one
+- Scheduling logic built around your actual rules
+- Absence approval workflow
 - AI chat trained on your data
-- Ongoing support and adjustments
+- Integration with existing HR or payroll systems if needed
+- Deployed to your infrastructure
 
-**Pricing:** Custom — depends on team size and complexity. [Let's talk →](https://calendly.com/patriksima78/30min)
+**Pricing:** From €2,400 — scoped after the discovery call.
+
+### 3. Ongoing Support (Monthly Fee)
+After go-live, we handle bug fixes, rule adjustments, and feature requests. You get a dedicated contact who knows your setup.
+
+**Pricing:** Fixed monthly retainer — depends on team size and expected change frequency.
 
 ---
 
-### Option B — Custom Scheduling Solution Built for You
-
-Your operation is more complex, or you need integration with existing HR or payroll systems. We build a tailored solution from the ground up.
-
-**What you get:**
-- Custom-built application to your exact requirements
-- Integration with your existing systems
-- Full source code ownership
-- Architecture and delivery by a senior .NET/Azure engineer
-
-**Pricing:** From €2,400 (scoped after initial call). [Book a free call →](https://calendly.com/patriksima78/30min)
+[Book a free discovery call →](https://calendly.com/patriksima78/30min)
 
 ---
 
