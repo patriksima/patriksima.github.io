@@ -105,4 +105,12 @@ LinkedIn: [linkedin.com/in/patriksima](https://www.linkedin.com/in/patriksima/)
 
 ---
 
+## Also Building: RosterIQ
+
+Looking for shift scheduling automation instead of consulting? I also built **[RosterIQ](/rosteriq/)** — an AI-powered web application that replaces Excel-based shift scheduling for operational teams.
+
+[Learn more about RosterIQ →](/rosteriq/)
+
+---
+
 Looking for the Czech version? [Služby](/sluzby/)

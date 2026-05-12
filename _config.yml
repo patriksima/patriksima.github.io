@@ -13,7 +13,7 @@
 title: Patrik Šíma
 
 # Short description of the website
-description: Personal website of Patrik Šíma - experienced software engineer, .NET developer, and hobby game developer
+description: Senior .NET & Azure consultant helping teams ship faster, more reliable software. Creator of RosterIQ, an AI-powered shift scheduling tool.
 
 # Your name to show in the footer
 author: Patrik Šíma
@@ -23,10 +23,11 @@ author: Patrik Šíma
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
   Services: "services"
+  RosterIQ: "rosteriq"
   Hire Me: "hireme"
   My Resume: "cv"
+  About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"

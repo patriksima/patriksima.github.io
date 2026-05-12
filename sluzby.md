@@ -105,4 +105,12 @@ Radši asynchronně? Pošlete mi krátké zadání:
 
 ---
 
+## Také stavím: RosterIQ
+
+Hledáte automatizaci plánování směn? Postavil jsem **[RosterIQ](/rosteriq/)** — webovou aplikaci s AI chatem, která nahrazuje ruční plánování směn v Excelu.
+
+[Více o RosterIQ →](/rosteriq/)
+
+---
+
 Need this page in English? Go to [Services](/services/).

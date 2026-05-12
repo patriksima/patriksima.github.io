@@ -83,4 +83,4 @@ AI asistent ušetřil hodiny na rutinním kódu: testy, CRUD operace, UI kompone
 
 RosterIQ vznikl za 15 měsíců vedlejšího projektu. Jsou v produkci, denně používané, a stále se rozvíjejí. Ne proto, že by AI vývoj zautomatizovala — ale proto, že snížila náklady na ty části, které automatizovat lze, a uvolnila prostor pro části, které ne.
 
-Pokud řešíte podobný problém — ruční procesy, které by šly zautomatizovat, ale žádný krabicový nástroj přesně nesedí — [pojďme si o tom promluvit](https://calendly.com/patriksima78/30min). Třicet minut stačí k tomu, aby bylo jasné, jestli má smysl něco stavět, a co by to obnášelo.
+Pokud řešíte podobný problém — ruční procesy, které by šly zautomatizovat, ale žádný krabicový nástroj přesně nesedí — podívejte se na [RosterIQ](/rosteriq/) nebo rovnou [pojďme si o tom promluvit](https://calendly.com/patriksima78/30min). Třicet minut stačí k tomu, aby bylo jasné, jestli má smysl něco stavět, a co by to obnášelo.
