@@ -2,13 +2,13 @@
 layout: page
 title: About me
 subtitle: The human behind the code
-share-title: About me | Patrik Šíma | Experienced Software Engineer
-share-description: My journey from childhood hacker to senior developer, plus some unexpected life stories.
+share-title: About me | Patrik Šíma | Senior .NET & Azure Consultant
+share-description: The person behind the code — 20+ years in IT, senior .NET & Azure consultant, creator of RosterIQ, chess coach, and a few other past lives.
 ---
 
 ## The Short Version
 
-I'm a senior .NET developer with 20+ years in IT, father of two, hobby game developer, certified chess coach, and a person with probably too many past lives for one lifetime.
+I'm a senior .NET & Azure consultant with 20+ years in IT, father of two, certified chess coach, indie game developer on the side, and a person with probably too many past lives for one lifetime.
 
 Prefer Czech content? Read my [Devlog (CZ)](/devlog/) or [Services in Czech](/sluzby/).
 
@@ -75,4 +75,4 @@ I'm a father of two, which means my free time is... let's say *optimized*. When 
 
 ---
 
-Want to chat? Check out my [CV](/cv) or [get in touch](/hireme).
+Want to work together? See my [Services](/services/), check out [RosterIQ](/rosteriq/), view my [CV](/cv), or [get in touch](/hireme).
