@@ -1,161 +1,86 @@
 ---
 layout: post
-title: "Smeny – Inteligentní plánovač směn"
-subtitle: "Case study: jak jsme nahradili Excelovské tabulky strukturovanou .NET aplikací s AI chatem"
-tags: [case-study, dotnet, aspire, blazor, azure, mcp, scheduling, ai]
-share-title: "Smeny – Case study: plánovač směn s AI chatem | Patrik Šíma"
-share-description: "Jak vrstvená .NET 10 aplikace s Azure OpenAI nahradila ruční plánování směn v call centru a přidala AI chat pro dotazy nad daty v přirozeném jazyce."
+title: "RosterIQ – Inteligentní plánovač směn"
+subtitle: "Case study: jak jsme nahradili Excelovské tabulky aplikací, která plánuje sama — a ještě se na data ptá česky"
+tags: [case-study, ai, scheduling, blazor, azure]
+share-title: "RosterIQ – Case study: plánovač směn s AI chatem | Patrik Šíma"
+share-description: "Jak jsme nahradili ruční plánování směn v call centru vlastní aplikací, která ušetří hodiny práce měsíčně a umí odpovídat na dotazy v přirozeném jazyce."
 ---
 
-## Přehled
+## Kontext
 
-**Smeny** je interní webová aplikace pro automatizované plánování pracovních směn malého týmu (~13 zaměstnanců). Nahrazuje ruční sestavování měsíčních rozvrhů v Excelu a přináší strukturovaný systém pro správu absencí, sledování docházky a AI-asistovanou analýzu dat.
+Tým třinácti lidí v call centru sestavoval každý měsíc rozvrh ručně v Excelu. Vedoucí strávila sestavením rozvrhu přibližně **dvě hodiny**, a i pak se pravidelně přicházelo na chyby — ranní směna po pozdní odpolední, nevyváženost mezi zaměstnanci, přehlédnutá dovolená.
 
----
-
-## Problém
-
-Tým sestavoval měsíční rozvrhy ručně v tabulkovém procesoru. Proces byl časově náročný a náchylný na chyby, zejména při dodržení souboru složitých pravidel:
-
-- Ranní a odpolední směna mají být v průběhu měsíce rovnoměrně distribuovány mezi všechny zaměstnance.
-- Po odpolední směně (končí v 19:00) nesmí automatický plánovač přiřadit ranní směnu (začíná v 7:00) bezprostředně následující pracovní den – nedostatečný odpočinek. Pokud je mezi nimi víkend nebo svátek, omezení neplatí.
-- Specifičtí zaměstnanci (nováčci, poloviční úvazky, cizinci) vyžadují manuální plánování.
-- Evidence absencí (dovolená, lékař, nemoc, náhradní volno, neplacené volno, ošetřování člena rodiny) musí být integrována do rozvrhu — včetně půldenních variant.
-- Penalizace (zákaz příchozí linky) ovlivňují přiřazování.
-- Rozvrh musí respektovat české státní svátky.
-
-Neexistoval žádný auditní záznam změn ani přehled o historii rozhodnutí.
+Pravidel bylo hodně: kdo může mít ranní směnu a kdy, kdo vyžaduje zvláštní zacházení (nováčci, zkrácené úvazky), jak se počítají náhradní volna, svátky. Žádný generický nástroj tato specifika nereflektoval.
 
 ---
 
-## Řešení
+## Co jsme postavili
 
-### Architektura
+Aplikaci **RosterIQ** — webový nástroj šitý přímo na potřeby tohoto provozu.
 
-Aplikace je navržena jako **vrstvená .NET 10 solution** s jasným oddělením odpovědností:
+### Automatické plánování
 
-| Projekt | Role |
-|---|---|
-| `Smeny.Domain` | Doménové entity, enumy, pravidla, bez závislosti na infrastruktuře |
-| `Smeny.Infrastructure` | EF Core, SQL Server, auditní pipeline, JSON konvertory |
-| `Smeny.Api` | ASP.NET Core Web API – HTTP orchestrace, JWT autentizace, role-based autorizace |
-| `Smeny.Spa` | Blazor Server frontend s YARP reverse proxy a Google OAuth |
-| `Smeny.McpServer` | Model Context Protocol server pro AI integraci |
-| `Smeny.Shared` | Sdílené DTO kontrakty mezi API a SPA |
-| `Smeny.Aspire.*` | Orchestrace lokálního a cloudového prostředí |
+Aplikace zná všechna pravidla provozu a na jejich základě sestaví měsíční rozvrh sama. Vedoucí nemusí hlídat, jestli po pozdní odpolední nemá někdo ráno příliš brzo nastoupit, jestli se směny rovnoměrně střídají, nebo jestli rozvrh respektuje státní svátky. Systém to ohlídá automaticky — a pokud je potřeba výjimka, lze ji ručně přepsat.
 
-### Klíčové funkcionality
+### Správa absencí
 
-**Automatický plánovač**
-- Generuje měsíční rozvrhy na základě doménových pravidel implementovaných v `Scheduling`.
-- Respektuje blokace, penalty, flagy zaměstnanců (`Manual`, `Novice`, `Foreigner`, `PartTime`) a české státní svátky (včetně výpočtu pohyblivých velikonočních svátků).
-- Validace přes `ScheduleValidation` vrstvu před persistencí.
-- Pravidlo ochranného odpočinku platí i na přechodu měsíců; admin může pravidlo přepsat ručním zápisem.
+Zaměstnanci žádají o absenci (dovolená, lékař, nemoc, náhradní volno, OČR) přímo v aplikaci. Vedoucí žádost schválí nebo zamítne, a rozvrh se automaticky přizpůsobí. Každé rozhodnutí je zaznamenáno — kdo schválil a kdy.
 
-**Správa absencí s workflow schvalování**
-- Zaměstnanci podávají žádosti o absenci (`AbsenceRequest`) s typem (`BlockType`): půldenní i celodenní varianty dovolené, lékař, náhradní volno, nemoc, neplacené volno, OČR.
-- Admini schvalují nebo zamítají — `ReviewedBy` (email) a `ReviewedAt` (timestamp) jsou persistovány jako auditní stopa.
-- Schválené absence jsou automaticky promítnuty do rozvrhu.
+### AI chat
 
-**Uzamykání rozvrhů**
-- `ScheduleLock` per zaměstnanec × měsíc – po uzamčení nelze rozvrh pro daného zaměstnance měnit.
-- Zaznamenáno kdo (`LockedBy`) a kdy (`LockedAt`) uzamkl.
+Vedoucí může aplikaci klást dotazy v běžné češtině: *„Kdo má příští týden odpolední směnu?"* nebo *„Kolik dní dovolené zbývá Novákovi?"* Systém odpoví okamžitě, bez nutnosti proklikávat filtry nebo exportovat tabulky. Odpovědi se objevují průběžně, jako při psaní — čekání je minimální.
 
-**AI Chat (admin-only)**
-- Administrátor může klást přirozené dotazy v češtině nad daty rozvrhu.
-- `AiChatService` sestavuje kontext z MCP serveru a předává ho **Azure OpenAI** přes Aspire client integraci.
-- Podporuje synchronní odpovědi (`POST /api/aichat/ask`) i **Server-Sent Events streaming** (`POST /api/aichat/ask-stream`) pro UX v reálném čase.
-- MCP server (`Smeny.McpServer`) exponuje 7 read-only nástrojů:
+### Přehled a auditní stopa
 
-| Nástroj | Popis |
-|---|---|
-| `admin-summary` | Souhrnný přehled pro administrátora |
-| `employees` | Seznam zaměstnanců |
-| `employee-schedules` | Rozvrh konkrétního zaměstnance |
-| `monthly-overview` | Měsíční přehled směn |
-| `search-absences` | Vyhledávání absencí |
-| `codebooks` | Číselníky (enumy, typy) |
-| `employee-attendance` | Docházkový přehled zaměstnance |
+Každá změna v rozvrhu je zaznamenaná — co se změnilo, kdo to změnil a kdy. Nic se nesmaže, vše je dohledatelné. Měsíc lze uzamknout, aby se do uzavřeného rozvrhu nedělaly dodatečné zásahy.
 
-**Auditní log**
-- Každá změna entity (`ScheduleSlot`, `Employee`, `Penalty`, …) je zachycena automaticky v `SmenyDbContext` – entita, akce (`AuditAction`), starý/nový stav (JSON), kdo změnil, kdy.
-- `AuditLog` je technická entita bez soft-delete (neobsahuje `State`).
-
-**Real-time notifikace**
-- SignalR hub (`NotificationsHub`) broadcastuje události (např. `AbsenceRequestsChanged`) do všech připojených klientů.
-- SPA okamžitě reflektuje změny bez nutnosti manuálního refreshe.
+Změny v aplikaci se projeví všem přihlášeným uživatelům okamžitě, bez nutnosti obnovit stránku.
 
 ---
 
-## Technologický stack
-
-```
-.NET 10 / ASP.NET Core / Blazor Server
-Entity Framework Core + SQL Server
-Azure OpenAI přes Aspire client integraci
-Model Context Protocol (vlastní implementace)
-SignalR (real-time)
-YARP Reverse Proxy
-JWT Bearer + Google OAuth
-OpenTelemetry (traces, metriky, OTLP)
-Azure Container Apps (deployment via azd)
-.NET Aspire (orchestrace)
-xUnit + Testcontainers.MsSql + FluentAssertions (testy)
-```
-
----
-
-## Doménový model (výběr)
-
-```
-Employee ──< ScheduleSlot (Morning/Afternoon segment per den)
-Employee ──< Schedule (přímý zápis směny bez segmentu)
-Employee ──< AbsenceRequest (Pending → Approved/Rejected)
-Employee ──< Penalty (IncomingLineBanned, From–To)
-Employee ──< ScheduleLock (Year/Month, IsLocked)
-
-ScheduleSlot:
-  Segment: TimeSegment (Morning | Afternoon)
-  ShiftType: Morning | Afternoon | Common | MorningIncoming | PartTime | Weekend | RookieShift
-  BlockType: [celodenní/půldenní] Timeoff | Medical | Toil | SickLeave | UnpaidLeave | ChildCare
-
-AuditLog: EntityType, EntityId, Action, OldValues JSON, NewValues JSON, ChangedBy, ChangedAt
-```
-
-Všechny entity dědí z `BaseEntity` (UUIDv7 ID, soft-delete `State`, `CreatedAt`/`UpdatedAt`). `AuditLog` je výjimkou – nemá `State` ani soft-delete. Hard delete pro ostatní entity neexistuje.
-
----
-
-## Testovací strategie
-
-- **Integrační testy** běží proti reálnému SQL Serveru v Docker kontejneru (`Testcontainers.MsSql`).
-- `ApiWebApplicationFactory` / `McpWebApplicationFactory` s override DI služeb.
-- `BaseTest` generuje JWT tokeny pro autentizované volání.
-- Pokrytí: CRUD endpointy, scheduling validace, MCP kontrakty, AI Chat přístupová práva, docházkový přehled.
-
----
-
-## Výsledky
+## Co se změnilo
 
 | Oblast | Před | Po |
 |---|---|---|
-| Sestavení měsíčního rozvrhu | ~2 hodiny ručně | Automaticky v sekundách |
-| Kontrola pravidel | Manuální, náchylná na chyby | Automatická validace |
-| Evidence absencí | Excel poznámky | Strukturovaný workflow se schvalováním |
-| Auditní stopa | Žádná | Kompletní, per-entita |
-| Analýza dat | Ad-hoc tabulky | AI dotazy v přirozeném jazyce |
-| Notifikace změn | Email/ústně | Real-time v aplikaci |
+| Sestavení měsíčního rozvrhu | ~2 hodiny ručně | Automaticky za sekundy |
+| Kontrola pravidel | Manuální, náchylná na chyby | Automatická |
+| Evidence absencí | Poznámky v Excelu | Strukturovaný proces se schvalováním |
+| Dohledatelnost změn | Žádná | Kompletní historie |
+| Dotazy nad daty | Procházení tabulek | Otázka v přirozeném jazyce |
 
 ---
 
-## Klíčová rozhodnutí a lessons learned
+## Jak vývoj probíhal — a co nás překvapilo
 
-1. **`ScheduleSlot` s explicitním `TimeSegment`** – k původní entitě `Schedule` přibyla `ScheduleSlot` s polem `Segment` (Morning/Afternoon), což zpřehlednilo logiku plánovače a dotazy nad rozvrhem. Obě entity koexistují: `ScheduleSlot` pokrývá segmentované sloty generované plánovačem, `Schedule` slouží pro přímé zápisy bez segmentu.
+Aplikace vznikala od **února 2025** a aktivně se vyvíjí dodnes — celkem přes **15 měsíců a 130+ commitů**. Po první produkční verzi v dubnu 2025 přišlo přibližně deset měsíců ostrého provozu, během nichž jsme sbírali zpětnou vazbu. V únoru 2026 pak nastala druhá, výrazně intenzivnější vlna vývoje.
 
-2. **MCP jako AI kontextová vrstva** – oddělení AI kontextu do samostatného MCP serveru umožňuje nezávislé cachování, verzování a testování nástrojů bez zásahu do core API. Autentizace probíhá přes `X-Mcp-Api-Key` hlavičku.
+Na vývoji jsem pracoval s pomocí AI asistenta. Přesto — nebo možná právě proto — bylo zajímavé sledovat, kde asistent pomáhal a kde to byl naopak zdroj zdržení. AI zvládá dobře rutinní kód: CRUD operace, testy, UI komponenty, konfigurace. Jenže klíčové části aplikace — logika plánování, pravidla spravedlivého rozdělení směn — vyžadovaly hodně iterací a manuálního přemýšlení i s asistentem po boku.
 
-3. **Aspire pro orchestraci** – zjednodušilo lokální vývoj (SQL Server kontejner, Azure OpenAI konfigurace) a deployment do Azure Container Apps přes `azd up`. CI/CD lze nakonfigurovat přes `azd pipeline config`.
+**Co bylo skutečně těžké:**
 
-4. **Soft-delete everywhere (kromě AuditLogu)** – žádná produkční data nelze omylem smazat; archivace je implicitní. `AuditLog` je write-only append záznam bez `State`.
+**Spravedlivost při nerovnoměrných dovolených.** Základní pravidlo zní jednoduše: každý má mít za měsíc přibližně stejný počet ranních a odpoledních směn. Jakmile ale někdo čerpá dovolené, musí se výpočet přepočítat jen přes dny, kdy byl k dispozici. Tento algoritmus prošel několika přepisy — a poslední verze s proporcionálními cíli přišla až v únoru 2026, tedy rok po spuštění první verze.
 
-5. **Granularita `BlockType`** – půldenní varianty absencí (MorningTimeoff, AfternoonTimeoff, MorningMedical, …) se ukázaly jako nutnost pro reálný provoz, kde zaměstnanec přijde ráno k lékaři a odpoledne je v práci.
+**Pravidlo ochranného odpočinku přes přechod měsíce.** Po pozdní odpolední směně nesmí plánovač přiřadit ranní směnu následující pracovní den. Jednoduché pravidlo — pokud nepřemýšlíte o tom, co se stane posledního dne měsíce. Plánovač musí znát i směny z předchozího měsíce. Drobnost, která si vyžádala samostatný commit.
+
+**Přepis datového modelu uprostřed vývoje.** Původní model ukládal každý den zaměstnance jako jeden záznam. Ukázalo se, že pro rozlišení ranního a odpoledního segmentu to nestačí. Museli jsme přejít na model se dvěma záznamy na den — ranní a odpolední slot. Refaktoring uprostřed běžícího systému je vždy nepříjemný, tady to nebyla výjimka.
+
+**Azure OpenAI autentizace.** Propojení AI modelu s aplikací bylo papírově jednoduché, v praxi jsme strávili neočekávaně mnoho času laděním konfigurace autentizace vůči Azure. Tento typ problému AI asistent pomáhá hledat jen omezeně — logy z cloudu jsou příliš kontextové.
+
+**Co se naopak ukázalo jako dobrý nápad:**
+
+Přidat půldenní varianty absencí — zaměstnanec jde ráno k lékaři a odpoledne je v práci. Zdánlivá drobnost, která se v praxi ukázala jako každodenní potřeba, a bez níž by vedoucí musela i nadále sáhnout po Excelu.
+
+A AI chat nečekaně změnil i to, jak přemýšlíme o dalším rozvoji aplikace. Když vedoucí narazí na odpověď, která není úplně přesná, řekne přesně co chybí — a to se stane konkrétním požadavkem. Průzkum potřeb se zjednodušil: místo vágního *„co by se vám hodilo"* dostáváme *„tady mi chybí tohle"*.
+
+---
+
+## Závěr: jde to s AI samo od sebe?
+
+Ne. Ale jde to rychleji — a jako jednotlivec zvládnete udělat to, na co byste jinak potřebovali tým.
+
+AI asistent ušetřil hodiny na rutinním kódu: testy, CRUD operace, UI komponenty, konfigurace. Díky tomu zbyl čas na to, co šlo s AI jen omezeně — porozumět doméně, vymyslet správný datový model, odladit logiku, která musí fungovat správně v každém hraničním případě.
+
+RosterIQ vznikl za 15 měsíců vedlejšího projektu. Jsou v produkci, denně používané, a stále se rozvíjejí. Ne proto, že by AI vývoj zautomatizovala — ale proto, že snížila náklady na ty části, které automatizovat lze, a uvolnila prostor pro části, které ne.
+
+Pokud řešíte podobný problém — ruční procesy, které by šly zautomatizovat, ale žádný krabicový nástroj přesně nesedí — [pojďme si o tom promluvit](https://calendly.com/patriksima78/30min). Třicet minut stačí k tomu, aby bylo jasné, jestli má smysl něco stavět, a co by to obnášelo.
