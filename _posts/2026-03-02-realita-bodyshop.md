@@ -3,6 +3,7 @@ layout: post
 title: Realita IT kontraktora v bodyshop modelu
 subtitle: Jak nepodcenit cashflow, smlouvy a platební rizika
 tags: [career, contracting, freelance, finance, leadership]
+excerpt: "Co si má pohlídat člověk, který je jen dodavatel kapacity a nechce finančně vykrvácet. Platební rizika, struktura smluv, cashflow plánování a varovné signály."
 ---
 
 > **English summary:** This is a practical survival guide for IT contractors working through bodyshop intermediaries. It focuses on payment risk, contract structure, cashflow planning, and warning signals to evaluate before signing the next engagement.

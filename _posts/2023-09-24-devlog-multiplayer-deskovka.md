@@ -3,6 +3,7 @@ layout: post
 title:  Blog o vývoji her
 subtitle: Současný vývoj, plány do budoucna, zákulisí
 tags: [unity,netcode,networking,gamedev,multiplayer,boardgames]
+excerpt: "Zákulisí vývoje online multiplayer deskové hry v Unity s Netcode for GameObjects — motivace, slepé uličky, technologické volby a limity sólo vývoje."
 ---
 
 > **English summary:** This post shares the early journey of building an online multiplayer board game in Unity using Netcode for GameObjects. It covers motivation, failed experiments, technology choices, and practical constraints of solo development.

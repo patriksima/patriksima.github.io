@@ -3,6 +3,7 @@ layout: post
 title: "Dokáže AI napsat knihu? Realita, názory a zkušenosti z praxe"
 subtitle: "Co říkají autoři, akademici i technologická komunita — a jaká je moje vlastní zkušenost"
 tags: [ai, writing, creativity, opinion]
+excerpt: "Umělá inteligence mění svět kolem nás — ale zvládne napsat román, který si skutečně přečtete? Zkoumám, co na to říkají autoři, akademici i technologická komunita, a sdílím vlastní zkušenost."
 ---
 
 > **English summary:** The post examines whether AI can autonomously write quality fiction, combining personal experiments with arguments from authors and public sources. The conclusion is that AI can assist writing workflows, but still lacks sustained narrative consistency and authentic voice.

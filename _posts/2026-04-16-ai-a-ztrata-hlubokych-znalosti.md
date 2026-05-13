@@ -3,6 +3,7 @@ layout: post
 title: "AI mě dělá rychlejším. A hloupějším."
 subtitle: "Jak používání AI nástrojů oslabuje paměť, kritické myšlení a hluboké porozumění kódu — a co s tím"
 tags: [ai, programming, critical-thinking, deep-work, opinion]
+excerpt: "Posledních pár měsíců mám nepříjemný pocit. Programuju víc než kdy dřív — ale rozumím tomu míň. AI mi generuje kód, já ho vkládám, a jedu dál. Skrytá cena AI-asistovaného programování."
 ---
 
 > **English summary:** This article discusses the hidden cost of AI-assisted programming: faster output but weaker understanding. It connects personal observations with research on cognitive offloading and critical thinking, and argues for deliberate practices that preserve deep technical competence.

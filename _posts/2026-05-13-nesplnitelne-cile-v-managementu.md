@@ -3,6 +3,7 @@ layout: post
 title: "Nesplnitelné cíle jako manažerský nástroj"
 subtitle: "Analýza systémového selhání: proč arbitrární navyšování výkonnostních cílů poškozuje organizace i jednotlivce"
 tags: [management, leadership, psychology, organizations, strategy]
+excerpt: "Praxe stanovování cílů bez analýzy kapacity a prostým navýšením loňských čísel. Proč tento přístup systematicky ničí motivaci, zvyšuje fluktuaci a vytváří podmínky pro neetické jednání."
 ---
 
 > **English summary:** This article analyzes the practice of setting unachievable performance targets — without capacity analysis, without discussion, purely by adding a percentage to last year's numbers. Drawing on goal-setting theory (Locke & Latham), stretch goal research (Sitkin et al.), toxic leadership studies (Tepper, Gallup), and documented case examples, it shows why this approach systematically destroys motivation, increases turnover, and in extreme cases incentivizes unethical behavior.

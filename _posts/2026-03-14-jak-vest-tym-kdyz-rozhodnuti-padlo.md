@@ -3,6 +3,7 @@ layout: post
 title: "Jak vést tým, když víte, že má pravdu – ale rozhodnutí už padlo"
 subtitle: Mezi technickou správností a organizační realitou
 tags: [leadership, software engineering, management, team, architecture]
+excerpt: "V technických týmech nastává často nepříjemná situace — rozhodnutí přijde shora, tým ho má implementovat, ale vývojáři okamžitě vidí problémy. Jak zachovat důvěru týmu."
 ---
 
 > **English summary:** This post explains how to lead engineering teams when top-down decisions conflict with technical reality. It presents a practical approach: acknowledge technical truth, separate context from implementation, document risks, and preserve team trust.

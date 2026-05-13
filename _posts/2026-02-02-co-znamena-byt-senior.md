@@ -3,6 +3,7 @@ layout: post
 title: Co skutečně znamená být senior inženýr
 subtitle: Seniorita není odměna za odsezený čas
 tags: [career, software engineering, seniorita, leadership]
+excerpt: "Seniorita je o dopadu, odpovědnosti a úsudku — ne o odsezených letech. Práce s nejednoznačností, mentoring, trade-offy a výsledky nad rámec zadání."
 ---
 
 > **English summary:** This post defines seniority as impact, responsibility, and judgment, not years served. It breaks down practical traits of senior engineers: dealing with ambiguity, mentoring others, understanding trade-offs, and driving outcomes beyond assigned tasks.

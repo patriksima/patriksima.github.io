@@ -3,6 +3,7 @@ layout: post
 title:  Použití Native Collection ve vlastní NetworkVariable
 subtitle: Strasti, pasti, nástrahy, postřehy a střípky z vývoje multiplayer deskovky
 tags: [unity,netcode,networking,gamedev,multiplayer]
+excerpt: "Jakmile se pustíte do multiplayeru s NGO, brzy zjistíte, že vestavěné NetworkVariable typy nestačí. Postřehy z implementace vlastních typů — serializace, pořadí updateů a volba správných rozhraní."
 ---
 
 > **English summary:** This article explains lessons learned when implementing custom NetworkVariable types in Unity Netcode for GameObjects. It highlights common pitfalls around serialization, update order, and choosing between NGO interfaces for real multiplayer data models.
