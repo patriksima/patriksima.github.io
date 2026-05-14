@@ -1,12 +1,18 @@
 ---
 layout: page
 title: Hire Me
-subtitle: Senior Software Engineer
+subtitle: Senior Software Engineer & Contractor
 share-title: Hire Me | Patrik Šíma | Senior Software Engineer
 share-description: 20+ years of experience building scalable systems, leading technical teams, and delivering high-performance solutions. Available for contract work.
 ---
 
+> **Looking for consulting services or RosterIQ?** This page is for employment and direct contracting opportunities. For structured service packages, see [Services](/services/). For shift scheduling automation, see [RosterIQ](/rosteriq/).
+
+---
+
 I'm a senior software engineer with **20+ years in IT**. I build scalable systems, lead technical teams, and optimize application performance. My experience spans enterprise solutions for automotive giants like VW Group/ŠKODA, e-commerce platforms, and financial systems. When I'm not architecting backends, I'm developing indie games in Godot or coaching young chess players.
+
+Looking for structured service packages? See my [Services](/services/) page.
 
 ---
 

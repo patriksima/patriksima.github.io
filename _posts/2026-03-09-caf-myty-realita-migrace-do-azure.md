@@ -3,7 +3,12 @@ layout: post
 title: "CAF pro migraci z on-premises do Azure: co funguje, co ne a kde firmy nejčastěji narážejí"
 subtitle: "Pohled architekta na Cloud Adoption Framework — silné stránky, reálné limity a nejčastější chyby"
 tags: [azure, cloud, architecture, migration, governance, security, caf, well-architected]
+excerpt: "Cloud Adoption Framework nezačíná technologií, ale strategií. Hodnocení CAF z reálné migrační praxe — strategie 8R, landing zone trade-offy, governance, FinOps a nejčastější anti-patterny."
 ---
+
+> **English summary:** The article evaluates Azure Cloud Adoption Framework from real migration practice, including where it helps and where teams fail. It covers 8Rs strategy, landing zone trade-offs, governance operating model, FinOps realism, and common anti-patterns.
+>
+> Need support with Azure migration strategy? See [Services](/services/).
 
 _Není náhoda, že Cloud Adoption Framework (CAF) nezačíná technologií, ale strategií a plánem. Microsoft jej popisuje jako postup od business cílů přes připravenost prostředí až po dlouhodobé řízení, zabezpečení a provoz, nikoli jako jednorázový „přesun serverů“ ([CAF overview](https://learn.microsoft.com/azure/cloud-adoption-framework/overview#how-does-the-cloud-adoption-framework-work), [Prepare your organization for the cloud](https://learn.microsoft.com/azure/cloud-adoption-framework/plan/prepare-organization-for-cloud)). Pokud se migrace zúží pouze na infrastrukturu, výsledek často nepřinese očekávanou hodnotu. CAF pro takovou situaci představuje silný rámec. Není to však kouzelná hůlka._
 

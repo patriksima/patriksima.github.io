@@ -3,7 +3,12 @@ layout: post
 title: Nejsem specialista. Jsem adaptivní seniorní inženýr
 subtitle: Proč moje CV nevypadá „čistě" – a proč je to vlastně výhoda
 tags: [career, bodyshop, software engineering, kaizen]
+excerpt: "Proč je adaptivní seniorní inženýr v enterprise prostředí cennější než úzký specialista. Flexibilita, rychlé učení a přepínání kontextu jako konkurenční výhoda."
 ---
+
+> **English summary:** The article argues for the value of an adaptive senior engineer over narrow specialization. It explains why bodyshop and enterprise projects reward flexibility, fast learning, and context switching more than fixed years in one stack.
+>
+> Need this mindset in your team? See [Services](/services/).
 
 Nedávno mi jedna HR řekla větu, která mě zarazila:
 

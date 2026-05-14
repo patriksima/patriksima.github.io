@@ -2,13 +2,15 @@
 layout: page
 title: My resume
 subtitle: Curriculum Vitae
-share-title: My resume | Patrik Šíma | Experienced Software Engineer
+share-title: My resume | Patrik Šíma | Senior .NET & Azure Consultant
 share-description: My resume for headhunters, recruiters, human resources. Downloadable PDF.
 ---
 
 ## Career ##
 My working career spans **over twenty years**. Almost exclusively in the field of **computer science**.
 I've been a **freelancer**, **employee**, **manager** and even company **founder**.
+
+Prefer Czech content? See my [Services in Czech](/sluzby/) and [Devlog (CZ)](/devlog/).
 
 
 
