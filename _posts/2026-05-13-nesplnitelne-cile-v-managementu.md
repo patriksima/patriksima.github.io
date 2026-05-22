@@ -32,7 +32,7 @@ V praxi se tento jev projevuje jako plánování odtržené od provozní reality
 
 Výzkum tzv. **stretch goals** — cílů záměrně nastavených za hranicí snadno dosažitelného — přináší nuancovanější obraz. Sitkin et al. (2011) v přehledovém článku v *Academy of Management Review* upozorňují, že stretch goals mohou být produktivní, avšak výhradně za podmínek předchozích úspěchů a dostatečné dostupnosti zdrojů. V organizacích pod tlakem, s historií nesplněných plánů nebo s omezenými kapacitami, naopak vedou k demotivaci, ztrátě důvěry v procesy a destrukci psychologického bezpečí.
 
-Toxické vedení a jeho systémové dopady mapuje rozsáhlý výzkumný program Benjamina Teppera. V jeho metaanalýze (2007) je „abuzivní supervize" — tedy vedení charakterizované nedůvěrou, veřejnou kritikou a tlakem bez opory — spojena se snížením pracovní spokojenosti, zvýšenou fluktuací a nárůstem kontraproduktivního chování. Tepper odhaduje přímé náklady tohoto jevu v americké ekonomice na přibližně **23,8 miliardy dolarů ročně**.
+Toxické vedení a jeho systémové dopady mapuje rozsáhlý výzkumný program Benjamina Teppera. V jeho přehledové studii (2007) je „abuzivní supervize" — tedy vedení charakterizované nedůvěrou, veřejnou kritikou a tlakem bez opory — spojena se snížením pracovní spokojenosti, zvýšenou fluktuací a nárůstem kontraproduktivního chování. Tepper odhaduje souhrnné náklady tohoto jevu pro americkou ekonomiku zhruba na **23,8 miliardy dolarů ročně** (jde o odhad zahrnující fluktuaci, absentérismus a sníženou produktivitu napříč všemi formami abuzivního chování, nikoli pouze nesplnitelné cíle; mezi tlakem na nedosažitelná čísla a abuzivním chováním však existuje doložená korelace).
 
 **Přenos tlaku v organizační hierarchii** (*pressure cascading*) je pak dobře popsaným psychologickým mechanismem: vedení pod tlakem od investorů nebo představenstva tento tlak nevstřebává, nýbrž ho propouští — a nezřídka zesílí — na nižší úrovně řízení. Střední management se tak ocitá v pozici, kdy navenek deklaruje dosažitelnost cíle, jehož nedosažitelnost mu je dobře známa.
 
@@ -42,17 +42,19 @@ Toxické vedení a jeho systémové dopady mapuje rozsáhlý výzkumný program 
 
 Dostupná empirická evidence je konzistentní napříč metodologicky různorodými studiemi.
 
-Gallup ve svém průzkumu *State of the Global Workplace* (2023) uvádí, že **59 % zaměstnanců** globálně pracuje v režimu tzv. tichého odchodu (*quiet quitting*) — plní formální minimum, avšak bez skutečné angažovanosti. Gallup přitom identifikuje manažerský styl jako odpovědný za **70 % rozptylu** v míře zapojení zaměstnanců — tedy jako zdaleka nejsilnější jednotlivý faktor.
+Gallup ve svém průzkumu *State of the Global Workplace* (2023) uvádí, že **59 % zaměstnanců** globálně pracuje v režimu tzv. tichého odchodu (*quiet quitting*) — plní formální minimum, avšak bez skutečné angažovanosti. Podle vlastních Gallupových analýz vysvětluje osoba přímého nadřízeného přibližně **70 % rozptylu** v míře zapojení týmu; jde tedy o nejsilnější jednotlivý prediktor, nikoli ovšem o důkaz jednosměrné kauzality směrem ke konkrétní praxi stanovování cílů.
 
-Starší, avšak opakovaně citovaný průzkum téže organizace (2015) zjistil, že přibližně **50 % zaměstnanců** opouštějících zaměstnání uvádí jako hlavní důvod vztah s přímým nadřízeným — nikoli výši odměny ani náplň práce.
+Starší, opakovaně citovaný průzkum téže organizace (2015) uvádí, že přibližně **50 % respondentů** v určitém okamžiku kariéry opustilo zaměstnání mimo jiné kvůli vztahu s přímým nadřízeným. Údaj je třeba interpretovat opatrně — jde o sebereportování důvodů odchodu, které bývá zkreslené, a vztah s nadřízeným bývá ve výpovědích zaměňován s celkovou kulturou jednotky.
 
-Schweitzer, Ordóñez a Douma (2004) v experimentálním výzkumu publikovaném v *Academy of Management Journal* prokázali přímou korelaci mezi příliš ambiciózními výkonnostními cíli a výskytem neetického jednání. Zaměstnanci, kteří nemohli cíle splnit poctivě, sahali k manipulaci dat nebo k reportování nepravdivých výsledků — nikoli z morálního deficitu, nýbrž jako racionální odpověď na systémové selhání nastavení cílů.
+Schweitzer, Ordóñez a Douma (2004) v laboratorním experimentu publikovaném v *Academy of Management Journal* doložili souvislost mezi příliš ambiciózními výkonnostními cíli a výskytem nepoctivého vykazování výsledků. Participanti, kteří nedosáhli cíle poctivě, častěji nadhodnocovali své výkony — zejména pokud byli těsně pod hranicí splnění. Generalizace experimentálního zjištění na komplexní podnikové prostředí je nutně opatrná, nicméně mechanismus byl od té doby opakovaně pozorován i v terénních studiích (např. Wells Fargo 2016, Volkswagen 2015).
 
 Průzkum Deloitte (2018) v oblasti vyhoření na pracovišti uvádí, že **77 % profesionálů** zažilo burnout ve své stávající roli, přičemž jako hlavní příčinu označili nedosažitelná očekávání a nedostatek autonomie při jejich naplňování.
 
 ---
 
-## Případové studie
+## Případové ilustrace
+
+Následující anonymizované případy neslouží jako důkaz, nýbrž jako ilustrace mechanismů popsaných výše. Jsou vybrány účelově — jde o případy, kde se vzorec projevil výrazně; nelze z nich proto vyvozovat závěry o frekvenci jevu ani o tom, že shodný vstup vede vždy ke shodnému výstupu.
 
 **Případ 1 — výrobní podnik.** Ve sledované středně velké výrobní společnosti byl obchodní plán na příslušný rok navýšen o 18 % oproti předchozímu období — bez konzultace s obchodním oddělením, bez analýzy trhu a bez přijetí nových kapacit. Obchodní manažeři tento cíl přijali formálně; v praxi se zaměřili na zákazníky s nejnižším odporem, nikoli na zákazníky s nejvyšším potenciálem. Výsledkem bylo překročení cíle v jednom kvartálu na úkor dlouhodobých vztahů a poklesu marže.
 
@@ -74,6 +76,22 @@ Za třetí, **absence psychologického bezpečí** (Edmondson, 1999): v organiza
 
 ---
 
+## Protiargumenty a hranice analýzy
+
+Poctivost vyžaduje uvést i výhrady, které lze proti předložené analýze vznést.
+
+**Sandbagging.** Plnohodnotně participativní plánování není bez rizika — týmy mají racionální motivaci navést plán na konzervativnější úroveň, aby zvyšovaly pravděpodobnost splnění a navazujících bonusů. Čistě bottom-up plánování proto může být stejně dysfunkční jako čistě top-down. Pragmatické řešení leží v iterativní konfrontaci obou pohledů.
+
+**Informační asymetrie.** Vrcholné vedení nezřídka vidí informace, které operátorská úroveň nezná — připravované akvizice, regulatorní změny, příležitosti na nových trzích. Cíl, který zevnitř vypadá nerealisticky, může mít opodstatnění, které nelze plnohodnotně sdílet. Problém nastává tehdy, když vedení odmítá toto opodstatnění alespoň rámcově komunikovat a vyžaduje slepou akceptaci.
+
+**Úspěšné stretch-goal kultury.** Existují doložené příklady organizací (Amazon, SpaceX, Toyota v éře klasického TPS), které dlouhodobě pracují s cíli na hranici proveditelnosti a současně prosperují. Sitkin et al. (2011) připouštějí, že stretch goals mohou být funkční; nesouhlasí však s jejich plošným použitím bez ohledu na zdrojové podmínky a historii úspěchů. Předkládaná analýza tedy není výhradou vůči náročným cílům jako takovým, nýbrž vůči jejich arbitrárnímu nastavování bez kontextu.
+
+**Kauzalita versus korelace.** Vztah mezi nerealistickým nastavením cílů a fluktuací či vyhořením je v dostupných datech převážně korelační. Nelze vyloučit reverzní kauzalitu — stagnující týmy mohou být následně vystavovány ostřejšímu tlaku — ani působení třetí proměnné, například zhoršení tržních podmínek. Kauzální mechanismus je výrazně silnější v experimentálních návrzích (Schweitzer et al.) než v průřezových survey datech.
+
+**Rozlišení pojmů.** Text důsledně mluví o cílech *nesplnitelných* (objektivně nedosažitelných při daných zdrojích a podmínkách), nikoli o cílech *náročných*. Hranice mezi těmito kategoriemi však není ostrá a v praxi ji nelze určit ex ante; často je rozlišitelná až zpětně. Tato neurčitost je součástí problému, nikoli argumentem proti jeho analýze.
+
+---
+
 ## Doporučení
 
 **Pro organizace:** zavést participativní proces plánování s formální rolí bottom-up vstupů; oddělit aspirační rámec (*vision*) od operativního plánu; vytvořit kulturu, v níž je pojmenování kapacitního rizika odměňováno, nikoli trestáno; auditovat míru fluktuace jako indikátor selhání plánování.
@@ -86,7 +104,7 @@ Za třetí, **absence psychologického bezpečí** (Edmondson, 1999): v organiza
 
 ## Závěr
 
-Stanovování nesplnitelných cílů není individuálním selháním konkrétního manažera — je to symptom organizačního systému, který odměňuje optimismus a trestá realismus. Věda v tomto bodě hovoří konzistentně: nedosažitelné cíle nevyvolávají vyšší výkon, nýbrž cynismus, odchody a v krajních případech neetické jednání. Organizace, které toto ignorují, nesou měřitelné ekonomické náklady v podobě fluktuace, ztráty produktivity a reputačních rizik — náklady, jež jsou zpravidla výrazně vyšší než hypotetický přínos, který od nesplnitelného cíle původně očekávaly.
+Arbitrární stanovování nesplnitelných cílů není obvykle individuálním selháním konkrétního manažera — je to spíše symptom organizačního systému, který odměňuje optimismus a trestá realismus. Dostupná evidence — s omezeními popsanými výše — naznačuje, že objektivně nedosažitelné cíle nevyvolávají vyšší výkon, nýbrž cynismus, odchody a v krajních případech neetické jednání. Organizace, které toto ignorují, nesou pravděpodobné ekonomické náklady v podobě fluktuace, ztráty produktivity a reputačních rizik — náklady, které mohou snadno převýšit hypotetický přínos, jenž od nesplnitelného cíle původně očekávaly.
 
 Otázkou zůstává, nakolik jsou organizace skutečně ochotny přijmout systémovou změnu — tedy přestat odměňovat manažery za slepé akceptování nerealistických zadání a začít oceňovat ty, kteří mají analytickou odvahu říci: *tenhle cíl nemáme jak splnit, a zde jsou data, proč.*
 
