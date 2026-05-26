@@ -24,7 +24,7 @@ Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT. Při
 - **Externí pohled seniorního praktika:** 20+ let v IT, architektura, optimalizace výkonu, vedení týmů. Vidím věci, které z interní role vidět nejdou.
 - **Bez honoráře, bez závazku:** žádná faktura, žádné navazující prodejní hovory. Tohle je oboustranná výměna hodnoty.
 - **Anonymizace + NDA:** firma i citlivá data jsou v práci anonymizována, rád podepíšu NDA. Pracuje se s agregovanými daty.
-- **Nízká organizační zátěž:** 2–4 polostrukturované rozhovory s vedením a klíčovými rolemi, export několika metrik. Žádné zásahy do provozu.
+- **Rozumná organizační zátěž:** nepůjde o velký transformační projekt, ale ani o „pošleme vám pár čísel a uvidíme". Aby to dávalo smysl, potřebuji přístup k vedení, kontextu a vybraným datům.
 - **Interní review před odevzdáním:** finální text dostanete k připomínkám, nic nepublikuji bez vašeho souhlasu.
 
 ---
@@ -82,17 +82,21 @@ Vše vychází z metodiky **Kaplana a Nortona** a doplňujících autorů (Niven
 
 ---
 
-## Datové a organizační požadavky
+## Co potřebuji od partnerské firmy
 
-Pracuji ve **třech variantách** podle toho, kolik dat máte ochotu/možnost sdílet. Standard je doporučený rozsah — dostatečný pro kvalitní výstup bez přetížení vašeho týmu.
+Aby výsledek nebyl povrchní, potřebuji **užší spolupráci s firmou**, ne jen jednorázový rozhovor a pár exportů. Balanced Scorecard dává smysl jen tehdy, když se dostanu k reálnému kontextu řízení a k lidem, kteří za výsledky opravdu odpovídají.
 
-| Varianta | Co potřebuji |
-|---|---|
-| **Minimum** | Organizační kontext, strategické priority, 2 rozhovory, základní provozní metriky. |
-| **Standard** *(doporučeno)* | Minimum + vývoj klíčových KPI za 12 měsíců, agregované finanční souhrny, procesní a zákaznická data. |
-| **Ideál** | Standard + data o iniciativách/projektech, HR metriky (fluktuace, rozvoj), SLA/quality metriky, interní reporting. |
+Konkrétně potřebuji:
 
-Všechno **anonymizovaně a agregovaně**. Žádné osobní údaje zaměstnanců, žádné citlivé finanční detaily v původní podobě.
+- **Sponzora ve vedení** — ideálně majitele, CEO nebo někoho z top managementu, kdo má pravomoc věci měnit.
+- **Přístup ke klíčovým lidem** — typicky 3 až 5 rozhovorů napříč vedením a důležitými funkcemi.
+- **Reálný manažerský kontext** — jaké jsou priority, kde je napětí, co se dnes nedaří řídit nebo měřit.
+- **Agregovaná data za posledních 12 měsíců** — finanční souhrny, provozní metriky, zákaznické nebo HR ukazatele podle typu firmy.
+- **Průběžnou zpětnou vazbu** — alespoň jedno pracovní review nad návrhem, aby výstup seděl realitě firmy.
+
+Nechci firmu zatěžovat zbytečně, ale zároveň nechci předstírat, že kvalitní návrh BSC vznikne bez přístupu k lidem a souvislostem. Pokud na tohle kapacita nebo vůle není, je lepší si to říct rovnou.
+
+Všechno samozřejmě **anonymizovaně a agregovaně**. Žádné osobní údaje zaměstnanců, žádné citlivé finanční detaily v původní podobě.
 
 ---
 
