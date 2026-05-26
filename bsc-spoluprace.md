@@ -39,7 +39,7 @@ Nestačí jen ochota „pomoct studentovi". Musí tam být i **manažerská pot�
 
 Největší šance na užitečnou spolupráci je tam, kde vedení už cítí konkrétní tlak:
 
-- Firma roste a **majitel přestává firmu uřídit jen operativně**.
+- Firma roste a **majitel ji už nedokáže řídit jen operativně**.
 - Vedení má pocit, že týmy pracují, ale **není jasné, co je opravdu priorita a jak se pozná úspěch**.
 - Reportuje se hodně čísel, ale **neexistuje vazba mezi metrikami a strategií**.
 - Firma řeší **profesionalizaci řízení**, generační výměnu, vstup investora nebo přípravu na další růst.
@@ -127,7 +127,7 @@ Schůzky **online + 1–2 osobní návštěvy v rámci ČR**. Není potřeba, ab
 
 - **20+ let v IT** — backend, architektura, výkon, integrace, vedení týmů.
 - Aktuálně Azure Integration Engineer; dříve Enterprise Architect pro VW Group / ŠKODA AUTO.
-- **První magisterská práce** (VŠEM, 2020) na téma optimalizace obchodního procesu v SW firmě — [theses.cz/id/3q0yvc](https://theses.cz/id/3q0yvc/).
+- **Bakalářská práce** (VŠEM, 2020) na téma optimalizace obchodního procesu v SW firmě — [theses.cz/id/3q0yvc](https://theses.cz/id/3q0yvc/).
 - Píšu odborné [články](/) o architektuře, výkonu a praxi.
 
 Více v [About me](/aboutme/) nebo v [nabídce služeb](/sluzby/) (kde uvidíte, že tohle není maskovaný sales — služby fakturuju jinde a samostatně).
