@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Balanced Scorecard: hledám partnerskou firmu
+title: Balanced Scorecard - hledám partnerskou firmu
 subtitle: Hledám firmu, kde dává smysl převést strategii do jasných cílů a KPI
 share-title: Hledám firmu pro profesní DPR na téma Balanced Scorecard | Patrik Šíma
 share-description: Hledám českou firmu, která potřebuje lépe řídit výkon, priority a KPI. Výstup zdarma: strategická mapa, Balanced Scorecard a návrh KPI. NDA, anonymizace, nízká zátěž.
