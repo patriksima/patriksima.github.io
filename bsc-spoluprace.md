@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "Balanced Scorecard: hledám partnerskou firmu"
-subtitle: Profesní diplomová práce — reálný návrh systému řízení výkonu pro vaši firmu, zdarma
+subtitle: Hledám firmu, kde dává smysl převést strategii do jasných cílů a KPI
 share-title: Hledám firmu pro profesní DPR na téma Balanced Scorecard | Patrik Šíma
-share-description: Senior IT inženýr (20+ let praxe) hledá českou firmu pro případovou studii. Výstup pro firmu zdarma — strategická mapa, BSC a návrh KPI. Anonymizace, NDA, nízká zátěž.
+share-description: Hledám českou firmu, která potřebuje lépe řídit výkon, priority a KPI. Výstup zdarma: strategická mapa, Balanced Scorecard a návrh KPI. NDA, anonymizace, nízká zátěž.
 ---
 
 ## TL;DR
 
-Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT a architektuře podnikových systémů. Připravuji **profesní diplomovou práci na Vysoké škole ekonomie a managementu (VŠEM)** na téma **Balanced Scorecard ve strategickém managementu**.
+Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT. Připravuji **profesní diplomovou práci na VŠEM** na téma **Balanced Scorecard** a hledám **českou firmu**, kde je opravdu potřeba lépe řídit výkon, priority a KPI.
 
-Hledám **českou firmu**, kde je reálná potřeba lépe převést strategii do řízení firmy, priorit a KPI. **Výměnou dostanete použitelný návrh systému řízení výkonu** šitý na míru vašemu byznysu — bez nároku na honorář.
-
-> Vstup z mé strany: 20+ let praxe + akademický rigor + externí pohled.  
-> Vstup z vaší strany: 2–4 rozhovory, agregovaná data a hlavně skutečný důvod to řešit.
+- **Problém:** firma roste, ale strategie se ztrácí v operativě, reporting je roztříštěný a není jasné, co je skutečně priorita.
+- **Pro koho:** typicky česká firma od 50 zaměstnanců výš, kde má vedení reálnou pravomoc něco změnit.
+- **Co dostanete:** návrh strategické mapy, Balanced Scorecard a sady KPI, které dávají smysl pro váš byznys.
+- **Proč je to bezpečné:** NDA, anonymizace, agregovaná data a nízká zátěž pro firmu.
 
 <!-- TODO: vlož svůj Calendly link -->
 **[Domluvit nezávazný 30min call →](https://calendly.com/patriksima78/30min)**
