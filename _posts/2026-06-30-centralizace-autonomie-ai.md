@@ -14,7 +14,7 @@ excerpt: "Zaměstnanec potřebuje levný AI nástroj, ale jeho schválení trvá
 
 Představme si zaměstnance – říkejme mu třeba analytik – který narazí na nový nástroj postavený na umělé inteligenci. Slibuje, že mu ušetří několik hodin týdně rutinní práce. Licence stojí zhruba tolik co lepší večeře pro dva. Analytik nadšeně vyplní žádost. A pak začne čekat.
 
-Žádost putuje na IT, které posuzuje bezpečnost. Pokračuje na nákup, který vyjednává podmínky. Zastaví se u právního oddělení kvůli zpracování osobních údajů. Vrátí se k přímému nadřízenému kvůli schválení rozpočtu. Po třech týdnech je nástroj schválen.
+Žádost putuje na IT, které posuzuje bezpečnost a soulad s firemní architekturou. Pokud nástroj pracuje s firemními nebo osobními daty, přidává se i posouzení compliance a ochrany osobních údajů. Procurement mezitím řeší licenční podmínky a nákup. Nakonec žádost čeká na schválení rozpočtu od přímého nadřízeného.
 
 Analytik mezitím svůj problém dávno vyřešil jinak – a o něco ochladl v chuti přicházet s dalšími návrhy.
 
