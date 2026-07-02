@@ -48,9 +48,7 @@ A tady je první věc, kterou většina debat o „kontrole versus rychlosti“ 
 
 Schvalovací proces obvykle slučuje dohromady minimálně dvě různé kontroly s odlišnou logikou.
 
-Jedna je kontrola rizika – odvíjí se od toho, k jakým datům nástroj přistupuje a kam je posílá.
-
-Druhá je kontrola nákladu – odvíjí se od toho, kolik nástroj stojí.
+Jedna je kontrola rizika – odvíjí se od toho, k jakým datům nástroj přistupuje a kam je posílá. Druhá je kontrola nákladu – odvíjí se od toho, kolik nástroj stojí.
 
 U serveru za miliony jdou obě ruku v ruce. U AI nástroje za pár stovek se ale mohou rozcházet.
 
@@ -76,9 +74,7 @@ Když nákup sjednává jednu rámcovou smlouvu pro pět tisíc lidí, dosáhne 
 
 Vedení potřebuje vědět, jaké nástroje firma používá, kde leží data a jaká rizika nese. Bez určité míry centrální evidence se organizace stává nepřehlednou sama sobě.
 
-Na jedné straně tedy stojí silné důvody rozhodování soustředit.
-
-Na straně druhé – a právě tady začíná problém – má každá z těchto výhod svou cenu.
+Na jedné straně tedy stojí silné důvody rozhodování soustředit. Na straně druhé – a právě tady začíná problém – má každá z těchto výhod svou cenu.
 
 ## Když se prostředí změní rychleji než procesy
 
@@ -86,33 +82,25 @@ Centralizace funguje nejlépe ve stabilním prostředí, kde se rozhoduje o věc
 
 Schvalovací proces navržený pro nákup serverů za miliony dává smysl právě proto, že taková rozhodnutí jsou velká, vzácná a drahá na chybu.
 
-Nástup AI ale mění samotnou povahu rozhodování.
-
-Nové nástroje přicházejí v týdenním rytmu, jsou levné a jejich hodnota se často odvíjí od toho, **jak rychle je člověk začne používat.**
+Nástup AI ale mění samotnou povahu rozhodování. Nové nástroje přicházejí v týdenním rytmu, jsou levné a jejich hodnota se často odvíjí od toho, **jak rychle je člověk začne používat.**
 
 Pokud na ně aplikujeme proces navržený pro velká a vzácná rozhodnutí, vznikne nepoměr: schvalujeme nástroj za pár stovek stejně důkladně jako investici za miliony.
 
 A teď přichází ta zásadní část.
 
-U serveru cena často přibližně odpovídá riziku – drahá věc je obvykle i strategicky důležitá.
-
-U AI se tato vazba rozpadá.
+U serveru cena často přibližně odpovídá riziku – drahá věc je obvykle i strategicky důležitá. U AI se tato vazba rozpadá.
 
 **Nástroj za pár stovek může nést riziko za miliony.**
 
 Může odeslat celou zákaznickou databázi na cizí server, zpracovávat firemní kód mimo kontrolované prostředí nebo vytvořit problém s GDPR.
 
-„Levné“ tedy v žádném případě neznamená „nízkorizikové“.
-
-Kdo posuzuje AI nástroje pouze podle cenovky, používá metr, který u této technologie přestává fungovat.
+„Levné“ tedy v žádném případě neznamená „nízkorizikové“. Kdo posuzuje AI nástroje pouze podle cenovky, používá metr, který u této technologie přestává fungovat.
 
 A právě tady se hodí sáhnout po jedné z nejvlivnějších ekonomických teorií dvacátého století.
 
 ## Transakční náklady: proč má rozhodování svou režii
 
-Ronald Coase ve své práci *The Nature of the Firm* (1937) položil zdánlivě jednoduchou otázku: proč vůbec existují firmy?
-
-Proč si lidé nezajišťují všechno prostřednictvím trhu?
+Ronald Coase ve své práci *The Nature of the Firm* (1937) položil zdánlivě jednoduchou otázku: proč vůbec existují firmy? Proč si lidé nezajišťují všechno prostřednictvím trhu?
 
 Jeho odpověď zní: protože používání trhu není zadarmo. Vyhledat dodavatele, vyjednat podmínky a uhlídat smlouvu stojí čas a úsilí.
 
@@ -122,9 +110,7 @@ Firma existuje proto, že některé věci umí koordinovat levněji sama než pr
 
 Coase ale řešil především hranici mezi firmou a trhem. Náš problém je trochu jiný: co se děje uvnitř firmy.
 
-Tady navázal **Oliver Williamson**, který rozpracoval teorii transakčních nákladů a ukázal, že i uvnitř organizace volíme různé způsoby řízení podle povahy rozhodnutí.
-
-Williamson ukázal, že ani uvnitř organizace nevolíme způsob řízení náhodně. Záleží na charakteru rozhodnutí: jak je nejisté, jak často se opakuje a jak důležité zdroje ovlivňuje (Williamson, 1981).
+Tady navázal **Oliver Williamson**, který rozpracoval teorii transakčních nákladů a ukázal, že ani uvnitř organizace nevolíme způsob řízení náhodně. Záleží na charakteru rozhodnutí: jak je nejisté, jak často se opakuje a jak důležité zdroje ovlivňuje (Williamson, 1981).
 
 Stručně řečeno: použít na jednoduché rozhodnutí složitý proces vytváří zbytečné náklady. Použít na složité rozhodnutí příliš jednoduchý proces zase vytváří riziko.
 
@@ -144,15 +130,11 @@ Rozhodnutí, která jsou častá, levná a nízkoriziková, si žádají lehký 
 
 Past spočívá v tom, jak odhadujeme „velikost“ rozhodnutí.
 
-Organizace ji často měří podle ceny.
-
-U AI je to ale chyba.
+Organizace ji často měří podle ceny. U AI je to ale chyba.
 
 Povahu AI nástroje neurčuje cenovka, ale především to, k jakým datům přistupuje a kam je posílá.
 
-Problém tedy není v tom, že firma používá důkladné mechanismy. Problém vzniká tehdy, když stejnou míru kontroly aplikuje i tam, kde svou vahou neodpovídá skutečnému riziku.
-
-A že velikost rozhodnutí měří špatným metrem.
+Problém tedy není v tom, že firma používá důkladné mechanismy. Problém vzniká tehdy, když stejnou míru kontroly aplikuje i tam, kde svou vahou neodpovídá skutečnému riziku. A že velikost rozhodnutí měří špatným metrem.
 
 ## Subsidiarita: rozhodovat tam, kde je nejvíce informací
 
@@ -162,9 +144,7 @@ Druhý užitečný koncept pochází původně z politické filozofie a evropsk�
 
 Důvod není ideologický, ale praktický.
 
-Člověk, který práci vykonává, má často nejlepší informace o tom, co potřebuje. Čím dále rozhodnutí posuneme od něj, tím více kontextu cestou ztratíme.
-
-A tím roste riziko, že rozhodne někdo, kdo situaci zná méně.
+Člověk, který práci vykonává, má často nejlepší informace o tom, co potřebuje. Čím dále rozhodnutí posuneme od něj, tím více kontextu cestou ztratíme. A tím roste riziko, že rozhodne někdo, kdo situaci zná méně.
 
 S tím souvisí pojem **empowerment**, který je dobré nezjednodušit pouze na „delegování pravomocí“.
 
@@ -180,9 +160,7 @@ Empowerment bez reálné možnosti rozhodnout je jen fráze. A pravomoc bez dův
 
 Subsidiarita tedy tlačí rozhodování níže, blíž k samotné práci. Governance a řízení rizik ho naopak táhnou výše.
 
-Ani jeden z těchto tlaků není špatně.
-
-Jde o to najít správnou úroveň pro konkrétní typ rozhodnutí.
+Ani jeden z těchto tlaků není špatně. Jde o to najít správnou úroveň pro konkrétní typ rozhodnutí.
 
 ## Diskuse: proč deklarovaná inovativnost často neodpovídá procesům
 
@@ -192,17 +170,11 @@ Organizace upřímně deklaruje, že chce být inovativní a využívat AI. Pře
 
 Jak je to možné?
 
-Nejde o ojedinělou chybu.
+Nejde o ojedinělou chybu. Podle průzkumu McKinsey *The State of AI* dnes používá AI alespoň v jedné oblasti většina organizací, ale mnoho z nich ji stále nedokáže rozšířit napříč celou firmou a jen část firem uvádí měřitelný dopad na výsledky. Ambice tak často předbíhá skutečné zavedení.
 
-Podle průzkumu McKinsey *The State of AI* dnes používá AI alespoň v jedné oblasti většina organizací, ale mnoho z nich ji stále nedokáže rozšířit napříč celou firmou a jen část firem uvádí měřitelný dopad na výsledky. Ambice tak často předbíhá skutečné zavedení.
+A když oficiální cesta nefunguje, lidé si hledají vlastní. Vzniká fenomén **shadow AI** – používání AI nástrojů mimo schválené firemní procesy.
 
-A když oficiální cesta nefunguje, lidé si hledají vlastní.
-
-Vzniká fenomén **shadow AI** – používání AI nástrojů mimo schválené firemní procesy.
-
-Pomalé schvalování totiž riziko neodstraňuje.
-
-Pouze ho přesouvá mimo dohled.
+Pomalé schvalování totiž riziko neodstraňuje. Pouze ho přesouvá mimo dohled.
 
 Odpověď není, že vedení lže.
 
@@ -216,31 +188,23 @@ Tady je ale potřeba jít o krok dál.
 
 Vysvětlení „je to problém návrhu, ne lidí“ je sice částečně pravdivé, ale neúplné.
 
-Schvalovací proces není počasí.
-
-Někdo ho navrhl, někdo ho vykonává a někdo za něj nese odpovědnost.
+Schvalovací proces není počasí. Někdo ho navrhl, někdo ho vykonává a někdo za něj nese odpovědnost.
 
 Každý kontrolní bod má svého vlastníka. Jeho role, rozpočet nebo pocit bezpečí mohou být s tímto bodem propojené.
 
 Kontrolní funkce bývají přirozeně hodnoceny podle toho, co zachytí a čemu zabrání, ne podle toho, jak rychle rozhodnutí pustí dál.
 
-Proces proto často nepřežívá pouze proto, že by nikdo neviděl jeho náklady.
-
-Přežívá také proto, že jeho změna zasahuje do rolí, odpovědností a zavedených způsobů práce.
+Proces proto často nepřežívá pouze proto, že by nikdo neviděl jeho náklady. Přežívá také proto, že jeho změna zasahuje do rolí, odpovědností a zavedených způsobů práce.
 
 To má dva důsledky.
 
 Za prvé: hledání viníků mezi jednotlivci míří vedle. Analytik, který čeká na licenci, neselhal. Stejně tak člověk na nákupu, který poctivě provádí existující proces.
 
-Za druhé: změna procesu není jen překreslení diagramu.
-
-Je to také změna pobídek.
+Za druhé: změna procesu není jen překreslení diagramu. Je to také změna pobídek.
 
 A právě proto bývá těžší, než se na první pohled zdá.
 
-Dokud problém vnímáme jako chybu v diagramu, kreslíme nové diagramy.
-
-Jakmile ho začneme chápat jako otázku nastavení odpovědností a pobídek, můžeme skutečně něco změnit.
+Dokud problém vnímáme jako chybu v diagramu, kreslíme nové diagramy. Jakmile ho začneme chápat jako otázku nastavení odpovědností a pobídek, můžeme skutečně něco změnit.
 
 ## Možná řešení: rozpojit kontrolu, ne ji rušit
 
@@ -248,17 +212,11 @@ Pokud problém spočívá v návrhu procesu a pobídkách, které ho udržují, 
 
 Řešením je **lépe navržená kontrola.**
 
-První krok je oddělit dvě věci, které schvalovací proces často spojuje:
+První krok je oddělit dvě věci, které schvalovací proces často spojuje: **kontrolu rizika** a **kontrolu nákladu.**
 
-**kontrolu rizika** a **kontrolu nákladu.**
+Kontrola rizika souvisí s tím, jaká data nástroj zpracovává a kam je posílá. Kontrola nákladu souvisí s tím, kolik nástroj stojí.
 
-Kontrola rizika souvisí s tím, jaká data nástroj zpracovává a kam je posílá.
-
-Kontrola nákladu souvisí s tím, kolik nástroj stojí.
-
-U serveru za miliony dávají smysl společně.
-
-U AI nástroje za pár stovek se mohou výrazně lišit.
+U serveru za miliony dávají smysl společně. U AI nástroje za pár stovek se mohou výrazně lišit.
 
 Rychlá datová prověrka („kam to posílá data?“) a pomalejší procurement („jaké podmínky vyjednáme?“) nemusí běžet stejnou rychlostí.
 
@@ -272,17 +230,13 @@ Místo aby někdo posuzoval každou žádost, organizace předem definuje pravid
 - jasná pravidla pro práci s daty,
 - hranice toho, co se nesmí.
 
-Uvnitř těchto mantinelů se lidé rozhodují sami.
-
-Kontrola se přesouvá z jednotlivých rozhodnutí na prostředí, ve kterém rozhodnutí vznikají.
+Uvnitř těchto mantinelů se lidé rozhodují sami. Kontrola se přesouvá z jednotlivých rozhodnutí na prostředí, ve kterém rozhodnutí vznikají.
 
 Ve světě technologií se podobný přístup objevuje v podobě platform engineeringu: centrální tým nevytváří překážky, ale připravuje bezpečnou a snadno dostupnou cestu.
 
 Tomu odpovídá i pojem *golden path*.
 
-Nejlepší pravidlo často není to nejpřísnější.
-
-Je to to, které je jednodušší dodržet než obejít.
+Nejlepší pravidlo často není to nejpřísnější. Je to to, které je jednodušší dodržet než obejít.
 
 **Rozpočty týmů a hranice autonomie.**
 
@@ -292,35 +246,25 @@ Velká rozhodnutí zůstávají v centrálním procesu. Malá se řeší okamži
 
 Hranice se nastavuje tam, kde se náklady kontroly začnou vyrovnávat hodnotě samotného rozhodnutí.
 
-A hodnotu zde neurčuje jen cena.
-
-Určuje ji především riziko.
+A hodnotu zde neurčuje jen cena. Určuje ji především riziko.
 
 **Centrální nákup tam, kde dává smysl.**
 
-Centralizace se neruší.
-
-Používá se tam, kde přináší skutečnou hodnotu – například díky úsporám z rozsahu nebo vysokým bezpečnostním nárokům.
+Centralizace se neruší. Používá se tam, kde přináší skutečnou hodnotu – například díky úsporám z rozsahu nebo vysokým bezpečnostním nárokům.
 
 U levných a nízkorizikových rozhodnutí se pravomoc deleguje.
 
-Nejde o opuštění kontroly.
-
-Jde o to použít správný druh kontroly na správném místě.
+Nejde o opuštění kontroly. Jde o to použít správný druh kontroly na správném místě.
 
 Společným jmenovatelem těchto přístupů je posun:
 
 Od kontroly jednotlivých rozhodnutí ke kontrole podmínek, ve kterých lidé rozhodují.
 
-Manažer pak netráví čas schvalováním každé licence.
-
-Navrhuje systém, ve kterém dobrá rozhodnutí vznikají přirozeně.
+Manažer pak netráví čas schvalováním každé licence. Navrhuje systém, ve kterém dobrá rozhodnutí vznikají přirozeně.
 
 ## Kde guardrails nestačí
 
-Bylo by nepoctivé tvrdit, že mantinely jsou univerzální řešení.
-
-Mají své hranice.
+Bylo by nepoctivé tvrdit, že mantinely jsou univerzální řešení. Mají své hranice.
 
 Tam, kde jde o vysoce citlivá nebo regulovaná data – například zdravotnictví, finance nebo osobní údaje – nemusí předem definovaný rámec stačit.
 
@@ -332,21 +276,15 @@ A existuje ještě jedna věc, kterou zastánci mantinelů někdy přehlížejí
 
 **Guardrails automaticky neporazí shadow AI.**
 
-Seznam schválených nástrojů, který nestačí potřebám lidí, vytvoří stejný problém jako pomalé schvalování.
-
-Lidé si najdou jinou cestu.
+Seznam schválených nástrojů, který nestačí potřebám lidí, vytvoří stejný problém jako pomalé schvalování. Lidé si najdou jinou cestu.
 
 Mantinely fungují pouze tehdy, když jsou současně bezpečné i praktické.
 
 Špatně navržené mantinely se mohou samy stát novou byrokracií.
 
-Seznam schválených nástrojů, který nikdo neudržuje, není řešení.
+Seznam schválených nástrojů, který nikdo neudržuje, není řešení. Je to jen jiná forma překážky.
 
-Je to jen jiná forma překážky.
-
-Proto ani guardrails nejsou jednorázové nastavení.
-
-Je to průběžná práce.
+Proto ani guardrails nejsou jednorázové nastavení. Je to průběžná práce.
 
 Kdo je bude spravovat? Jak často se budou měnit? Podle jakých dat?
 
@@ -356,9 +294,7 @@ To jsou otázky, které rozhodnou, zda se z nich stane nástroj rychlosti, nebo 
 
 Napětí mezi centrálním řízením a autonomií týmů není soubojem dobrého a špatného managementu.
 
-Je to trvalý kompromis mezi dvěma věcmi, které firma potřebuje současně:
-
-bezpečným rozhodováním a rychlostí, bez které inovace zůstane pouze prohlášením.
+Je to trvalý kompromis mezi dvěma věcmi, které firma potřebuje současně: bezpečným rozhodováním a rychlostí, bez které inovace zůstane pouze prohlášením.
 
 Coase nám připomíná, že každé rozhodnutí má svou režii.
 
@@ -366,15 +302,9 @@ Williamson ukazuje, že způsob řízení musí odpovídat povaze rozhodnutí.
 
 Subsidiarita připomíná, že informace bývají nejbohatší tam, kde se práce skutečně vykonává.
 
-AI ale přidává nový problém:
+AI ale přidává nový problém: rozpojuje cenu a riziko. A tím rozbíjí jednoduchý předpoklad, že levné rozhodnutí je automaticky bezpečné.
 
-Rozpojuje cenu a riziko.
-
-A tím rozbíjí jednoduchý předpoklad, že levné rozhodnutí je automaticky bezpečné.
-
-Proto rychlejší schvalování neznamená méně kontroly.
-
-Často znamená pouze lepší návrh kontroly.
+Proto rychlejší schvalování neznamená méně kontroly. Často znamená pouze lepší návrh kontroly.
 
 Mou osobní úvahou je, že rozhodující proměnnou se stává **latence rozhodování** – jak dlouho trvá, než vratné a nízkorizikové rozhodnutí dostane své „ano“.
 
@@ -398,9 +328,7 @@ Důležitější otázka je:
 
 **Kolik dobrých nápadů ve vaší organizaci loni zemřelo u prvního „ne“? Jak dlouho čeká vratné rozhodnutí na své „ano“? A kolik práce se děje mimo oficiální cestu jen proto, že ta oficiální je pomalejší než její obejití?**
 
-Tyto náklady často neuvidíte v žádné tabulce.
-
-Přesto mohou být tím, co ve skutečnosti rozhoduje o schopnosti organizace inovovat.
+Tyto náklady často neuvidíte v žádné tabulce. Přesto mohou být tím, co ve skutečnosti rozhoduje o schopnosti organizace inovovat.
 
 ---
 
