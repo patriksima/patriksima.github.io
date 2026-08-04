@@ -18,11 +18,11 @@ Looking for structured service packages? See my [Services](/services/) page.
 
 ## Technical Skills
 
-**Backend:** C#, .NET, ASP.NET Core, Entity Framework Core, LINQ optimization, REST APIs, gRPC
-
 **Cloud & Infrastructure:** Microsoft Azure, Azure Functions, Logic Apps, Docker, RabbitMQ, Redis, PostgreSQL, SQL Server
 
 **Architecture:** Microservices, CQRS, Event-driven, Domain-Driven Design, Performance optimization
+
+**Backend:** C#, .NET, ASP.NET Core, Entity Framework Core, LINQ optimization, REST APIs, gRPC
 
 **Game Development:** Unity, Godot, Netcode for GameObjects, Multiplayer networking, WebSockets
 
@@ -70,7 +70,6 @@ A few articles showcasing my technical expertise:
 - **Challenging technical problems** — Performance optimization, complex integrations, greenfield projects
 - **Architecture involvement** — I want to shape technical and business decisions, not just execute tickets
 - **Agile teams** — Experience with SAFe and LeSS at enterprise scale
-- **Rate:** 10,000 CZK / man-day
 
 ---
 
