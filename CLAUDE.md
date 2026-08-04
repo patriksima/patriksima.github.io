@@ -10,7 +10,9 @@ served at `patriksima.github.io`. It is a **Jekyll** site built on the **Beautif
 the actual owned content is a thin layer on top (see "What's yours vs the theme's" below).
 
 Almost all reader-facing content is in **Czech** (`language: cs`, `timezone: Europe/Prague`).
-GitHub Pages builds and deploys automatically on push to `master`; there is no separate CI/deploy step.
+GitHub Pages builds and deploys automatically on push to `master`. A GitHub Actions workflow
+(`.github/workflows/ci.yml`) additionally validates on every push/PR with
+`bundle exec jekyll build --future` (Ruby 3.2) — it's a build check only, not the deploy.
 
 ## Commands
 
@@ -18,8 +20,12 @@ GitHub Pages builds and deploys automatically on push to `master`; there is no s
 bundle install                 # one-time: install Ruby gems
 bundle exec jekyll serve       # local dev server with live reload at http://localhost:4000
 bundle exec jekyll serve --drafts   # also render files in _drafts/
+bundle exec jekyll serve --future   # also render future-dated posts (a common pattern here)
 bundle exec jekyll build       # build static site into _site/ (gitignored)
 ```
+
+Posts are sometimes committed with a publish date in the future; Jekyll silently skips them
+without `--future`, so pass it when previewing an upcoming post locally.
 
 There is no test/lint suite — this is content, not application code. Validation is visual via the
 local server. Ruby + Bundler must be installed.
@@ -34,7 +40,8 @@ local server. Ruby + Bundler must be installed.
   part of the public URL — don't rename a published post's file.
 - **Standalone pages** are top-level `.md`/`.html` files (e.g. `aboutme.md`, `cv.md`, `services.md`,
   `sluzby.md`, `hireme.md`, `rosteriq.md`, `bsc-spoluprace.md`). Anything not in `_posts` defaults to
-  the `page` layout. The navbar is hand-curated in `_config.yml` under `navbar-links` — adding a page
+  the `page` layout. `devlog.md` is not a content page — it's a `layout: null` redirect stub that
+  sends `/devlog/` to the homepage; leave it in place so old links keep working. The navbar is hand-curated in `_config.yml` under `navbar-links` — adding a page
   file does NOT add it to the nav.
 - Some pages exist as English/Czech pairs (e.g. `services.md` ↔ `sluzby.md`). Keep both in sync when
   editing service offerings.
@@ -54,8 +61,8 @@ excerpt: "..."                     # shown on the feed page and in SEO
 ```
 
 Czech long-form posts typically open with an **English summary** as a `>` blockquote immediately after
-the front matter, often ending with a CTA link to `/services/`. Match this house style when adding or
-editing articles. `comments: true` and `social-share: true` are applied to all posts via `defaults`.
+the front matter, often ending with a CTA link to `/services/` or `/sluzby/`, followed by a `---`
+separator before the Czech body. Match this house style when adding or editing articles. `comments: true` and `social-share: true` are applied to all posts via `defaults`.
 
 ## What's yours vs the theme's
 
