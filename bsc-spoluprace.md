@@ -4,6 +4,8 @@ title: Balanced Scorecard
 subtitle: Hledám firmu, kde dává smysl převést strategii do jasných cílů a KPI
 share-title: Hledám firmu pro profesní DPR na téma Balanced Scorecard | Patrik Šíma
 share-description: Hledám českou firmu, která potřebuje lépe řídit výkon, priority a KPI. Výstup zdarma - strategická mapa, Balanced Scorecard a návrh KPI. NDA, anonymizace, nízká zátěž.
+sitemap: false
+noindex: true
 ---
 
 Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT. Připravuji **profesní diplomovou práci na VŠEM** na téma **Balanced Scorecard** a hledám **českou firmu**, kde je opravdu potřeba lépe řídit výkon, priority a KPI.
@@ -13,7 +15,6 @@ Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT. Při
 - **Co dostanete:** návrh strategické mapy, Balanced Scorecard a sady KPI, které dávají smysl pro váš byznys.
 - **Proč je to bezpečné:** NDA, anonymizace, agregovaná data a nízká zátěž pro firmu.
 
-<!-- TODO: vlož svůj Calendly link -->
 **[Domluvit nezávazný 30min call →](https://calendly.com/patriksima78/30min)**
 
 ---
@@ -138,7 +139,6 @@ Více v [About me](/aboutme/) nebo v [nabídce služeb](/sluzby/) (kde uvidíte,
 
 Nezávazný 30min call online. Probereme, zda se to potká, co potřebujete vy a co potřebuji já. Pokud to nedá smysl, rozejdeme se v dobrém a najdu jinou firmu.
 
-<!-- TODO: vlož svůj Calendly link -->
 **[Rezervovat termín v kalendáři →](https://calendly.com/patriksima78/30min)**
 
 Nebo napište přímo:

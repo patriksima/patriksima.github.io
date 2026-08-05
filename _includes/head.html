@@ -86,7 +86,11 @@
     {% endfor %}
   {% endif %}
 
+  {% if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+  {% else %}
   <meta name="robots" content="index, follow">
+  {% endif %}
 
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">

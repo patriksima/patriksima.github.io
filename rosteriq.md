@@ -54,7 +54,7 @@ Every change is recorded: what changed, who changed it, and when. Months can be 
 | Audit trail | None | Complete history |
 | Data queries | Scanning spreadsheets | Plain-language question |
 
-RosterIQ has been in production since April 2025 — 15+ months, 130+ commits, actively used daily.
+RosterIQ has been in production since April 2025 — in daily use for well over a year.
 
 [Read the full case study →](/2026-05-11-case-study-smeny/)
 
@@ -105,7 +105,7 @@ Built with modern, reliable technology:
 
 - **Frontend:** Blazor Server
 - **Backend:** .NET / C#, ASP.NET Core
-- **AI:** Azure OpenAI (GPT-4o)
+- **AI:** Azure OpenAI (latest GPT models)
 - **Data:** PostgreSQL, Entity Framework Core
 - **Hosting:** Azure
 
@@ -132,4 +132,4 @@ Or send a short description of your situation:
 
 ---
 
-> Also looking for **.NET / Azure consulting** for your engineering team? See [Services →](/services/)
+> Want AI integrated into your own system? See the **AI Integration Pilot** and other consulting packages on [Services →](/services/)

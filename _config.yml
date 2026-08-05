@@ -13,7 +13,7 @@
 title: Patrik Šíma
 
 # Short description of the website
-description: Senior .NET & Azure consultant helping teams ship faster, more reliable software. Creator of RosterIQ, an AI-powered shift scheduling tool.
+description: Azure integration & AI consultant with 20+ years in software. I design cloud integration architectures on Azure and bring AI (Azure OpenAI) into existing .NET systems. Creator of RosterIQ.
 
 # Your name to show in the footer
 author: Patrik Šíma
@@ -25,7 +25,6 @@ author: Patrik Šíma
 navbar-links:
   Services: "services"
   RosterIQ: "rosteriq"
-  Hire Me: "hireme"
   My Resume: "cv"
   About Me: "aboutme"
 #  Resources:
@@ -87,7 +86,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Patrik Šíma development blog
+rss-description: Patrik Šíma — notes on Azure, cloud integration, AI, and engineering leadership
 
 ###########################
 # --- General options --- #
@@ -126,7 +125,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "software engineer, .NET developer, C#, Azure, game development, Unity, freelancer, Prague"
+keywords: "Azure consultant, cloud integration, Azure integration services, Logic Apps, Azure Functions, Azure OpenAI, AI integration, enterprise architecture, .NET, C#, Prague, Czech Republic"
 
 # Default social sharing image (min 1200x630px recommended for Facebook/LinkedIn)
 share-img: "/assets/img/og-default.png"

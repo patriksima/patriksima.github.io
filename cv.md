@@ -2,15 +2,17 @@
 layout: page
 title: My resume
 subtitle: Curriculum Vitae
-share-title: My resume | Patrik Šíma | Senior .NET & Azure Consultant
-share-description: My resume for headhunters, recruiters, human resources. Downloadable PDF.
+share-title: Resume | Patrik Šíma | Azure Integration & AI Consultant
+share-description: Resume of Patrik Šíma — Azure integration & AI consultant with 20+ years in software. Downloadable PDF.
 ---
 
 ## Career ##
 My working career spans **over twenty years**. Almost exclusively in the field of **computer science**.
 I've been a **freelancer**, **employee**, **manager** and even company **founder**.
 
-Prefer Czech content? See my [Services in Czech](/sluzby/) and [Devlog (CZ)](/devlog/).
+📄 [Download as PDF](/assets/pdf/SimaPatrikResume.pdf)
+
+Prefer Czech content? See my [Services in Czech](/sluzby/).
 
 
 
@@ -34,7 +36,7 @@ As a hands-on project manager, I was responsible for ensuring the successful and
 ### Enterprise Architect ###
 [Qinshift](https://www.qinshift.com/) · Contract · Prague, Czechia<br/>
 Sep 2023 - Aug 2024<br/>
-- design high-level architecture
+- designed high-level architecture for the ŠKODA / VW connected car platform
 - member of the technical cluster in SKODA (VW group)
 - technical, risk and impact analysis
 - analyzing and understanding business requirements
@@ -42,6 +44,8 @@ Sep 2023 - Aug 2024<br/>
 - designing and planning the implementation of the chosen solution
 - collaborating with various teams to ensure successful implementation
 - evaluating the effectiveness of the solution and making necessary adjustments
+
+**Skills:** Enterprise Architecture · Integration Design · Technical, Risk & Impact Analysis · SAFe
 
 
 ### Senior .NET Developer ###
@@ -94,6 +98,16 @@ Aug 2013 - Feb 2019 · 5 yrs 7 mos<br/>
 - web marketing, SEO
 
 **Skills:** Management · ASP.NET · Project Management · MySQL · JavaScript
+
+
+## Product ##
+
+### RosterIQ — Founder & Developer ###
+Own product · [rosteriq](/rosteriq/)<br/>
+Apr 2025 - Present<br/><br/>
+AI-powered shift scheduling application, in production since April 2025 and in daily use. Automatic schedule generation, absence workflow, and an AI chat interface in plain Czech.
+
+**Skills:** Blazor Server · .NET / ASP.NET Core · Azure OpenAI · PostgreSQL · Entity Framework Core · Azure hosting
 
 
 ## Education ##
