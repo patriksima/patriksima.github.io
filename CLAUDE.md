@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal site + blog for **Patrik Šíma** (Senior .NET & Azure consultant, creator of RosterIQ),
+Personal site + blog for **Patrik Šíma** (Senior .NET & Azure consultant),
 served at `patriksima.github.io`. It is a **Jekyll** site built on the **Beautiful Jekyll** theme
 (by Dean Attali) — this repo is a fork of the theme, so most infrastructure files are upstream and
 the actual owned content is a thin layer on top (see "What's yours vs the theme's" below).
@@ -39,7 +39,7 @@ local server. Ruby + Bundler must be installed.
   `/:year-:month-:day-:title/` (see `permalink` in `_config.yml`), so the date in the filename is
   part of the public URL — don't rename a published post's file.
 - **Standalone pages** are top-level `.md`/`.html` files (e.g. `aboutme.md`, `cv.md`, `services.md`,
-  `sluzby.md`, `hireme.md`, `rosteriq.md`, `bsc-spoluprace.md`). Anything not in `_posts` defaults to
+  `sluzby.md`, `hireme.md`, `bsc-spoluprace.md`). Anything not in `_posts` defaults to
   the `page` layout. `devlog.md` is not a content page — it's a `layout: null` redirect stub that
   sends `/devlog/` to the homepage; leave it in place so old links keep working. The navbar is hand-curated in `_config.yml` under `navbar-links` — adding a page
   file does NOT add it to the nav.

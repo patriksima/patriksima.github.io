@@ -48,8 +48,6 @@ The goal is simple: **connected systems, less risk, faster delivery**.
 - one working pilot integration (Azure OpenAI) wired into your real application,
 - production readiness notes: cost, data privacy, prompt/response logging, failure modes.
 
-Backed by real production experience: I built and run **[RosterIQ](/rosteriq/)**, an AI scheduling product live on Azure OpenAI since April 2025. [Read the case study →](/2026-05-11-case-study-smeny/)
-
 **Timeline:** 3-5 weeks
 **Price:** from €2,400
 
@@ -90,7 +88,6 @@ Backed by real production experience: I built and run **[RosterIQ](/rosteriq/)**
 
 - **Azure Integration Engineer** at Ciklum (2025–present) — designing and implementing Azure-based integration solutions across a complex enterprise ecosystem (Logic Apps, Functions, APIs, messaging).
 - **Enterprise Architect** at Qinshift for VW Group / ŠKODA AUTO (2023–2024) — designed connected car platform architecture.
-- **Creator of RosterIQ** — AI-powered shift scheduling on Azure OpenAI, in production since April 2025.
 - **20+ years in software** — from founding a web agency to enterprise .NET, performance engineering, and cloud architecture.
 - **Open source:** [NotionExporter](https://github.com/patriksima/NotionExporter), [SieveCache](https://github.com/patriksima/SieveCache)
 
@@ -155,14 +152,6 @@ Prefer async? Send me a short brief instead:
 - cloud migration planning and architecture reviews,
 - technical leadership and decision support,
 - .NET performance optimization (LINQ, database, caching).
-
----
-
-## Also Building: RosterIQ
-
-Looking for shift scheduling automation instead of consulting? I also built **[RosterIQ](/rosteriq/)** — an AI-powered web application that replaces Excel-based shift scheduling for operational teams.
-
-[Learn more about RosterIQ →](/rosteriq/)
 
 ---
 

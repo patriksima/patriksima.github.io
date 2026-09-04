@@ -48,8 +48,6 @@ Cíl je jednoduchý: **propojené systémy, méně rizika, rychlejší dodání*
 - jeden funkční pilotní projekt (Azure OpenAI) napojený na vaši reálnou aplikaci,
 - podklady pro produkční nasazení: náklady, ochrana dat, logování promptů a odpovědí, chybové scénáře.
 
-Stavím na reálné produkční zkušenosti: vytvořil jsem a provozuji **[RosterIQ](/rosteriq/)** — AI plánovač směn běžící na Azure OpenAI od dubna 2025. [Přečtěte si case study →](/2026-05-11-case-study-smeny/)
-
 **Rozsah:** 3-5 týdnů
 **Cena:** od 60 000 Kč
 
@@ -90,7 +88,6 @@ Stavím na reálné produkční zkušenosti: vytvořil jsem a provozuji **[Roste
 
 - **Azure Integration Engineer** v Ciklum (2025–dosud) — návrh a implementace integračních řešení na Azure v komplexním enterprise prostředí (Logic Apps, Functions, API, messaging).
 - **Enterprise Architect** v Qinshift pro VW Group / ŠKODA AUTO (2023–2024) — návrh architektury connected car platformy.
-- **Autor RosterIQ** — AI plánovač směn na Azure OpenAI, v produkci od dubna 2025.
 - **20+ let v software** — od vlastní webové agentury přes enterprise .NET a výkonnostní inženýrství až po cloudovou architekturu.
 - **Open source:** [NotionExporter](https://github.com/patriksima/NotionExporter), [SieveCache](https://github.com/patriksima/SieveCache)
 
@@ -155,14 +152,6 @@ Radši asynchronně? Pošlete mi krátké zadání:
 - plánování migrace do cloudu a revize architektury,
 - technické vedení týmu a rozhodování v praxi,
 - výkonnost .NET aplikací (LINQ, databáze, cache).
-
----
-
-## Také stavím: RosterIQ
-
-Hledáte automatizaci plánování směn? Postavil jsem **[RosterIQ](/rosteriq/)** — webovou aplikaci s AI chatem, která nahrazuje ruční plánování směn v Excelu.
-
-[Více o RosterIQ →](/rosteriq/)
 
 ---
 

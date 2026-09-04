@@ -100,16 +100,6 @@ Aug 2013 - Feb 2019 · 5 yrs 7 mos<br/>
 **Skills:** Management · ASP.NET · Project Management · MySQL · JavaScript
 
 
-## Product ##
-
-### RosterIQ — Founder & Developer ###
-Own product · [rosteriq](/rosteriq/)<br/>
-Apr 2025 - Present<br/><br/>
-AI-powered shift scheduling application, in production since April 2025 and in daily use. Automatic schedule generation, absence workflow, and an AI chat interface in plain Czech.
-
-**Skills:** Blazor Server · .NET / ASP.NET Core · Azure OpenAI · PostgreSQL · Entity Framework Core · Azure hosting
-
-
 ## Education ##
 
 ### Master's degree, Process Management ###

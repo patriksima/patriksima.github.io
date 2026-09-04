@@ -13,7 +13,7 @@
 title: Patrik Šíma
 
 # Short description of the website
-description: Azure integration & AI consultant with 20+ years in software. I design cloud integration architectures on Azure and bring AI (Azure OpenAI) into existing .NET systems. Creator of RosterIQ.
+description: Azure integration & AI consultant with 20+ years in software. I design cloud integration architectures on Azure and bring AI (Azure OpenAI) into existing .NET systems.
 
 # Your name to show in the footer
 author: Patrik Šíma
@@ -24,7 +24,6 @@ author: Patrik Šíma
 
 navbar-links:
   Services: "services"
-  RosterIQ: "rosteriq"
   My Resume: "cv"
   About Me: "aboutme"
 #  Resources:

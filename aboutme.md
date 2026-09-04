@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: The person behind the architecture
 share-title: About me | Patrik Šíma | Azure Integration & AI Consultant
-share-description: Azure integration & AI consultant with 20+ years in software — from founding a web agency to enterprise architecture for ŠKODA / VW and building RosterIQ, an AI product in production on Azure.
+share-description: Azure integration & AI consultant with 20+ years in software — from founding a web agency to enterprise architecture for ŠKODA / VW to shipping AI features on Azure.
 ---
 
 ## The Short Version
@@ -32,7 +32,6 @@ The common thread: taking systems that don't work together — or don't work wel
 ## What I'm Focused On Now
 
 - **Azure integration engineering** at [Ciklum](https://www.ciklum.com/) — cloud integration architecture across a complex enterprise ecosystem.
-- **[RosterIQ](/rosteriq/)** — my own AI-powered shift scheduling product, built on Azure OpenAI and in production since April 2025.
 - **Master's degree in Process Management** at VŠEM — because good architecture decisions are business decisions too.
 
 ---
@@ -43,4 +42,4 @@ I'm a father of two, so my free time is... let's say *optimized*. I'm a certifie
 
 ---
 
-Want to work together? See my [Services](/services/), check out [RosterIQ](/rosteriq/), or view my [CV](/cv/).
+Want to work together? See my [Services](/services/) or view my [CV](/cv/).
