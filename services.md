@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Services
-subtitle: Azure integration, AI enablement, and senior technical leadership for .NET teams
-share-title: Services | Patrik Šíma | Azure Integration & AI Consultant
-share-description: Productized consulting packages for Azure integration architecture, AI (Azure OpenAI) pilots, technical audits, and fractional technical leadership.
+subtitle: Architecture, integration and senior technical decision support for Azure and .NET teams
+share-title: Services | Patrik Šíma | Enterprise Architect
+share-description: How I work with clients — integration architecture roadmaps, AI (Azure OpenAI) pilots, technical audits, and fractional architect engagements.
 ---
 
 CZ version: [Služby](/sluzby/)
+
+*I work as an Enterprise Architect — currently on contract, and open to permanent principal-level roles ([see my CV](/cv/)). This page is for companies that need architecture work scoped as an engagement rather than a hire.*
 
 ## Who This Is For
 
@@ -68,7 +70,7 @@ The goal is simple: **connected systems, less risk, faster delivery**.
 
 ---
 
-### 4) Fractional Tech Lead / Architect
+### 4) Fractional Architect / Tech Lead
 
 **Best when:** you need ongoing senior technical leadership without a full-time executive hire.
 
@@ -86,9 +88,10 @@ The goal is simple: **connected systems, less risk, faster delivery**.
 
 ## Background
 
-- **Azure Integration Engineer** at Ciklum (2025–present) — designing and implementing Azure-based integration solutions across a complex enterprise ecosystem (Logic Apps, Functions, APIs, messaging).
-- **Enterprise Architect** at Qinshift for VW Group / ŠKODA AUTO (2023–2024) — designed connected car platform architecture.
-- **20+ years in software** — from founding a web agency to enterprise .NET, performance engineering, and cloud architecture.
+- **Azure Integration Consultant** at Ciklum (2025–present) — integration architecture for a multinational transport and logistics group operating across several European jurisdictions (Service Bus, APIM, Logic Apps Standard, Functions, Bicep).
+- **Solutions Architect — Connected Cars** at Qinshift for Volkswagen Group / ŠKODA AUTO (2024) — architecture across the Group's full cloud footprint, where software versions, hardware configurations and markets all had to resolve into one working service for one specific car.
+- **Solutions Architect — P2P Lending Platform** at Qinshift (2023–2024) — target architecture and migration path off a legacy platform processing millions of transactions.
+- **20+ years in software** — twice a company founder, then enterprise .NET, performance engineering, and architecture.
 - **Open source:** [NotionExporter](https://github.com/patriksima/NotionExporter), [SieveCache](https://github.com/patriksima/SieveCache)
 
 **Core stack:** Microsoft Azure (Logic Apps, Functions, integration services), Azure OpenAI · Architecture (microservices, event-driven, CQRS, DDD) · C#, .NET, ASP.NET Core, EF Core · PostgreSQL, SQL Server, Redis, RabbitMQ, Docker
@@ -150,7 +153,7 @@ Prefer async? Send me a short brief instead:
 - Azure integration architecture (Logic Apps, Functions, APIs, messaging),
 - bringing AI (Azure OpenAI) into existing .NET systems,
 - cloud migration planning and architecture reviews,
-- technical leadership and decision support,
+- architecture decision support and technical leadership,
 - .NET performance optimization (LINQ, database, caching).
 
 ---

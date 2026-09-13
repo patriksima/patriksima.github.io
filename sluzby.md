@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Služby
-subtitle: Azure integrace, nasazení AI a seniorní technické vedení pro .NET týmy
-share-title: Služby | Patrik Šíma | Konzultant pro Azure integrace a AI
-share-description: Balíčky konzultačních služeb pro integrační architekturu na Azure, AI pilotní projekty (Azure OpenAI), technické audity a fractional technické vedení.
+subtitle: Architektura, integrace a seniorní technické rozhodování pro Azure a .NET týmy
+share-title: Služby | Patrik Šíma | Enterprise Architect
+share-description: Jak spolupracuji s klienty — integrační architektura a roadmapa, AI pilot (Azure OpenAI), technický audit a fractional architekt.
 ---
 
 EN version: [Services](/services/)
+
+*Pracuji jako Enterprise Architect — aktuálně na kontrakt, a jsem otevřený i stálým rolím na principal úrovni ([viz životopis](/cv/)). Tahle stránka je pro firmy, které potřebují architekturu jako zakázku, ne jako nábor.*
 
 ## Pro koho je tato nabídka
 
@@ -68,7 +70,7 @@ Cíl je jednoduchý: **propojené systémy, méně rizika, rychlejší dodání*
 
 ---
 
-### 4) Fractional Tech Lead / Architekt
+### 4) Fractional architekt / tech lead
 
 **Kdy dává smysl:** když potřebujete pravidelné seniorní technické vedení, ale nechcete full-time roli.
 
@@ -86,9 +88,10 @@ Cíl je jednoduchý: **propojené systémy, méně rizika, rychlejší dodání*
 
 ## Zkušenosti
 
-- **Azure Integration Engineer** v Ciklum (2025–dosud) — návrh a implementace integračních řešení na Azure v komplexním enterprise prostředí (Logic Apps, Functions, API, messaging).
-- **Enterprise Architect** v Qinshift pro VW Group / ŠKODA AUTO (2023–2024) — návrh architektury connected car platformy.
-- **20+ let v software** — od vlastní webové agentury přes enterprise .NET a výkonnostní inženýrství až po cloudovou architekturu.
+- **Azure Integration Consultant** v Ciklum (2025–dosud) — integrační architektura pro nadnárodní dopravní a logistickou skupinu působící ve více evropských jurisdikcích (Service Bus, APIM, Logic Apps Standard, Functions, Bicep).
+- **Solutions Architect — Connected Cars** v Qinshift pro Volkswagen Group / ŠKODA AUTO (2024) — architektura napříč celým cloudovým portfoliem skupiny, kde se verze software, hardwarové konfigurace a trhy musely složit do jedné funkční služby pro jedno konkrétní auto.
+- **Solutions Architect — P2P Lending Platform** v Qinshift (2023–2024) — cílová architektura a migrační cesta z legacy platformy zpracovávající miliony transakcí.
+- **20+ let v software** — dvakrát zakladatel firmy, poté enterprise .NET, výkonnostní inženýrství a architektura.
 - **Open source:** [NotionExporter](https://github.com/patriksima/NotionExporter), [SieveCache](https://github.com/patriksima/SieveCache)
 
 **Hlavní stack:** Microsoft Azure (Logic Apps, Functions, integrační služby), Azure OpenAI · architektura (mikroslužby, event-driven, CQRS, DDD) · C#, .NET, ASP.NET Core, EF Core · PostgreSQL, SQL Server, Redis, RabbitMQ, Docker
@@ -150,7 +153,7 @@ Radši asynchronně? Pošlete mi krátké zadání:
 - integrační architektura na Azure (Logic Apps, Functions, API, messaging),
 - nasazení AI (Azure OpenAI) do stávajících .NET systémů,
 - plánování migrace do cloudu a revize architektury,
-- technické vedení týmu a rozhodování v praxi,
+- podpora architektonického rozhodování a technické vedení,
 - výkonnost .NET aplikací (LINQ, databáze, cache).
 
 ---

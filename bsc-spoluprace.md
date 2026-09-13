@@ -8,7 +8,7 @@ sitemap: false
 noindex: true
 ---
 
-Jsem **Patrik Šíma**, senior softwarový inženýr s 20+ lety praxe v IT. Připravuji **profesní diplomovou práci na VŠEM** na téma **Balanced Scorecard** a hledám **českou firmu**, kde je opravdu potřeba lépe řídit výkon, priority a KPI.
+Jsem **Patrik Šíma**, enterprise architekt s 20+ lety praxe v IT. Připravuji **profesní diplomovou práci na VŠEM** na téma **Balanced Scorecard** a hledám **českou firmu**, kde je opravdu potřeba lépe řídit výkon, priority a KPI.
 
 - **Problém:** firma roste, ale strategie se ztrácí v operativě, reporting je roztříštěný a není jasné, co je skutečně priorita.
 - **Pro koho:** typicky česká firma od 50 zaměstnanců výš, kde má vedení reálnou pravomoc něco změnit.
@@ -127,8 +127,8 @@ Schůzky **online + 1–2 osobní návštěvy v rámci ČR**. Není potřeba, ab
 ## O mně krátce
 
 - **20+ let v IT** — backend, architektura, výkon, integrace, vedení týmů.
-- Aktuálně Azure Integration Engineer; dříve Enterprise Architect pro VW Group / ŠKODA AUTO.
-- **Bakalářská práce** (VŠEM, 2020) na téma optimalizace obchodního procesu v SW firmě — [theses.cz/id/3q0yvc](https://theses.cz/id/3q0yvc/).
+- Aktuálně Azure Integration Consultant v Ciklum; dříve Solutions Architect na Connected Cars platformě Volkswagen Group / ŠKODA AUTO.
+- **Bakalářská práce** (VŠEM) na téma optimalizace nabídkového procesu v SW firmě — VSM a DMAIC, ~67 % času bez přidané hodnoty — [theses.cz/id/3q0yvc](https://theses.cz/id/3q0yvc/).
 - Píšu odborné [články](/) o architektuře, výkonu a praxi.
 
 Více v [About me](/aboutme/) nebo v [nabídce služeb](/sluzby/) (kde uvidíte, že tohle není maskovaný sales — služby fakturuju jinde a samostatně).

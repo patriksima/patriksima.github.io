@@ -2,13 +2,13 @@
 layout: page
 title: About me
 subtitle: The person behind the architecture
-share-title: About me | Patrik Šíma | Azure Integration & AI Consultant
-share-description: Azure integration & AI consultant with 20+ years in software — from founding a web agency to enterprise architecture for ŠKODA / VW to shipping AI features on Azure.
+share-title: About me | Patrik Šíma | Enterprise Architect
+share-description: Enterprise Architect with 20+ years in software — from founding two companies to architecture on the ŠKODA / VW connected car platform to integration architecture on Azure.
 ---
 
 ## The Short Version
 
-I'm an **Azure integration & AI consultant** with 20+ years in software. I connect enterprise systems on Azure and bring AI into existing .NET applications — most recently as Azure Integration Engineer at Ciklum, and previously as Enterprise Architect on the ŠKODA / VW connected car platform. Away from the keyboard, I'm a father of two and a certified chess coach.
+I'm an **Enterprise Architect** with 20+ years in software. I help organizations decide what to build, what to retire, and what the real problem actually is — currently as Azure Integration Consultant at Ciklum, previously as Solutions Architect on the ŠKODA / VW connected car platform. Away from the keyboard, I'm a father of two and a certified chess coach.
 
 Prefer Czech content? See [Services in Czech](/sluzby/).
 
@@ -20,19 +20,21 @@ I started programming as a kid on an 8-bit Didaktik M, teaching myself assembly 
 
 Professionally, the arc looks like this:
 
-- **Founded and ran a web agency** for over five years — web development, e-commerce, and everything it takes to keep client systems running.
-- **Enterprise .NET engineering** — performance optimization of checkout and payment systems, complex reporting pipelines, caching strategies for high-traffic retail platforms.
-- **Enterprise Architect for ŠKODA / VW Group** — designed connected car platform architecture as part of ŠKODA's technical cluster: technical, risk, and impact analysis at automotive-enterprise scale.
-- **Azure integration & AI today** — designing system-to-system integrations on Azure (Logic Apps, Functions, APIs, messaging) and shipping AI features that run in production.
+- **Founded and ran two companies** — a web and ecommerce studio with three partners, then a digital agency with my wife for five and a half years. Every decision had my own money behind it: what we took on, how we priced it, what we committed to.
+- **Enterprise .NET engineering** — performance and reporting architecture for a core banking system, checkout and payment platforms, caching strategies for high-traffic retail.
+- **Solutions Architect on the ŠKODA / VW connected car platform** — architecture across the Group's full cloud footprint, where software versions, hardware configurations and markets all had to resolve into one working service for one specific car. At that scale the job is constraining the combination space, not picking frameworks.
+- **Platform and integration architecture today** — system-to-system integration for a multinational group operating across several European jurisdictions, where legal requirements diverge by country and land directly in the design.
 
-The common thread: taking systems that don't work together — or don't work well — and making them reliable, connected, and fast.
+The common thread: the decisions that are expensive to reverse. Where the interface boundary goes, what the contract guarantees, and what the system does when the far side is unavailable.
 
 ---
 
 ## What I'm Focused On Now
 
-- **Azure integration engineering** at [Ciklum](https://www.ciklum.com/) — cloud integration architecture across a complex enterprise ecosystem.
-- **Master's degree in Process Management** at VŠEM — because good architecture decisions are business decisions too.
+- **Integration architecture** at [Ciklum](https://www.ciklum.com/) — platform and integration design across a complex enterprise ecosystem, weighted toward analysis and architecture decisions rather than implementation.
+- **Master's-level study in process management** at VŠEM — because good architecture decisions are business decisions too. My bachelor's thesis applied VSM and DMAIC to a software company's pre-sales offer process and found roughly 67% of the elapsed time added no value.
+
+I'm open to Enterprise Architect and principal-level roles with a real mandate — the authority to decide on the architecture, and the accountability that comes with it.
 
 ---
 

@@ -39,9 +39,10 @@ local server. Ruby + Bundler must be installed.
   `/:year-:month-:day-:title/` (see `permalink` in `_config.yml`), so the date in the filename is
   part of the public URL — don't rename a published post's file.
 - **Standalone pages** are top-level `.md`/`.html` files (e.g. `aboutme.md`, `cv.md`, `services.md`,
-  `sluzby.md`, `hireme.md`, `bsc-spoluprace.md`). Anything not in `_posts` defaults to
-  the `page` layout. `devlog.md` is not a content page — it's a `layout: null` redirect stub that
-  sends `/devlog/` to the homepage; leave it in place so old links keep working. The navbar is hand-curated in `_config.yml` under `navbar-links` — adding a page
+  `sluzby.md`). Anything not in `_posts` defaults to
+  the `page` layout. `devlog.md`, `hireme.md` and `bsc-spoluprace.md` are not content pages — they are
+  `layout: null` redirect stubs that send `/devlog/`, `/hireme/` and `/bsc-spoluprace/` onward;
+  leave them in place so old links keep working. The navbar is hand-curated in `_config.yml` under `navbar-links` — adding a page
   file does NOT add it to the nav.
 - Some pages exist as English/Czech pairs (e.g. `services.md` ↔ `sluzby.md`). Keep both in sync when
   editing service offerings.
