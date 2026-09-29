@@ -71,7 +71,7 @@ When making changes, edit the owned content; avoid touching theme internals unle
 customizing the theme.
 
 - **Owned content:** `_posts/`, the top-level page files listed above, `index.html` (custom hero
-  landing with inline styles), `_config.yml`, `assets/img/`, `assets/pdf/`.
+  landing with inline styles), `_config.yml`, `assets/img/`.
 - **Upstream theme (change with care):** `_layouts/`, `_includes/`, `assets/css/beautifuljekyll*.css`,
   `_data/ui-text.yml`, `README.md`, `CHANGELOG.md`, `beautiful-jekyll-theme.gemspec`, `staticman.yml`,
   `404.html`, `feed.xml`, `tags.html`. The 19KB `README.md` is the theme's docs, not project docs.

@@ -3,15 +3,13 @@ layout: page
 title: My resume
 subtitle: Curriculum Vitae
 share-title: Resume | Patrik Šíma | Enterprise Architect
-share-description: Resume of Patrik Šíma — Enterprise Architect with 20+ years in software, from code to strategy. Downloadable PDF.
+share-description: Resume of Patrik Šíma — Enterprise Architect with 20+ years in software, from code to strategy.
 ---
 
 ## Career ##
 My working career spans **over twenty years**, almost exclusively in **software**.
 I've been a **freelancer**, **employee**, **manager** and twice a company **founder** — and the through-line
 is architecture: deciding what to build, what to retire, and what the real problem actually is.
-
-📄 [Download as PDF](/assets/pdf/SimaPatrikResume.pdf)
 
 Prefer Czech content? See my [Služby](/sluzby/).
 
